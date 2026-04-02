@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" rx="36" fill="#0F172A"/>
+  <rect x="60" y="60" width="1480" height="780" rx="28" fill="url(#paint0_linear)"/>
+  <circle cx="1235" cy="215" r="170" fill="#7DD3FC" fill-opacity="0.16"/>
+  <circle cx="1340" cy="655" r="215" fill="#38BDF8" fill-opacity="0.12"/>
+  <path d="M190 627C278 527 376 476 486 474C578 472 657 524 735 558C799 586 853 585 900 540C956 487 1005 395 1118 395C1201 395 1287 447 1402 566" stroke="#E0F2FE" stroke-width="10" stroke-linecap="round"/>
+  <path d="M240 682C346 618 449 596 549 612C635 625 699 671 783 691C876 713 971 692 1071 603" stroke="#BAE6FD" stroke-width="7" stroke-linecap="round" stroke-dasharray="8 18"/>
+  <rect x="150" y="118" width="156" height="42" rx="21" fill="#082F49"/>
+  <text x="228" y="145" fill="#E0F2FE" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="middle">PROJECT</text>
+  <text x="150" y="286" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700">Weather Prediction</text>
+  <text x="150" y="382" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700">Model</text>
+  <text x="150" y="464" fill="#D4D4D8" font-family="Arial, Helvetica, sans-serif" font-size="34">Supervised learning project for next-day temperature</text>
+  <text x="150" y="511" fill="#D4D4D8" font-family="Arial, Helvetica, sans-serif" font-size="34">and precipitation forecasting using weather data.</text>
+  <g opacity="0.9">
+    <rect x="1095" y="226" width="228" height="318" rx="26" fill="#082F49"/>
+    <rect x="1136" y="278" width="145" height="20" rx="10" fill="#7DD3FC"/>
+    <rect x="1136" y="318" width="104" height="20" rx="10" fill="#38BDF8"/>
+    <rect x="1136" y="383" width="49" height="111" rx="18" fill="#E0F2FE" fill-opacity="0.78"/>
+    <rect x="1201" y="355" width="49" height="139" rx="18" fill="#7DD3FC" fill-opacity="0.85"/>
+    <rect x="1266" y="320" width="49" height="174" rx="18" fill="#38BDF8" fill-opacity="0.92"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="90" y1="94" x2="1498" y2="818" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082F49"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+</svg>

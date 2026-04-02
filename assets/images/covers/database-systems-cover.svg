@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" rx="36" fill="#111827"/>
+  <rect x="60" y="60" width="1480" height="780" rx="28" fill="url(#paint0_linear)"/>
+  <circle cx="1280" cy="210" r="185" fill="#34D399" fill-opacity="0.15"/>
+  <circle cx="1370" cy="688" r="208" fill="#10B981" fill-opacity="0.1"/>
+  <rect x="150" y="118" width="174" height="42" rx="21" fill="#052E2B"/>
+  <text x="237" y="145" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="middle">DATABASE SYSTEMS</text>
+  <text x="150" y="286" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700">Structure, SQL,</text>
+  <text x="150" y="382" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700">and systems thinking</text>
+  <text x="150" y="464" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="34">Reusable cover image for posts around database</text>
+  <text x="150" y="511" fill="#E5E7EB" font-family="Arial, Helvetica, sans-serif" font-size="34">design, SQL learning, and structured problem-solving.</text>
+  <g opacity="0.92">
+    <ellipse cx="1225" cy="283" rx="112" ry="36" fill="#A7F3D0"/>
+    <path d="M1113 283V469C1113 488.882 1163.14 505 1225 505C1286.86 505 1337 488.882 1337 469V283" fill="#064E3B"/>
+    <ellipse cx="1225" cy="469" rx="112" ry="36" fill="#6EE7B7"/>
+    <path d="M1113 346C1113 365.882 1163.14 382 1225 382C1286.86 382 1337 365.882 1337 346" stroke="#D1FAE5" stroke-width="8"/>
+    <path d="M1113 407C1113 426.882 1163.14 443 1225 443C1286.86 443 1337 426.882 1337 407" stroke="#A7F3D0" stroke-width="8"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="88" y1="92" x2="1496" y2="816" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#052E2B"/>
+      <stop offset="0.5" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+</svg>
