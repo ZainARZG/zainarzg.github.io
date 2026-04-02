@@ -1,6 +1,6 @@
-title: "Syed's"
-author: "Syed Muhammad Zain Shah"
-description: "Thoughts & Ideas"
+title: "Syed's Portfolio"
+author: "Syed Muhammad Zain"
+description: "Computer Engineering journey, projects, and reflections."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -18,12 +18,14 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:
-  - {file: "index.md", title: "Home", sidebaricon: home}
-  - {file: "blog.md", title: "Blog", sidebaricon: address-card}
+  - {file: "index.html", title: "Home", sidebaricon: home}
+  - {file: "about.html", title: "About", sidebaricon: user}
+  - {file: "blog.html", title: "Blog", sidebaricon: address-card}
+  - {file: "contact.html", title: "Contact Us", sidebaricon: envelope}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/ZainARZG"}
+  - {title: Mail, icon: envelope, url: "mailto:ZAINMUAMMAD160@GMAIL.COM"}
+  - {title: Github, icon: github, url: "https://github.com/ZAINARZG"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
