@@ -1,0 +1,38 @@
+name: "Syed Muhammad Zain"
+email: "ZAINMUAMMAD160@GMAIL.COM"
+github_username: "ZAINARZG"
+github_url: "https://github.com/ZAINARZG"
+location: "Bhalwal, District Sargodha, Pakistan"
+university: "UET Lahore Campus Faisalabad"
+degree: "BS Computer Engineering"
+cgpa: "3.90588"
+cta: "Open for internships and collaborations"
+
+links:
+  linkedin_url: ""
+  resume_url: "/resume/"
+  weather_model_repo_url: ""
+  ai_video_repo_url: ""
+
+projects:
+  - slug: "weather-prediction-basel"
+    title: "Weather Prediction Model"
+    role: "Student project contributor"
+    stack:
+      - "Python"
+      - "Supervised learning"
+      - "Structured weather data analysis"
+    cover_image: "/assets/images/covers/weather-prediction-cover.svg"
+    screenshot_path: ""
+    github_url: ""
+    result: "Turned an early interest in AI and data-driven prediction into a working academic project."
+
+  - slug: "ai-video-experiments"
+    title: "AI Video Experiments"
+    role: "Independent learner and creator"
+    stack:
+      - "AI-assisted animation workflow"
+    cover_image: "/assets/images/covers/ai-video-cover.svg"
+    screenshot_path: ""
+    github_url: ""
+    result: "Expanded my interest in applying AI beyond coursework into practical creative experiments."
