@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Syed Muhammad Zain — The Innovator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#07090F;--bg2:#0C0F1A;--bg3:#111624;--gold:#C8A96E;--gold2:#E2C88A;--gdim:rgba(200,169,110,.14);--text:#E8E2D9;--mu:#6B7280;--mu2:#9CA3AF;--bo:rgba(200,169,110,.12);--bo2:rgba(200,169,110,.24);--r:6px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.78;overflow-x:hidden}
+body::after{content:'';position:fixed;inset:0;z-index:999;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23g)' opacity='1'/%3E%3C/svg%3E");opacity:.025}
+#cg{position:fixed;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(200,169,110,.04) 0%,transparent 70%);pointer-events:none;z-index:998;transform:translate(-50%,-50%)}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--bo2);border-radius:2px}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:1.1rem 5%;background:rgba(7,9,15,.93);backdrop-filter:blur(16px);border-bottom:1px solid var(--bo)}
+.nlogo{font-family:'DM Serif Display',serif;font-size:1.05rem;color:var(--gold);cursor:pointer;text-decoration:none}
+.nright{display:flex;align-items:center;gap:2rem}
+.nlinks{display:flex;gap:1.8rem;list-style:none}
+.nlinks a{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--mu);text-decoration:none;transition:color .2s;cursor:pointer}
+.nlinks a:hover{color:var(--gold)}
+.nbadge{font-size:10px;padding:3px 10px;border-radius:20px;border:1px solid rgba(200,169,110,.3);color:var(--gold);letter-spacing:.1em;text-transform:uppercase}
+#portfolio{display:block}#art-reader{display:none}
+#hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 5% 5rem;gap:4rem;position:relative;z-index:1;border-bottom:1px solid var(--bo);overflow:hidden}
+.hbgt{position:absolute;font-family:'DM Serif Display',serif;font-size:clamp(8rem,18vw,18rem);color:rgba(200,169,110,.03);right:-2rem;top:50%;transform:translateY(-50%);user-select:none;pointer-events:none;line-height:1;white-space:nowrap}
+.hleft{position:relative;z-index:2}
+.htag{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.8rem;opacity:0;animation:up .8s .1s forwards}
+.htag::before{content:'';width:24px;height:1px;background:var(--gold)}
+.hname{font-family:'DM Serif Display',serif;font-size:clamp(3rem,6vw,5.5rem);line-height:1.08;color:var(--text);opacity:0;animation:up .9s .3s forwards}
+.hname .syed{font-size:.38em;letter-spacing:.22em;text-transform:uppercase;color:var(--mu);display:block;margin-bottom:.4rem;font-family:'DM Sans',sans-serif;font-weight:300}
+.hname .last{color:var(--gold);font-style:italic}
+.hdesc{font-size:1rem;color:var(--mu2);margin-top:1.6rem;font-weight:300;line-height:1.85;max-width:440px;opacity:0;animation:up .9s .55s forwards}
+.hdesc strong{color:var(--text);font-weight:500}
+.hcta{display:flex;gap:1rem;margin-top:2.8rem;flex-wrap:wrap;opacity:0;animation:up .9s .75s forwards}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:.65rem 1.6rem;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;text-decoration:none;font-weight:500;transition:all .22s;border:none}
+.btng{background:var(--gold);color:#07090F;border:1px solid var(--gold)}.btng:hover{background:var(--gold2);transform:translateY(-1px)}
+.btno{background:transparent;color:var(--gold);border:1px solid var(--bo2)}.btno:hover{border-color:var(--gold);background:var(--gdim);transform:translateY(-1px)}
+.hright{display:flex;flex-direction:column;gap:1rem;opacity:0;animation:fi 1s 1s forwards;position:relative;z-index:2}
+.sc{background:var(--bg2);border:1px solid var(--bo);border-radius:var(--r);padding:1.1rem 1.4rem;transition:border-color .2s}.sc:hover{border-color:var(--bo2)}
+.sl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mu);margin-bottom:4px}
+.sv{font-size:14px;color:var(--text);font-weight:500}.sv.big{color:var(--gold);font-family:'DM Serif Display',serif;font-size:2rem}
+.ss{font-size:12px;color:var(--mu);margin-top:3px;line-height:1.5}
+.srow{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+section{padding:6rem 5%;position:relative;z-index:1;border-bottom:1px solid var(--bo)}
+.stag{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:10px;margin-bottom:1rem}
+.stag::before{content:'';width:18px;height:1px;background:var(--gold)}
+.sh{font-family:'DM Serif Display',serif;font-size:clamp(2rem,4vw,3.2rem);line-height:1.15;color:var(--text);margin-bottom:3rem}
+.sh em{color:var(--gold);font-style:italic}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+.qs{padding:5rem 5%;border-bottom:1px solid var(--bo);position:relative;z-index:1}
+.qi{max-width:820px;margin:0 auto;text-align:center}
+.qi blockquote{font-family:'DM Serif Display',serif;font-size:clamp(1.3rem,2.8vw,2rem);line-height:1.55;color:var(--mu2);font-style:italic}
+.qi blockquote em{color:var(--gold)}.qa{font-size:11px;color:var(--mu);letter-spacing:.12em;text-transform:uppercase;margin-top:1.4rem}
+.stxt{font-size:15px;color:var(--mu2);line-height:1.9;font-weight:300}
+.stxt p+p{margin-top:1.3rem}.stxt strong{color:var(--text);font-weight:500}.stxt em{color:var(--gold);font-style:italic}
+.tl{position:relative;padding-left:1.8rem}
+.tl::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:1px;background:linear-gradient(to bottom,var(--gold),transparent)}
+.tli{position:relative;margin-bottom:2rem}
+.tli::before{content:'';position:absolute;left:-1.8rem;top:7px;width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.tlp{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.tlt{font-size:14px;font-weight:500;color:var(--text);margin-bottom:4px}
+.tld{font-size:13px;color:var(--mu2);line-height:1.7}
+.cpan{border:1px solid var(--bo2);border-radius:var(--r);background:var(--bg2);padding:2rem;text-align:center;margin-top:2rem}
+.cbig{font-family:'DM Serif Display',serif;font-size:4rem;color:var(--gold);line-height:1}
+.csub2{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--mu);margin-top:6px}
+.gtable{width:100%;border-collapse:collapse;margin-top:1.5rem}
+.gtable th{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);padding:.6rem .8rem;text-align:left;border-bottom:1px solid var(--bo);font-weight:500}
+.gtable td{font-size:13px;color:var(--mu2);padding:.55rem .8rem;border-bottom:1px solid rgba(200,169,110,.06)}
+.gtable td:last-child{color:var(--text);font-weight:500;text-align:right}
+.gtable tr:last-child td{border-bottom:none}
+.skw{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem}
+.skc{background:var(--bg2);border:1px solid var(--bo);border-radius:var(--r);padding:1.3rem 1.5rem;transition:border-color .2s,transform .2s}
+.skc:hover{border-color:var(--bo2);transform:translateY(-2px)}
+.skcl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+.skts{display:flex;flex-wrap:wrap;gap:7px}
+.skt{font-size:12px;padding:4px 11px;border-radius:3px;border:1px solid var(--bo);color:var(--mu2);background:var(--bg3);transition:all .18s}
+.skt:hover{border-color:var(--gold);color:var(--gold)}
+.pjc{background:var(--bg2);border:1px solid var(--bo);border-radius:var(--r);overflow:hidden;position:relative}
+.pjc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold) 40%,var(--gold2) 60%,transparent)}
+.pjt{padding:2.5rem;border-bottom:1px solid var(--bo)}
+.pjtype{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);border:1px solid var(--bo2);display:inline-block;padding:3px 10px;border-radius:3px;margin-bottom:1.2rem}
+.pjti{font-family:'DM Serif Display',serif;font-size:clamp(1.3rem,2.5vw,1.75rem);color:var(--text);line-height:1.3;margin-bottom:1rem}
+.pjori{font-size:13px;color:var(--mu2);line-height:1.85;font-style:italic;border-left:2px solid rgba(200,169,110,.3);padding-left:1rem;margin-bottom:1.2rem}
+.pjori strong{color:var(--gold);font-style:normal}
+.pjd{font-size:14px;color:var(--mu2);line-height:1.85;font-weight:300}
+.pjm{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--bo)}
+.pjmc{padding:1.3rem 1.5rem;border-right:1px solid var(--bo)}.pjmc:last-child{border-right:none}
+.pjml{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--mu);margin-bottom:5px}
+.pjmv{font-size:13px;color:var(--text);font-weight:500}
+.pjft{padding:1.3rem 2.5rem;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--bo);flex-wrap:wrap;gap:1rem}
+.pjco{font-size:13px;color:var(--mu2)}.pjco span{color:var(--text);font-weight:500}
+.pjlk{font-size:12px;color:var(--gold);text-decoration:none;letter-spacing:.08em;display:flex;align-items:center;gap:6px;transition:gap .2s}.pjlk:hover{gap:10px}
+.aig{display:flex;flex-direction:column}
+.air{display:grid;grid-template-columns:70px 1fr 28px;align-items:start;gap:1.5rem;padding:1.8rem 0;border-bottom:1px solid var(--bo);cursor:pointer}
+.air:last-child{border-bottom:none}
+.air:hover .airt{color:var(--gold)}.air:hover .airn{color:rgba(200,169,110,.3)}
+.airn{font-family:'DM Serif Display',serif;font-size:2.1rem;color:rgba(200,169,110,.12);line-height:1;transition:color .2s;padding-top:.3rem}
+.airt{font-size:14.5px;font-weight:500;color:var(--text);line-height:1.4;transition:color .2s;margin-bottom:.5rem}
+.airpts{list-style:none;padding:0;margin:0}
+.airpts li{font-size:12.5px;color:var(--mu);line-height:1.65;padding:2px 0;display:flex;gap:8px;align-items:flex-start}
+.airpts li::before{content:'—';color:var(--gold);opacity:.5;flex-shrink:0;margin-top:1px}
+.aira{font-size:18px;color:var(--mu);transition:color .2s;padding-top:.3rem}.air:hover .aira{color:var(--gold)}
+.idg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.idc{background:var(--bg2);border:1px solid var(--bo);border-radius:var(--r);padding:1.4rem 1.5rem;transition:border-color .2s,transform .2s}
+.idc:hover{border-color:var(--bo2);transform:translateY(-2px)}
+.idl{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.idv{font-size:14px;color:var(--text);font-weight:500;line-height:1.4}
+.ids{font-size:12px;color:var(--mu);margin-top:4px;line-height:1.6}
+#contact{text-align:center}
+.csu{font-size:14px;color:var(--mu);max-width:480px;margin:0 auto 3rem;font-weight:300;line-height:1.8}
+.cls{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap}
+.clk{display:flex;align-items:center;gap:9px;padding:.75rem 1.8rem;border-radius:var(--r);border:1px solid var(--bo);color:var(--mu2);text-decoration:none;font-size:13px;transition:all .2s}
+.clk:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+.clk svg{width:15px;height:15px;fill:currentColor;flex-shrink:0}
+footer{padding:2.5rem 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;font-size:12px;color:var(--mu);border-top:1px solid var(--bo);position:relative;z-index:1}
+footer em{color:var(--gold);font-style:normal}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.rv.in{opacity:1;transform:none}
+#art-reader{position:fixed;inset:0;z-index:300;background:var(--bg);overflow-y:auto}
+.arnav{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:1rem 5%;background:rgba(7,9,15,.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--bo)}
+.arback{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;transition:color .2s}
+.arback:hover{color:var(--gold2)}
+.arlogo{font-family:'DM Serif Display',serif;font-size:1rem;color:var(--mu)}
+.arwrap{max-width:720px;margin:0 auto;padding:5rem 5% 8rem}
+.arnum{font-family:'DM Serif Display',serif;font-size:5rem;color:rgba(200,169,110,.07);line-height:1;margin-bottom:1rem;user-select:none}
+.arh1{font-family:'DM Serif Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.2;color:var(--text);margin-bottom:1.4rem}
+.arby{font-size:12px;color:var(--mu);letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:.8rem}
+.arby span{color:var(--mu2)}
+.arhdr{margin-bottom:3.5rem;padding-bottom:3rem;border-bottom:1px solid var(--bo)}
+.abody{font-size:16px;color:var(--mu2);line-height:1.92;font-weight:300}
+.abody p{margin-bottom:1.6rem}.abody strong{color:var(--text);font-weight:500}.abody em{color:var(--gold);font-style:italic}
+.abody h3{font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin:2.4rem 0 .8rem;display:flex;align-items:center;gap:8px}
+.abody h3::before{content:'';width:14px;height:1px;background:var(--gold)}
+.pq{border-left:2px solid var(--gold);padding:1.2rem 1.6rem;margin:2.4rem 0;background:rgba(200,169,110,.04);border-radius:0 var(--r) var(--r) 0}
+.pq p{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.2rem;color:var(--text);line-height:1.6;margin:0}
+.arfootnav{display:flex;justify-content:space-between;align-items:center;margin-top:5rem;padding-top:2.5rem;border-top:1px solid var(--bo);flex-wrap:wrap;gap:1rem}
+.anb{display:flex;flex-direction:column;gap:4px;cursor:pointer;background:none;border:1px solid var(--bo);border-radius:var(--r);padding:1rem 1.4rem;font-family:'DM Sans',sans-serif;color:var(--text);transition:border-color .2s;text-align:left;max-width:280px}
+.anb:hover{border-color:var(--bo2)}.anb .dir{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--mu)}
+.anb .ttl{font-size:13px;color:var(--mu2);line-height:1.4}.anb.r{text-align:right}
+.anback{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);cursor:pointer;background:none;border:none;font-family:'DM Sans',sans-serif;transition:color .2s}
+.anback:hover{color:var(--gold2)}
+@keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+@media(max-width:900px){#hero{grid-template-columns:1fr;padding-top:7rem}.hright{display:none}.two{grid-template-columns:1fr;gap:3rem}.skw,.idg{grid-template-columns:1fr 1fr}.pjm{grid-template-columns:1fr 1fr}.pjmc:nth-child(2){border-right:none}}
+@media(max-width:600px){nav{padding:1rem 5%}.nlinks,.nbadge{display:none}section{padding:4rem 5%}.skw,.idg{grid-template-columns:1fr}.air{grid-template-columns:50px 1fr 24px}.airn{font-size:1.8rem}footer{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<div id="cg"></div>
+<nav>
+  <span class="nlogo" onclick="goPortfolio()">S. M. Zain</span>
+  <div class="nright">
+    <ul class="nlinks">
+      <li><a onclick="goSec('about')">About</a></li>
+      <li><a onclick="goSec('skills')">Skills</a></li>
+      <li><a onclick="goSec('project')">Project</a></li>
+      <li><a onclick="goSec('articles')">Articles</a></li>
+      <li><a onclick="goSec('identity')">Identity</a></li>
+      <li><a onclick="goSec('contact')">Contact</a></li>
+    </ul>
+    <span class="nbadge">CGPA 3.91</span>
+  </div>
+</nav>
+
+<div id="portfolio">
+<section id="hero">
+  <div class="hleft">
+    <div class="htag">BS Computer Engineering · UET Lahore Campus Faisalabad · 2nd Semester</div>
+    <h1 class="hname"><span class="syed">Syed</span>Muhammad <span class="last">Zain</span></h1>
+    <p class="hdesc">From <strong>Bhalwal, Sargodha</strong> — a city I love for everything it is, not what it isn't.<br/>A night-owl engineer who doesn't stop until it's <strong>right</strong>, not just done.<br/>Building toward one place: <strong>The Innovator</strong> in AI &amp; ML.</p>
+    <div class="hcta">
+      <span class="btn btng" onclick="goSec('project')">View My Work</span>
+      <span class="btn btno" onclick="goSec('about')">My Story</span>
+      <a class="btn btno" href="mailto:zainmuammad160@gmail.com">Get In Touch</a>
+    </div>
+  </div>
+  <div class="hright">
+    <div class="srow">
+      <div class="sc"><div class="sl">CGPA</div><div class="sv big">3.91</div><div class="ss">2nd Highest in Class · Semester 1</div></div>
+      <div class="sc"><div class="sl">Semester</div><div class="sv">2nd</div><div class="ss">BS Computer Engineering</div></div>
+    </div>
+    <div class="sc"><div class="sl">GitHub</div><div class="sv">@ZAINARZG</div><div class="ss">github.com/ZAINARZG</div></div>
+    <div class="sc"><div class="sl">University</div><div class="sv">UET Lahore Campus Fsd</div><div class="ss">Hostel resident · Goes home every 2–3 weeks</div></div>
+    <div class="sc"><div class="sl">End Goal</div><div class="sv">The Innovator</div><div class="ss">AI / ML · Masters · Build what doesn't exist yet</div></div>
+  </div>
+  <div class="hbgt">ZAIN</div>
+</section>
+
+<div class="qs rv">
+  <div class="qi">
+    <blockquote>"A full day navigating an unfamiliar Lahore on a packet of grains, a sold-out bus that still ran, <em>4 kilometres on foot through Faisalabad</em> — ate, opened the laptop, and checked everything was still standing."</blockquote>
+    <p class="qa">— Semester 1 · The grind that made me</p>
+  </div>
+</div>
+
+<section id="about">
+  <div class="two">
+    <div class="rv">
+      <p class="stag">01 — My Story</p>
+      <h2 class="sh">Not the path I<br/>was handed —<br/><em>the one I chose.</em></h2>
+      <div class="stxt">
+        <p>I grew up in <strong>Bhalwal, Sargodha</strong>. Not as developed as Lahore, not as loud. It doesn't have everything — but it's mine and I love it. I loved computers before I knew what engineering was. When CE became an option, it was never a question.</p>
+        <p>First semester hit different from what I expected. All-nighters before mids and finals. PF and AICT labs built from scratch. A <em>full day navigating an unfamiliar Lahore to repair my laptop</em> — nothing to eat but a packet of grains the whole day, the bus back sold out but still running, then 4km on foot through Faisalabad, a proper meal when I finally reached my room. A Honahaar Scholarship trip with document complications I hadn't expected. A groupmate I got close to transferred to Lahore. I lost focus for a while. Then I studied harder than I ever had before.</p>
+        <p>I finished with a <strong>CGPA of 3.91 — 2nd highest in my class</strong>. Second semester is online now. Wars, petrol prices, Eid. Studying from home. But I'm still here, and I'm not stopping.</p>
+      </div>
+    </div>
+    <div class="rv" style="transition-delay:.15s">
+      <p class="stag">Academic Path</p>
+      <div class="tl">
+        <div class="tli">
+          <div class="tlp">Semester 1 · 2024</div>
+          <div class="tlt">BS Computer Engineering — UET Lahore Campus Faisalabad</div>
+          <div class="tld">Programming Fundamentals (Python) · Applied Physics · Calculus I · Discrete Mathematics · AICT · Fehm ul Quran. CGPA: 3.91 — 2nd in class. Honahaar Scholar.</div>
+        </div>
+        <div class="tli">
+          <div class="tlp">Semester 2 · 2025 — In Progress</div>
+          <div class="tlt">OOP · DBS · Calculus II · Stats · DLD · Comm Skills</div>
+          <div class="tld">Object Oriented Programming (C#) · Database Systems (SQL) · Calculus II · Statistics · Digital Logic Design lab · Communication Skills. Currently online due to regional disruption.</div>
+        </div>
+        <div class="tli">
+          <div class="tlp">Long-Term Goal</div>
+          <div class="tlt">Masters in Artificial Intelligence / Machine Learning</div>
+          <div class="tld">Not just a degree — a direction. Build deep expertise. Innovate, don't replicate. Become The Innovator.</div>
+        </div>
+      </div>
+      <div class="cpan"><div class="cbig">3.91</div><div class="csub2">CGPA · 2nd Highest in Class · Honahaar Scholar · UET Lahore Campus Faisalabad</div></div>
+    </div>
+  </div>
+  <div class="rv" style="margin-top:4rem">
+    <p class="stag">Semester 1 Grades</p>
+    <table class="gtable">
+      <thead><tr><th>Subject</th><th>Grade</th></tr></thead>
+      <tbody>
+        <tr><td>Programming Fundamentals (Python)</td><td>A</td></tr>
+        <tr><td>AICT (Theory + Lab)</td><td>A</td></tr>
+        <tr><td>Calculus I</td><td>A</td></tr>
+        <tr><td>Discrete Mathematics</td><td>A</td></tr>
+        <tr><td>Applied Physics Lab</td><td>A</td></tr>
+        <tr><td>Applied Physics Theory</td><td>A−</td></tr>
+        <tr><td>Fehm ul Quran</td><td>B</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="skills">
+  <p class="stag rv">02 — Technical Skills</p>
+  <h2 class="sh rv">What I <em>build with.</em></h2>
+  <div class="skw">
+    <div class="skc rv"><div class="skcl">Programming Languages</div><div class="skts"><span class="skt">Python</span><span class="skt">C</span><span class="skt">C#</span><span class="skt">SQL</span></div></div>
+    <div class="skc rv" style="transition-delay:.08s"><div class="skcl">IDEs &amp; Editors</div><div class="skts"><span class="skt">VS Code</span><span class="skt">Visual Studio Community</span></div></div>
+    <div class="skc rv" style="transition-delay:.16s"><div class="skcl">Database &amp; Backend</div><div class="skts"><span class="skt">MySQL Workbench</span><span class="skt">XAMPP</span><span class="skt">WAMP</span><span class="skt">WordPress</span></div></div>
+    <div class="skc rv" style="transition-delay:.24s"><div class="skcl">Domains</div><div class="skts"><span class="skt">Machine Learning</span><span class="skt">AI/ML</span><span class="skt">OOP</span><span class="skt">Digital Logic Design</span></div></div>
+  </div>
+</section>
+
+<section id="project">
+  <p class="stag rv">03 — Featured Project</p>
+  <h2 class="sh rv">Born from a<br/><em>random conversation.</em></h2>
+  <div class="pjc rv">
+    <div class="pjt">
+      <span class="pjtype">Machine Learning · Supervised Learning · Weather Forecasting · 1st Semester</span>
+      <h3 class="pjti">Supervised Learning Approach for Next Day Temperature and Precipitation Forecasting in Basel</h3>
+      <p class="pjori">The idea didn't come from an assignment brief. I was talking to ChatGPT one night about some model or code — weather came up casually, and something <strong>clicked</strong>. When Dr. Bilal later talked about training a model in class, I remembered that conversation immediately. My collaborator Muhammad Tahir Yaqoob was also my roommate, which made the whole process seamless.</p>
+      <p class="pjd">A supervised ML model that forecasts next-day temperature and precipitation using 10 years of historical weather data from 18 major European cities. Built on the European Cities Weather Prediction Dataset from Kaggle. Covers data preprocessing, feature engineering, model training and evaluation — applied to a real-world forecasting challenge. Presented at the 1st semester project exhibition in front of teachers, fellow students, and seniors.</p>
+    </div>
+    <div class="pjm">
+      <div class="pjmc"><div class="pjml">Type</div><div class="pjmv">ML Forecasting</div></div>
+      <div class="pjmc"><div class="pjml">Dataset</div><div class="pjmv">18 cities · 10 yrs</div></div>
+      <div class="pjmc"><div class="pjml">Supervisor</div><div class="pjmv">Dr. Bilal</div></div>
+      <div class="pjmc"><div class="pjml">Semester</div><div class="pjmv">1st Semester</div></div>
+    </div>
+    <div class="pjft">
+      <div class="pjco">Built with <span>Muhammad Tahir Yaqoob</span> — groupmate &amp; roommate. Smooth from start to finish.</div>
+      <a class="pjlk" href="https://www.kaggle.com/datasets/orvile/european-cities-weather-prediction-dataset" target="_blank">Dataset on Kaggle →</a>
+    </div>
+  </div>
+</section>
+
+<section id="articles">
+  <p class="stag rv">04 — Reflective Writing</p>
+  <h2 class="sh rv">My CE journey —<br/><em>in my own words.</em></h2>
+  <p class="rv" style="color:var(--mu);max-width:560px;font-size:14px;margin-bottom:2.5rem;font-weight:300;">Ten first-person articles — no polish, no performance. The real story of what these semesters actually looked like from the inside. Click any to read in full.</p>
+  <div class="aig" id="ail"></div>
+</section>
+
+<section id="identity">
+  <p class="stag rv">05 — Who I Am</p>
+  <h2 class="sh rv">Beyond the<br/><em>résumé.</em></h2>
+  <div class="idg rv">
+    <div class="idc"><div class="idl">Anime &amp; Manga</div><div class="idv">One Piece</div><div class="ids">1000+ chapters deep. Completely committed. There is no anime like it.</div></div>
+    <div class="idc"><div class="idl">Manhwa</div><div class="idv">Bastard</div><div class="ids">Dark, psychological, surgical. Reads like tight code — no wasted panel.</div></div>
+    <div class="idc"><div class="idl">Games</div><div class="idv">Sekiro · Minecraft</div><div class="ids">Sekiro for discipline. Minecraft for architecture. Both are about mastery.</div></div>
+    <div class="idc"><div class="idl">What People Get Wrong</div><div class="idv">Serious. Cold.</div><div class="ids">People mistake my focus for attitude. I stopped explaining the difference.</div></div>
+    <div class="idc"><div class="idl">When I'm Stuck</div><div class="idv">Try again. And again.</div><div class="ids">No shortcuts. I sit with the problem until something breaks — and it's never me.</div></div>
+    <div class="idc"><div class="idl">Peak Hours</div><div class="idv">After midnight.</div><div class="ids">Hostel goes quiet. Screen is the only light. That's when I do my best work.</div></div>
+    <div class="idc"><div class="idl">Home</div><div class="idv">Bhalwal, Sargodha</div><div class="ids">Not Lahore. Not fully developed. But it raised me and I love it exactly as it is.</div></div>
+    <div class="idc"><div class="idl">Side Project</div><div class="idv">AI YouTube Channel</div><div class="ids">Automated animated videos using AI. Building it in parallel with the semester.</div></div>
+    <div class="idc"><div class="idl">The Real Goal</div><div class="idv">The Innovator</div><div class="ids">Build things that didn't exist before. AI/ML is the arena. Masters is the next step.</div></div>
+  </div>
+</section>
+
+<section id="contact">
+  <p class="stag rv" style="justify-content:center">06 — Contact</p>
+  <h2 class="sh rv" style="text-align:center;margin-bottom:1rem">Let's <em>connect.</em></h2>
+  <p class="csu rv">A 2nd-semester CE student from Bhalwal who works after midnight and doesn't stop until it's right. If you want to collaborate, talk AI/ML, or just connect — reach out.</p>
+  <div class="cls rv">
+    <a class="clk" href="mailto:zainmuammad160@gmail.com"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>zainmuammad160@gmail.com</a>
+    <a class="clk" href="https://github.com/ZAINARZG" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>ZAINARZG on GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2025 <em>Syed Muhammad Zain</em> · BS CE · UET Lahore Campus Faisalabad · Honahaar Scholar</span>
+  <span>Built from scratch, after midnight, from <em>Bhalwal</em>.</span>
+</footer>
+</div>
+
+<div id="art-reader">
+  <nav class="arnav">
+    <button class="arback" onclick="goPortfolio()">← Back to Portfolio</button>
+    <span class="arlogo">S. M. Zain — Reflections</span>
+  </nav>
+  <div class="arwrap" id="arc"></div>
+</div>
+
+<script>
+const cg=document.getElementById('cg');
+document.addEventListener('mousemove',e=>{cg.style.left=e.clientX+'px';cg.style.top=e.clientY+'px'});
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.08});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+function goSec(id){document.getElementById('portfolio').style.display='block';document.getElementById('art-reader').style.display='none';setTimeout(()=>document.getElementById(id)?.scrollIntoView({behavior:'smooth'}),50)}
+function goPortfolio(){document.getElementById('portfolio').style.display='block';document.getElementById('art-reader').style.display='none';window.scrollTo(0,0)}
+function openArt(i){document.getElementById('portfolio').style.display='none';document.getElementById('art-reader').style.display='block';renderArt(i);document.getElementById('art-reader').scrollTo(0,0)}
+
+const A=[
+{num:"01",title:"The First Time I Loved Something That Kept Breaking",
+pts:["How growing up loving computers meant nothing when Dr. Bilal's PF asked me to actually write Python for the very first time","The build-break-debug feedback loop that made me fall in love with programming — frustration with a reason beats frustration with none","Staying up past midnight rewriting code that already ran because running was not the same as being right"],
+body:`<h3>Before UET, computers were easy</h3>
+<p>I grew up in Bhalwal loving computers. Not in a studied, formal way — just in the way some people grow up loving football or cooking. I was always the person in the room who figured things out on screen faster than others. I fixed things, I set things up, I navigated software that confused people around me. So when I got into BS Computer Engineering at UET Lahore Campus Faisalabad, I assumed that part of me would translate. That my comfort with technology would give me a head start. It did not. Because there is a massive difference between using a computer and telling one what to do.</p>
+<h3>What Programming Fundamentals actually was</h3>
+<p>Dr. Bilal walked into the PF lecture calm but completely serious. From the first week, it was clear this subject was going to ask something that YouTube tutorials and casual computer use had never asked: precise, logical, structured thinking. Python looks simple until you are writing code that has to actually work — not approximately work, not kind of work — actually work. Every indentation matters. Every colon. Every variable name. There is no room for good enough in a compiler.</p>
+<p>I loved it immediately. That surprised me. I expected frustration, and it was frustrating — but the frustration had a different quality from memorizing definitions for Applied Physics theory. When Python broke, it broke for a reason I could track down. When it worked, it worked because I had done something right. That feedback loop — build, break, debug, understand, build again — became the thing I looked forward to most in the semester.</p>
+<div class="pq"><p>"When Python broke, it broke for a reason I could track down. That feedback loop became the thing I looked forward to most."</p></div>
+<h3>The nights that made it real</h3>
+<p>The PF labs were where I spent most of my late nights in first semester. Not because I was struggling — though I was, sometimes — but because I genuinely did not want to stop until the program worked the way I wanted it to. I cannot submit something I am not proud of. So I stayed up. I debugged things that worked but that I did not like the structure of. I rewrote functions that ran fine but felt messy. My roommate Muhammad Tahir Yaqoob would be asleep and I would still be at the desk, rearranging code that technically did not need rearranging. That habit — working until it felt right, not just until it ran — is the same thing that produced a 3.91 CGPA at the end of the semester. It cost sleep. It was worth it. <em>And I would do it exactly the same way again.</em></p>`},
+
+{num:"02",title:"The Calculus Quiz I Should Have Missed",
+pts:["A smoggy winter morning, ironed clothes, forgotten glasses, and arriving 15 minutes late to a quiz that had already started","How the ma'am gave me full marks I probably did not deserve — and what that grace taught me about assumptions and logic","Sleeping through Fehm ul Quran lectures and getting a B: the honest relationship between showing up and what you earn"],
+body:`<h3>The morning that went wrong in every possible way</h3>
+<p>It was winter. Smog had been sitting over the area for days — the kind that makes mornings grey and heavy. I woke up late. The Calculus I ma'am had been arriving a bit late in recent weeks. I made the calculation, in my half-asleep brain, that she would probably be late again today. She was not late today. She started exactly on time. By the time I ironed my clothes — because I could not walk out in wrinkled clothes even in a crisis — and then discovered I had left my glasses in my room and had to go back for them, I was fifteen to twenty minutes late. The quiz had started. Students were already writing.</p>
+<div class="pq"><p>"She was not late today. And I was still ironing my clothes."</p></div>
+<h3>The outcome I still feel grateful for</h3>
+<p>I walked in. The ma'am looked at me. I sat down. She let me sit. I went through the rest of that day assuming I had a zero on a quiz I had studied for. I got full marks. I think it was some combination of many students having missed it, and an assignment that may have balanced things out, and a ma'am who was more understanding than I deserved that morning. I got an A in Calculus I. I am grateful. I am also aware that I got lucky in a way I should not rely on again. The real lesson was not that it worked out — it was why did I assume the ma'am would definitely be late? That is not logic. That is wishful thinking. <em>Programming Fundamentals taught me better than that — assumptions without evidence produce bugs.</em></p>
+<h3>What that semester taught me about showing up</h3>
+<p>I slept through some Fehm ul Quran lectures. It was a theoretical subject with no practical component and my night-owl schedule made early mornings brutal. I sat in the back and dozed. I got a B. I deserved a B. There is a direct relationship between how much I showed up — physically, mentally, consistently — and what I got at the end. The Calculus story was an exception. Fehm ul Quran was the rule. The semester taught me, through both cases, that being present is not optional. It is the foundation everything else sits on.</p>`},
+
+{num:"03",title:"Applied Physics, 3 Marks in a Quiz, and What Came After",
+pts:["Getting 3 marks on quiz one — not from not trying, but from approaching a theory-heavy subject with the wrong preparation method entirely","How the Applied Physics lab gave me an A while the theory fought me all semester — and what that contrast revealed about how I learn","The adjustment before finals that pulled everything up to an A− and taught me to debug my study habits the same way I debug code"],
+body:`<h3>The subject I had the wrong relationship with</h3>
+<p>Applied Physics exposed a specific gap in how I learn. I am excellent at practical work and mathematics. If there is a problem in front of me with numbers and logic and a method to apply, I will work through it. But Applied Physics theory had a portion that required rote understanding of concepts that I found difficult to hold through memorization rather than application. I was not bad at the subject. But I was not approaching it the right way, and that showed in quiz one. Three marks. That is not a grade that comes from being unprepared — it is a grade that comes from being unprepared in a very specific and fixable way. I had understood the concepts loosely. I had not drilled them. I had not practiced writing them out in the form the exam would ask for.</p>
+<div class="pq"><p>"Three marks. Not from not trying. From trying the wrong way."</p></div>
+<h3>The adjustment and the finals</h3>
+<p>Quiz two was average. Mids were average. I had not fully solved the problem yet. But something shifted before finals. I stopped trying to understand Applied Physics the way I understood Python — through doing — and started treating it like a different kind of problem requiring a different kind of preparation. I practiced more, wrote things out more, tested myself deliberately on the specific format that would be asked. The finals went well. Well enough to pull the whole semester average up to an A−. I am proud of that A−, genuinely, in a way I am not proud of easier grades. It came from a semester-long adjustment — recognizing what was not working and changing it mid-flight. <em>That is the same skill that good debugging requires.</em> You cannot keep applying the same fix to a problem that keeps returning. At some point you have to find the actual root cause.</p>
+<h3>What I take from that course now</h3>
+<p>Applied Physics lab was a different experience — I got an A in the lab without the same struggle, because the lab was practical, hands-on, measurable. I knew where I stood after every session. That contrast told me something real about myself that I have carried into second semester. I am someone who learns by doing. I can learn by memorizing and drilling too, but it costs more and requires more conscious effort. Knowing that is not an excuse. It is a map.</p>`},
+
+{num:"04",title:"Mahnoor Left, and I Studied Like I Had Something to Prove",
+pts:["How Mahnoor Fatima held the CR and GR role together — and what the batch lost when she transferred to Lahore mid-semester","The drift that followed: joining the gym for a few days, going through motions, losing the sharpness without quite knowing why","How the studying I did in the second half of semester one became the best and most focused studying of my CE journey so far"],
+body:`<h3>How the group actually was</h3>
+<p>Our batch group was seven people — five boys, two girls. We shared labs: Applied Physics, AICT. Mahnoor Fatima had the highest aggregate in ECAT among us. She became CR and GR — class representative and general representative — and she actually did the work those roles require. The previous CR and GR who had been casually assigned before her had created friction, delayed quizzes, delayed assignment deadlines in ways that frustrated both us and the teachers. When Mahnoor took it on, things moved more smoothly. She had the kind of organized competence that makes you realize how much a group depends on one or two people who actually follow through. I got close to her over the semester — just in the way you get close to people you work alongside, eat at the canteen with, and complain about labs with.</p>
+<h3>When she transferred</h3>
+<p>Mahnoor transferred to Lahore. Before leaving, she handed the CR and GR responsibilities back to the ones who had been doing it before her. The old issues came back. Quizzes delayed. Assignments delayed. Our teacher frustrated. We frustrated. That part was annoying. The other part was harder. I lost focus for a few weeks after she left — not completely, not visibly to anyone outside my own head, but I was going through the motions rather than actually engaging. I joined the gym for a few days during this period and then stopped. It was a small drift, but it was real.</p>
+<div class="pq"><p>"I lost focus for a few weeks. Not visibly. But I was going through motions rather than actually engaging."</p></div>
+<h3>What came after</h3>
+<p>At some point something shifted. The drift stopped and something harder replaced it. I think it was the combination of mids coming up and the specific unhappiness of knowing I was underperforming relative to what I was capable of. I started studying with a quality of focus I had not had earlier in the semester. PF labs that I had been doing adequately I started doing properly. I stayed later at the desk. I stopped leaving things at good enough. The CGPA I ended with — 3.91, second in my class — was built largely in that second half of the semester, after Mahnoor left. <em>I do not think I would have worked that hard if nothing had first knocked me off balance.</em></p>`},
+
+{num:"05",title:"10 Hours for a Laptop, 4 Kilometres on Foot, and Still Home Before Midnight",
+pts:["A full day navigating an unfamiliar Lahore for a laptop repair — nothing to eat all day except a single packet of grains","The bus back to Faisalabad was sold out but still ran — then 4km on foot through Faisalabad to reach the hostel","A proper meal when I finally reached my room, then opening the laptop just to check — and the Honahaar Scholarship trip that was its own kind of test"],
+body:`<h3>When the laptop stopped being optional</h3>
+<p>In a CE semester, your laptop is not a convenience. It is the workspace, the lab, the library, and the submission portal all in one. When mine started failing — badly enough that running PF labs on it was unreliable — there was no way around it. It needed to be repaired. The repair shop was in Lahore proper. I went. The repair took the entire day. I spent it navigating Lahore — a city I did not know yet, with routes that were not automatic and streets I was learning in real time. The entire day, the only thing I had eaten was a single packet of grains. Not because I planned it that way. Just because the day kept moving and there was always something more immediately pressing than sitting down for a meal.</p>
+<h3>The bus that ran anyway, and the 4 kilometres in Faisalabad</h3>
+<p>The repair finished late. I went to get the bus back to Faisalabad. The bus was sold out — every seat taken. I stood there working out what to do. The bus was sold out but it still ran. It completed the journey from Lahore to Faisalabad and I was on it. But arriving in Faisalabad and arriving at the hostel are two different things. I had my laptop bag, it was late evening, and I walked around 4 kilometres to reach the hostel. It was not heroic. It was just long and tiring — the kind of evening you do not forget because of how ordinary the stubbornness of it feels.</p>
+<p>When I got back to my room, the first thing I did was eat a proper meal. Then I opened the laptop — not for a specific lab, just to check. To make sure everything was still there, still working, still standing after a day that had asked a lot. It was.</p>
+<div class="pq"><p>"A packet of grains for the whole day. Then 4km on foot. Then a proper meal. Then I opened the laptop — just to check everything was still there."</p></div>
+<h3>The Honahaar trip and what it meant</h3>
+<p>There was another Lahore trip that same semester — the Honahaar Scholarship document submission. This one required navigating a bureaucratic process with specific documents in a specific format, submitted in a specific place, on a specific timeline. There were complications I had not anticipated — documents that were not quite right, requirements that were not clearly explained in advance, steps that needed to be repeated. I got through it. The scholarship came through. I am genuinely grateful for that recognition — not just for the financial support but for what it said about where I had ended the semester. <em>Both Lahore trips were a kind of education that no lab session could have provided.</em></p>`},
+
+{num:"06",title:"The AICT Presentation, the Lab Reports, and the Printer That Was Never Available",
+pts:["Choosing Seerat ul Nabi (PBUH) as my AICT presentation topic for Ma'am Munnazza — and getting full marks on something that mattered beyond the grade","The invisible labour of lab reports: writing them carefully, helping groupmates with theirs, and the printer that was never available when needed","Standing at the project exhibition defending the ML weather model to seniors who came specifically to find the edges of what you understood"],
+body:`<h3>Presenting Seerat ul Nabi (PBUH) in front of the class</h3>
+<p>Ma'am Munnazza's AICT lab had a presentation component. We each chose a topic and prepared a PowerPoint to present in front of the class. I chose Seerat ul Nabi (PBUH) — the biography and life of the Prophet, peace be upon him. I made the presentation carefully. The design was clean, the content was organized, the delivery was confident. I got full marks. Ma'am Munnazza noted the quality of the structure specifically. That presentation meant something to me beyond the marks. The subject was personal — presenting on the life of the Prophet (PBUH) required a level of care and respect that made me approach the preparation differently from a technical topic. <em>AICT was the course where I had to be both technical and human at the same time.</em></p>
+<h3>Lab reports — the work nobody accounts for</h3>
+<p>What people who have not been through CE labs do not understand is the amount of work that happens around the actual lab work. The lab itself requires thought and time. The lab report requires a different kind of time — writing, formatting, explaining your process, making sure the document is clear enough for someone else to follow. I took lab reports seriously. I spent more time on them than most people, and I sometimes ended up helping write my groupmates' reports when they were stuck, which doubled the time I was spending. Then there were the practical complications. The printer near the hostel was sometimes unavailable. Sometimes broken. Sometimes there was a queue. The cost of printing added up across multiple reports across multiple subjects across a full semester. Coming to a submission with a properly printed, properly formatted report required planning that had nothing to do with the academic content. It was logistics. It was real.</p>
+<div class="pq"><p>"The lab report was one thing. Getting it onto paper and submitted on time was another thing entirely."</p></div>
+<h3>What the project exhibition added to all of this</h3>
+<p>At the end of first semester, there was a project exhibition. The ML weather prediction project — built with Muhammad Tahir Yaqoob — was presented to teachers, students from other batches, and seniors who came to evaluate and test how well you understood what you had built. The seniors in particular asked questions designed to find the edge of your understanding and push past it. You either knew your project deeply enough to defend it, or you did not. Standing there answering those questions — explaining the model, the dataset, the choices — was the most honest assessment of whether I actually understood what I had spent the semester building. I walked out knowing I did. <em>That feeling is what I am trying to build toward with everything I do now.</em></p>`},
+
+{num:"07",title:"Dr. Bilal Said No to Dropshipping and Accidentally Pointed Me Somewhere Better",
+pts:["Proposing a dropshipping e-commerce site for the DBS project and getting clearly rejected — Dr. Bilal wanted local production, not Daraz and Amazon","Saying AI/ML without hesitating when offered the alternative, committing to cloud deployment before fully knowing what that meant","How the e-commerce confusion that derailed many students led directly to this portfolio project and the AI/ML direction I actually wanted"],
+body:`<h3>The DBS project brief and my first idea</h3>
+<p>Second semester. Dr. Bilal — who teaches both Programming Fundamentals in first semester and Database Systems in second — gave us the DBS project brief. Build a working website using WordPress, XAMPP or WAMP, and a MySQL database. The theme: e-commerce, specifically grounded in things that your city has or produces. Local goods, local commerce, local data. I thought about Bhalwal. I genuinely tried to think of what Bhalwal produces, what it has, what I could build an e-commerce site around. Nothing obvious came to mind. So I came to Dr. Bilal with what I thought was a smart alternative: a dropshipping platform that sources from Daraz and Amazon. You do not need to have the product if you can source it digitally. Modern. Scalable. Dr. Bilal said no. Clearly and without much deliberation. The point of the project was local production and local commerce. Sourcing from Daraz and Amazon was the exact opposite of that brief.</p>
+<div class="pq"><p>"He said no clearly. And then he gave me two options that changed the direction of my entire semester."</p></div>
+<h3>Two options and an immediate answer</h3>
+<p>He offered alternatives: write blog posts with keywords he would provide, or shift the entire project to AI, ML, or Deep Learning. I said AI/ML without hesitating. He looked at me and asked: will you host your model on the cloud? I said yes. He nodded. I walked out having committed to something I had never done before — a full AI/ML project, solo, with cloud deployment as a non-negotiable requirement. This was my first time working completely alone on a project. In first semester, the ML weather prediction model had been done with Muhammad Tahir Yaqoob, my roommate, who made everything smoother. Now there was no partner. I had intended to keep it that way — when a classmate asked if there was room in my project, I said I was working alone. Another classmate was trying to form a group of three, which exceeded the pair limit. I ended up paired with Muhammad Umair after those logistics settled. Then classes moved online and Dr. Bilal dropped the e-commerce requirement entirely, shifting the class to this portfolio project and the AI/ML work.</p>
+<h3>What the rejection actually gave me</h3>
+<p>Looking back, the dropshipping rejection was one of the better things that happened in second semester. Blog posts would have been comfortable, low-risk, and forgettable. Saying yes to AI/ML with cloud deployment was uncomfortable, higher-risk, and exactly the kind of thing that forces you to grow into the answer rather than arriving with it. Database Systems is where I am learning SQL, how to structure data, how to build something a real application can run on. The combination of that technical foundation with the AI/ML direction on top of it is exactly the overlap I want to be working in. <em>Dr. Bilal saying no to my first idea was, accidentally, pointing me precisely where I needed to go.</em></p>`},
+
+{num:"08",title:"The Train Home, the Razai, and What Bhalwal Feels Like After Months Away",
+pts:["Ramadan, online classes, regional wars, petrol prices — the moment second semester moved from the hostel to home in the space of a single week","Taking the train back to Bhalwal for the first time with friends, carrying the razai, discovering it was cheaper and easier than the bus ever was","Abdullah Khalid, Abdullah Sikandar, and the specific feeling of returning to a city that already knows you after months of building yourself in one that did not"],
+body:`<h3>Ramadan in the hostel, war on the news, classes online</h3>
+<p>Second semester started on campus and then, about four to five weeks in, shifted online. The reason was regional disruption — war between Iran, Israel, and America; tension between Afghanistan and Pakistan; petrol prices rising sharply. The university moved to online classes. We went home. It was Ramadan. I had been at the hostel for weeks, going back to Bhalwal every two to three weeks the way I had been doing all year — train one way, bus the other, depending on availability and timing. This trip home was different because it was carrying more — literally. The semester break meant bringing back the razai, the thick winter blankets that had kept me warm in the hostel. They needed washing and there was no point leaving them behind with classes moved online. Blankets are big and heavy and awkward on a bus. They are not awkward on a train.</p>
+<h3>The first time I took the train back with friends</h3>
+<p>This was actually the first time I took the train back from university with friends rather than alone or with strangers. Batchmates were on this trip. Taking a train with people you know changes the journey. The space in the train was large enough for the razai without the anxious logistics of fitting something oversized into a bus overhead rack. The journey was cheaper than the bus. My home is near the station in Bhalwal, which meant the last part of the trip was easy. It all worked out in a way that felt, for once, genuinely convenient.</p>
+<div class="pq"><p>"The train was cheaper. The razai fit easily. My home is near the station. Some things, occasionally, just go right."</p></div>
+<h3>What coming back to Bhalwal feels like</h3>
+<p>I do not experience Bhalwal as smaller — I experience it as home. Abdullah Khalid and Abdullah Sikandar are there — my two closest friends, the people I have known the longest and trust the most. The streets are familiar in the way that only streets you grew up on can be familiar. The city does not have everything, but it has the specific things that matter to me. After months in the hostel — navigating the routes, learning the city, building the kind of independent competence that only comes from being away from home — returning to Bhalwal feels like rest in a way that goes beyond being tired. It is the feeling of being somewhere that already knows you. <em>I think about Bhalwal a lot when I am studying late at night. It is the reason I work as hard as I do.</em></p>`},
+
+{num:"09",title:"What 3.91 Actually Looks Like From the Inside",
+pts:["The real cost behind the number: a quiz with 3 marks, weeks of lost focus, a B in Fehm ul Quran, and 2 AM sessions nobody sees on a transcript","The subjects where I found myself — PF labs I stayed late for voluntarily, AICT with Ma'am Munnazza, the Seerat ul Nabi presentation","What the Honahaar Scholarship meant practically and personally — the documents trip and what that recognition said about where the semester ended"],
+body:`<h3>The number and what is behind it</h3>
+<p>3.91 CGPA. Second highest in my class. The first was my groupmate, the third was also my groupmate. I say this not to brag — I say it because the context matters. The people who were around me all semester, in the same labs and the same lectures and dealing with the same CR/GR delays and the same printer problems and the same smoggy winter mornings — they were the competition. Finishing second in that group, with those people, means something different from finishing second in a class of strangers.</p>
+<p>The number looks clean from the outside. A CGPA on a transcript does not show the quiz I got three marks in. It does not show the Fehm ul Quran B that came from sleeping in lectures I found too theoretical to engage with while exhausted. It does not show the weeks after a groupmate transferred to Lahore when I lost focus and had to pull myself back. It does not show the 2 AM sessions or the lab reports I rewrote because the first version was not something I was proud of.</p>
+<div class="pq"><p>"A CGPA does not show the quiz where I got 3 marks. Or the weeks I lost focus. Or the 2 AM sessions that rebuilt it."</p></div>
+<h3>The subjects where I found myself</h3>
+<p>Programming Fundamentals was the subject I loved the most, and it showed. Python clicked for me in the way that practical, logical work always clicks — I could trace the problem, test the fix, see the output change. The PF labs were where I spent the most voluntary time, where I stayed late not because I had to but because I wanted the program to be good. AICT with Ma'am Munnazza had a different quality — the Seerat ul Nabi (PBUH) presentation, the technical labs, the mix of skills it required. Calculus I and Discrete Mathematics were subjects where the mathematical component played to my strengths. Even Applied Physics, where I started badly and ended at A−, taught me something real about the difference between understanding loosely and understanding well enough to perform under exam conditions.</p>
+<h3>What the Honahaar Scholarship meant</h3>
+<p>The Honahaar Scholarship came from the grades. But the trip to Lahore to submit the documents — the complications, the back-and-forth, the process that was less straightforward than I had expected — that was its own kind of test. I got through it. The scholarship came through. I want to be honest: I needed it. The financial reality of being a student from Bhalwal living in a hostel is not negligible. The scholarship was recognition and it was also practical support. I am grateful for both. <em>Gratitude and ambition are not contradictions. One is the acknowledgment of where I am. The other is the refusal to stop there.</em></p>`},
+
+{num:"10",title:"What I Would Tell the Version of Me Who Arrived at UET Not Knowing the Routes",
+pts:["On Programming Fundamentals: fall into it completely — stop when the code is right not when it runs, and trust what the late nights are building","On the hard things: the groupmate who leaves, the laptop trip on a packet of grains, the Honahaar complications — all temporary except what they teach you","On Database Systems in 2nd semester: when Dr. Bilal rejects your first idea, the replacement is always pointing somewhere better"],
+body:`<h3>A letter, honestly</h3>
+<p>Dear first-semester me. You are at the hostel. You do not know the bus routes yet. You do not know which canteen is better or how the lab submission system works or which teachers start on time and which ones run late — and that you should never assume the late ones are always late. You have your laptop, your bag, and two best friends — Abdullah Khalid and Abdullah Sikandar — back in Bhalwal who you already miss more than you expected to. You are about to have a semester that is harder and better than anything you can currently imagine. Here is what I would tell you.</p>
+<h3>On Programming Fundamentals: fall into it completely</h3>
+<p>You are going to love PF. Let yourself love it without reservation. Dr. Bilal is exacting and that is exactly what you need. When you stay up until 2 AM rewriting code that already works because you do not like its structure — that is not obsession, that is the right instinct. The perfectionism that feels excessive in those late-night sessions is the thing that will produce a project you are genuinely proud to present at the exhibition. When seniors come to test what you understand, you will be ready. You will be ready because you did not stop when the program ran. You stopped when the program was right. Keep doing that.</p>
+<div class="pq"><p>"Stop when the program is right. Not when it runs. There is a difference, and it is everything."</p></div>
+<h3>On the hard things: they are all temporary except what they teach you</h3>
+<p>A groupmate you get close to is going to transfer to Lahore and you are going to lose focus for a while. What I want you to know is that the studying you do after she leaves is the best studying of the semester. The loss becomes fuel in a way you will not fully understand until you are on the other side of it. The CR/GR chaos that follows will be annoying but manageable. The laptop repair trip — a full day navigating an unfamiliar Lahore on a single packet of grains, a sold-out bus that still runs, four kilometres on foot through Faisalabad, a proper meal when you finally reach your room, and then opening the laptop just to check everything is still there — that is going to happen too. You do not know yet that you are that kind of person. That trip will show you. The Honahaar trip with all its document complications — push through it. The scholarship is real and it matters.</p>
+<h3>On Database Systems in 2nd semester: trust the process even when the first idea gets rejected</h3>
+<p>Dr. Bilal is going to reject your dropshipping idea. He is going to offer you blog posts or AI/ML. Say AI/ML. Say it without hesitating, the way you actually will say it. Commit to the cloud deployment the way you actually will commit to it. Working alone on a project for the first time is uncomfortable and that discomfort is exactly what it is supposed to feel like. Database Systems — the SQL, the structure, the logic of how data relates to data — is going to connect to everything you already love about programming. Dr. Bilal teaching both PF and DBS is not a coincidence. The thread between them is real. <em>You will find it. Keep pulling it.</em></p>
+<p>You are going to be okay. More than okay. Come back from Bhalwal after Eid and get to work. The mids are coming and you are more ready than you think.</p>
+<p style="margin-top:2rem;font-style:italic;color:var(--mu);">— Zain, 2nd semester, writing this from the same hostel, past midnight, train tickets already booked for next time.</p>`}
+];
+
+function buildIdx(){
+  const el=document.getElementById('ail');
+  A.forEach((a,i)=>{
+    const pts=a.pts.map(p=>`<li>${p}</li>`).join('');
+    el.innerHTML+=`<div class="air rv" onclick="openArt(${i})"><div class="airn">${a.num}</div><div><div class="airt">${a.title}</div><ul class="airpts">${pts}</ul></div><div class="aira">→</div></div>`;
+  });
+  document.querySelectorAll('.rv:not(.in)').forEach(el=>io.observe(el));
+}
+
+function renderArt(i){
+  const a=A[i];
+  const prev=i>0?`<button class="anb" onclick="renderArt(${i-1});document.getElementById('art-reader').scrollTo(0,0)"><span class="dir">← Previous</span><span class="ttl">${A[i-1].title}</span></button>`:`<div></div>`;
+  const next=i<A.length-1?`<button class="anb r" onclick="renderArt(${i+1});document.getElementById('art-reader').scrollTo(0,0)"><span class="dir">Next →</span><span class="ttl">${A[i+1].title}</span></button>`:`<div></div>`;
+  document.getElementById('arc').innerHTML=`<div class="arhdr"><div class="arnum">${a.num}</div><h1 class="arh1">${a.title}</h1><div class="arby"><span>Syed Muhammad Zain</span> · <span>BS CE · UET Lahore Campus Faisalabad</span></div></div><div class="abody">${a.body}</div><div class="arfootnav">${prev}<button class="anback" onclick="goPortfolio()">↑ Back to Portfolio</button>${next}</div>`;
+}
+
+buildIdx();
+</script>
+</body>
+</html>
