@@ -1,87 +1,34 @@
----
-title: "About"
-permalink: "/about/"
-layout: page
----
+# Syed Muhammad Zain
 
-## Github Pages
+This repository powers a simple personal site built with Jekyll. The site is structured around a short homepage, a posts index, and reusable post layouts so new writing can be added without editing multiple pages.
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `your_username.github.io` and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+## Site Structure
 
-## Features
+- `index.html` contains the homepage.
+- `blog.html` lists all posts automatically.
+- `about.html` and `contact.html` are kept short and stable.
+- `_posts/` contains all published posts.
+- `posts/` keeps lightweight redirects for older article URLs.
+- `_layouts/` contains the shared page and post templates.
+- `_includes/post-card.html` renders each post preview.
+- `assets/css/portfolio.css` contains the theme system and site styling.
+- `assets/js/site.js` handles theme switching and tag filtering.
+- `templates/post-template.md` is the reusable template for new posts.
 
- - dark mode
- - [KaTeX](https://katex.org) included
- - no external ressources
- - optional sidebar
- - archive page
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+## Adding a New Post
 
-## Installation
+1. Copy `templates/post-template.md`.
+2. Paste it into `_posts/`.
+3. Rename the file using the format `YYYY-MM-DD-your-post-slug.md`.
+4. Replace the front matter fields and write the post content.
+5. Commit and push.
 
-To run locally [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) and then run:
+The new post will appear automatically on the posts page and in the recent posts section on the homepage.
 
-```
-git clone https://github.com/niklasbuschmann/contrast.git
-cd contrast
-gem install bundler jekyll jekyll-feed
-bundle exec jekyll serve
-```
+## Theme
 
-## Config
+The site supports light and dark themes.
 
-Your `_config.yml` could for example look like this:
-
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
-
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
-
-plugins:
- - jekyll-feed
-```
-
-## Math
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter. [Jektex](https://github.com/yagarea/jektex) can be used to pre-render math on the server side.
-
-## License
-
-[public domain](http://unlicense.org/)
-
-## Screenshots
-
-![screenshot](https://github.com/user-attachments/assets/8f0ef4bc-f079-495e-8c31-5867b8ccd25c)
-
-![screenshot](https://github.com/user-attachments/assets/e5e6d189-3251-41f4-baba-ff42be65f666)
-
-![screenshot](https://github.com/user-attachments/assets/d31879ae-7113-42be-b580-1e96a2aedd29)
-
-![screenshot](https://github.com/user-attachments/assets/d524ce47-8d8c-473e-afc6-79b34fae63e8)
+- On first visit, it follows the system color preference.
+- The theme button in the header switches between light and dark.
+- The chosen theme is saved in `localStorage`.
