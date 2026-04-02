@@ -1,51 +1,36 @@
 ---
 layout: site
 ---
-<div class="post-layout">
-  <div class="post-main">
-    <section class="post-hero">
-      <div class="post-meta">
-        {% if page.topic %}<span class="tag">{{ page.topic }}</span>{% endif %}
-        {% if page.period %}<span class="tag alt">{{ page.period }}</span>{% endif %}
-        <span class="tag alt">{{ page.date | date: "%d %b %Y" }}</span>
-      </div>
-      <h1>{{ page.title }}</h1>
-      {% if page.summary %}
-      <p class="page-intro">{{ page.summary }}</p>
-      {% endif %}
-      {% if page.quote %}
-      <div class="quote">{{ page.quote }}</div>
-      {% endif %}
-    </section>
-
-    <article class="post-body">
-      {{ content }}
-    </article>
-  </div>
-
-  <aside class="post-sidebar">
-    {% if page.reflection_points %}
-    <div class="sidebar-block">
-      <h2>Key Points</h2>
-      <ul class="reflection-list">
-        {% for point in page.reflection_points %}
-        <li>{{ point }}</li>
+<article class="post">
+  <header class="panel post-header">
+    <p class="eyebrow">Post</p>
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta-row">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.tags %}
+      <div class="tag-list">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
         {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
-
-    <div class="sidebar-block">
-      <h2>Continue Reading</h2>
-      <div class="sidebar-links">
-        <a href="{{ '/blog/' | relative_url }}">Back to Insights</a>
-        {% if page.next %}
-        <a href="{{ page.next.url | relative_url }}">Another Insight</a>
-        {% endif %}
-        {% if page.previous %}
-        <a href="{{ page.previous.url | relative_url }}">Keep Reading</a>
-        {% endif %}
       </div>
+      {% endif %}
     </div>
-  </aside>
-</div>
+    {% if page.summary %}
+    <p class="lead post-summary">{{ page.summary }}</p>
+    {% endif %}
+  </header>
+
+  <div class="panel post-content">
+    {{ content }}
+  </div>
+</article>
+
+<nav class="post-nav" aria-label="Post navigation">
+  <a class="post-nav-link" href="{{ '/blog/' | relative_url }}">Back to Posts</a>
+  {% if page.previous %}
+  <a class="post-nav-link" href="{{ page.previous.url | relative_url }}">Previous: {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next %}
+  <a class="post-nav-link" href="{{ page.next.url | relative_url }}">Next: {{ page.next.title }}</a>
+  {% endif %}
+</nav>

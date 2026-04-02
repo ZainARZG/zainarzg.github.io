@@ -1,32 +1,12 @@
 title: "Syed Muhammad Zain"
 author: "Syed Muhammad Zain"
-description: "Computer Engineering student exploring software, data systems, and machine learning."
-permalink: /insights/:title/
+description: "Personal site and writing space of Syed Muhammad Zain."
+url: "https://zainarzg.github.io"
+baseurl: ""
 lang: "en"
+timezone: "Asia/Karachi"
+permalink: /insights/:title/
 excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
-
-#show_frame: "/assets/images/background.svg"
-
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:
-  - {file: "index.html", title: "Home", sidebaricon: home}
-  - {file: "about.html", title: "About", sidebaricon: user}
-  - {file: "blog.html", title: "Insights", sidebaricon: address-card}
-  - {file: "contact.html", title: "Contact", sidebaricon: envelope}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:ZAINMUAMMAD160@GMAIL.COM"}
-  - {title: Github, icon: github, url: "https://github.com/ZAINARZG"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 defaults:
   - scope:
@@ -38,12 +18,9 @@ defaults:
       body_class: page-post
 
 exclude:
-  - posts
+  - Gemfile
+  - Gemfile.lock
   - templates
 
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
-
 plugins:
- - jekyll-feed
+  - jekyll-feed

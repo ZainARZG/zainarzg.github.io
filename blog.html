@@ -1,34 +1,42 @@
 ---
 layout: site
-title: Insights
-description: "Writing by Syed Muhammad Zain on coursework, projects, technical growth, and student life in Computer Engineering."
+title: Posts
+description: "All posts by Syed Muhammad Zain."
 nav: blog
 body_class: page-blog
 permalink: /blog/
 ---
-<section class="story-grid">
-  <article class="panel page-hero">
-    <span class="eyebrow">Insights</span>
-    <h1 class="page-title">Writing on coursework, projects, growth, and the reality of learning engineering.</h1>
-    <p class="page-intro">
-      This space holds reflections from my academic journey, technical interests, and the moments that have shaped
-      the way I think about software, data systems, and long-term growth in Computer Engineering.
-    </p>
-  </article>
-
-  <aside class="panel collection-card">
-    <span class="eyebrow">What You Will Find</span>
-    <h2 class="section-title">A growing collection of thoughtful technical writing.</h2>
-    <ul class="collection-list">
-      <li>Coursework reflections from Programming Fundamentals, Database Systems, and beyond.</li>
-      <li>Project notes and lessons that stayed with me after the work was finished.</li>
-      <li>Writing that connects technical growth with the everyday reality of student life.</li>
-    </ul>
-  </aside>
+<section class="panel page-intro-panel">
+  <p class="eyebrow">Posts</p>
+  <h1>Writing collected in one place.</h1>
+  <p class="lead">
+    Essays, notes, and reflections from coursework, projects, and the ongoing process of learning.
+  </p>
 </section>
 
-<section class="article-grid">
+{% assign sorted_tags = site.tags | sort %}
+{% if sorted_tags.size > 0 %}
+<section class="panel filter-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Filter</p>
+    <h2>Browse by tag</h2>
+  </div>
+  <div class="filter-bar" data-filter-bar>
+    <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+    {% for tag in sorted_tags %}
+    <button class="filter-chip" type="button" data-filter="{{ tag[0] | slugify }}" aria-pressed="false">{{ tag[0] }}</button>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="post-grid" data-post-grid>
   {% for post in site.posts %}
     {% include post-card.html post=post %}
   {% endfor %}
 </section>
+{% if site.posts.size == 0 %}
+<section class="panel">
+  <p>No posts have been published yet.</p>
+</section>
+{% endif %}

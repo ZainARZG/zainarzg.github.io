@@ -5,14 +5,12 @@ description: "The page you are looking for could not be found."
 body_class: page-404
 permalink: /404.html
 ---
-<section class="panel empty-state">
-  <span class="eyebrow">404</span>
-  <h1 class="page-title">This page could not be found.</h1>
-  <p class="page-intro" style="margin: 18px auto 0;">
-    The link may be outdated or the page may have moved. You can continue from the main pages below.
-  </p>
-  <div class="button-row" style="justify-content: center;">
+<section class="panel page-intro-panel">
+  <p class="eyebrow">404</p>
+  <h1>This page could not be found.</h1>
+  <p class="lead">The link may be outdated or the page may have moved.</p>
+  <div class="button-row">
     <a class="btn btn-primary" href="{{ '/' | relative_url }}">Go Home</a>
-    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Open Insights</a>
+    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Open Posts</a>
   </div>
 </section>
