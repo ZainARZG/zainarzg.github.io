@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+</head>
+<body class="{{ page.body_class }}">
+  <div class="site-shell">
+    {% assign current_nav = page.nav | default: page.layout %}
+    <header class="site-header">
+      <a class="brand" href="{{ '/index.html' | relative_url }}">
+        <span class="brand-kicker">Syed Muhammad Zain</span>
+        <span class="brand-title">Computer Engineering</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link{% if current_nav == 'home' %} is-active{% endif %}" href="{{ '/index.html' | relative_url }}"{% if current_nav == 'home' %} aria-current="page"{% endif %}>Home</a>
+        <a class="nav-link{% if current_nav == 'about' %} is-active{% endif %}" href="{{ '/about.html' | relative_url }}"{% if current_nav == 'about' %} aria-current="page"{% endif %}>About</a>
+        <a class="nav-link{% if current_nav == 'blog' or current_nav == 'post' %} is-active{% endif %}" href="{{ '/blog.html' | relative_url }}"{% if current_nav == 'blog' or current_nav == 'post' %} aria-current="page"{% endif %}>Insights</a>
+        <a class="nav-link{% if current_nav == 'contact' %} is-active{% endif %}" href="{{ '/contact.html' | relative_url }}"{% if current_nav == 'contact' %} aria-current="page"{% endif %}>Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-note">
+        <span class="footer-title">Syed Muhammad Zain</span>
+        <span>Computer Engineering student focused on software, data systems, and machine learning.</span>
+      </div>
+      <div class="footer-links">
+        <a href="{{ '/index.html' | relative_url }}">Home</a>
+        <a href="{{ '/about.html' | relative_url }}">About</a>
+        <a href="{{ '/blog.html' | relative_url }}">Insights</a>
+        <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

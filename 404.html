@@ -1,55 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Not Found | Syed Muhammad Zain</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/portfolio.css">
-</head>
-<body class="page-404">
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="brand" href="/index.html">
-        <span class="brand-kicker">Portfolio</span>
-        <span class="brand-title">Syed Muhammad Zain</span>
-      </a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="/index.html">Home</a>
-        <a class="nav-link" href="/about.html">About</a>
-        <a class="nav-link" href="/blog.html">Blog</a>
-        <a class="nav-link" href="/contact.html">Contact Us</a>
-      </nav>
-    </header>
-
-    <main class="page">
-      <section class="panel empty-state">
-        <span class="eyebrow">404</span>
-        <h1 class="page-title">This page does not exist.</h1>
-        <p class="page-intro" style="margin: 18px auto 0;">
-          The link may be broken or the page may have moved. The main portfolio pages are still available below.
-        </p>
-        <div class="button-row" style="justify-content: center;">
-          <a class="btn btn-primary" href="/index.html">Go Home</a>
-          <a class="btn btn-secondary" href="/blog.html">Open Blog</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-note">
-        <span class="footer-title">Syed Muhammad Zain</span>
-        <span>The main pages are still available if you want to continue exploring the portfolio.</span>
-      </div>
-      <div class="footer-links">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/contact.html">Contact Us</a>
-      </div>
-    </footer>
+---
+layout: site
+title: Page Not Found
+description: "The page you are looking for could not be found."
+body_class: page-404
+---
+<section class="panel empty-state">
+  <span class="eyebrow">404</span>
+  <h1 class="page-title">This page could not be found.</h1>
+  <p class="page-intro" style="margin: 18px auto 0;">
+    The link may be outdated or the page may have moved. You can continue from the main pages below.
+  </p>
+  <div class="button-row" style="justify-content: center;">
+    <a class="btn btn-primary" href="{{ '/index.html' | relative_url }}">Go Home</a>
+    <a class="btn btn-secondary" href="{{ '/blog.html' | relative_url }}">Open Insights</a>
   </div>
-</body>
-</html>
+</section>

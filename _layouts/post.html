@@ -1,34 +1,51 @@
 ---
-layout: default
+layout: site
 ---
+<div class="post-layout">
+  <div class="post-main">
+    <section class="post-hero">
+      <div class="post-meta">
+        {% if page.topic %}<span class="tag">{{ page.topic }}</span>{% endif %}
+        {% if page.period %}<span class="tag alt">{{ page.period }}</span>{% endif %}
+        <span class="tag alt">{{ page.date | date: "%d %b %Y" }}</span>
+      </div>
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}
+      <p class="page-intro">{{ page.summary }}</p>
+      {% endif %}
+      {% if page.quote %}
+      <div class="quote">{{ page.quote }}</div>
+      {% endif %}
+    </section>
 
-<article>
-  {% include meta.html post=page %}
-  {% if page.summary %}
-  <p><em>{{ page.summary }}</em></p>
-  {% endif %}
-  {% if page.subpoints %}
-  <ul>
-    {% for point in page.subpoints %}
-    <li>{{ point }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-  {{ content }}
-  {% if site.comments.isso_domain or site.comments.disqus_shortname %}
-    <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
-    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
-    <noscript>Please enable JavaScript to view comments.</noscript>
-  {% endif %}
-</article>
+    <article class="post-body">
+      {{ content }}
+    </article>
+  </div>
 
-{% unless site.show_minimal or site.footer %}
-{% if page.next.url or page.previous.url %}
-<footer class="nowrap {% if site.show_frame %}dark{% else %}smooth{% endif %}">
-  <a href="{{ '/blog/' | relative_url }}">Back to Blog</a>
-  {% if page.next.url %}<a href="{{ page.next.url | relative_url }}">Older: {{ page.next.title }}</a>{% endif %}
-  {% if page.previous.url %}<a href="{{ page.previous.url | relative_url }}">Newer: {{ page.previous.title }}</a>{% endif %}
-</footer>
-{% endif %}
-{% endunless %}
+  <aside class="post-sidebar">
+    {% if page.reflection_points %}
+    <div class="sidebar-block">
+      <h2>Key Points</h2>
+      <ul class="reflection-list">
+        {% for point in page.reflection_points %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <div class="sidebar-block">
+      <h2>Continue Reading</h2>
+      <div class="sidebar-links">
+        <a href="{{ '/blog.html' | relative_url }}">Back to Insights</a>
+        {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}">Another Insight</a>
+        {% endif %}
+        {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}">Keep Reading</a>
+        {% endif %}
+      </div>
+    </div>
+  </aside>
+</div>

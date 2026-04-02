@@ -1,7 +1,7 @@
-title: "Syed's Portfolio"
+title: "Syed Muhammad Zain"
 author: "Syed Muhammad Zain"
-description: "Computer Engineering journey, projects, and reflections."
-permalink: /:title/
+description: "Computer Engineering student exploring software, data systems, and machine learning."
+permalink: /insights/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -20,13 +20,26 @@ show_minimal: false             # remove all clutter
 navigation:
   - {file: "index.html", title: "Home", sidebaricon: home}
   - {file: "about.html", title: "About", sidebaricon: user}
-  - {file: "blog.html", title: "Blog", sidebaricon: address-card}
-  - {file: "contact.html", title: "Contact Us", sidebaricon: envelope}
+  - {file: "blog.html", title: "Insights", sidebaricon: address-card}
+  - {file: "contact.html", title: "Contact", sidebaricon: envelope}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:ZAINMUAMMAD160@GMAIL.COM"}
   - {title: Github, icon: github, url: "https://github.com/ZAINARZG"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      nav: blog
+      body_class: page-post
+
+exclude:
+  - posts
+  - templates
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
