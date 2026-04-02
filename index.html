@@ -1,17 +1,11 @@
 ---
-layout: default
-title: "Home"
+layout: page
+title: ""
 ---
 
-{% if site.show_excerpts %}
-  {% for post in site.posts %}
-    <article>
-      {% include meta.html post=post %}
-      {{ post.excerpt }}
-      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
-    </article>
-  {% endfor %}
-{% else %}
-  {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
-  {{ source | split: "---" | last }}
-{% endif %}
+# Syed Muhammad Zain Shah
+
+Computer Engineering Student at UET Faisalabad
+
+- Email: Zainmuhammad160@gmail.com
+- GitHub: [ZainARZG](https://github.com/ZainARZG)
