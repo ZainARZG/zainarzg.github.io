@@ -404,12 +404,6 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.resume-grid {
-  display: grid;
-  gap: var(--space-4);
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .post-card[hidden] {
   display: none;
 }
@@ -552,50 +546,6 @@ p {
   border-color: var(--line-strong);
 }
 
-.resume-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--space-4);
-}
-
-.resume-heading {
-  display: grid;
-  gap: var(--space-3);
-}
-
-.resume-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  justify-content: flex-end;
-}
-
-.resume-panel {
-  display: grid;
-  gap: var(--space-3);
-}
-
-.resume-list {
-  display: grid;
-  gap: 10px;
-  padding-left: 1.2rem;
-}
-
-.resume-projects {
-  display: grid;
-  gap: var(--space-4);
-}
-
-.resume-project {
-  display: grid;
-  gap: 10px;
-  padding: var(--space-4);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-  background: var(--surface-muted);
-}
-
 .site-footer {
   display: flex;
   align-items: center;
@@ -622,7 +572,6 @@ p {
 
 @media (max-width: 980px) {
   .split-grid,
-  .resume-grid,
   .contact-grid,
   .post-grid {
     grid-template-columns: 1fr;
@@ -644,14 +593,6 @@ p {
   .site-nav {
     justify-content: flex-start;
   }
-
-  .resume-header {
-    flex-direction: column;
-  }
-
-  .resume-actions {
-    justify-content: flex-start;
-  }
 }
 
 @media (max-width: 640px) {
@@ -666,7 +607,6 @@ p {
   }
 
   .button-row,
-  .resume-actions,
   .post-nav,
   .footer-links {
     flex-direction: column;
@@ -689,40 +629,5 @@ p {
   *::after {
     transition: none !important;
     animation: none !important;
-  }
-}
-
-@media print {
-  body {
-    background: #ffffff;
-    color: #000000;
-  }
-
-  .site-header,
-  .site-footer,
-  .skip-link,
-  .theme-toggle {
-    display: none !important;
-  }
-
-  .site-shell {
-    width: 100%;
-    padding: 0;
-  }
-
-  .page {
-    gap: 18px;
-    padding-top: 0;
-  }
-
-  .panel,
-  .resume-project {
-    box-shadow: none;
-    border-color: #d0d7de;
-    break-inside: avoid;
-  }
-
-  .btn {
-    display: none !important;
   }
 }
