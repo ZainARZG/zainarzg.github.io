@@ -3,6 +3,7 @@ layout: site
 title: Page Not Found
 description: "The page you are looking for could not be found."
 body_class: page-404
+permalink: /404.html
 ---
 <section class="panel empty-state">
   <span class="eyebrow">404</span>
@@ -11,7 +12,7 @@ body_class: page-404
     The link may be outdated or the page may have moved. You can continue from the main pages below.
   </p>
   <div class="button-row" style="justify-content: center;">
-    <a class="btn btn-primary" href="{{ '/index.html' | relative_url }}">Go Home</a>
-    <a class="btn btn-secondary" href="{{ '/blog.html' | relative_url }}">Open Insights</a>
+    <a class="btn btn-primary" href="{{ '/' | relative_url }}">Go Home</a>
+    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Open Insights</a>
   </div>
 </section>

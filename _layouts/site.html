@@ -14,15 +14,15 @@
   <div class="site-shell">
     {% assign current_nav = page.nav | default: page.layout %}
     <header class="site-header">
-      <a class="brand" href="{{ '/index.html' | relative_url }}">
+      <a class="brand" href="{{ '/' | relative_url }}">
         <span class="brand-kicker">Syed Muhammad Zain</span>
         <span class="brand-title">Computer Engineering</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link{% if current_nav == 'home' %} is-active{% endif %}" href="{{ '/index.html' | relative_url }}"{% if current_nav == 'home' %} aria-current="page"{% endif %}>Home</a>
-        <a class="nav-link{% if current_nav == 'about' %} is-active{% endif %}" href="{{ '/about.html' | relative_url }}"{% if current_nav == 'about' %} aria-current="page"{% endif %}>About</a>
-        <a class="nav-link{% if current_nav == 'blog' or current_nav == 'post' %} is-active{% endif %}" href="{{ '/blog.html' | relative_url }}"{% if current_nav == 'blog' or current_nav == 'post' %} aria-current="page"{% endif %}>Insights</a>
-        <a class="nav-link{% if current_nav == 'contact' %} is-active{% endif %}" href="{{ '/contact.html' | relative_url }}"{% if current_nav == 'contact' %} aria-current="page"{% endif %}>Contact</a>
+        <a class="nav-link{% if current_nav == 'home' %} is-active{% endif %}" href="{{ '/' | relative_url }}"{% if current_nav == 'home' %} aria-current="page"{% endif %}>Home</a>
+        <a class="nav-link{% if current_nav == 'about' %} is-active{% endif %}" href="{{ '/about/' | relative_url }}"{% if current_nav == 'about' %} aria-current="page"{% endif %}>About</a>
+        <a class="nav-link{% if current_nav == 'blog' or current_nav == 'post' %} is-active{% endif %}" href="{{ '/blog/' | relative_url }}"{% if current_nav == 'blog' or current_nav == 'post' %} aria-current="page"{% endif %}>Insights</a>
+        <a class="nav-link{% if current_nav == 'contact' %} is-active{% endif %}" href="{{ '/contact/' | relative_url }}"{% if current_nav == 'contact' %} aria-current="page"{% endif %}>Contact</a>
       </nav>
     </header>
 
@@ -36,10 +36,10 @@
         <span>Computer Engineering student focused on software, data systems, and machine learning.</span>
       </div>
       <div class="footer-links">
-        <a href="{{ '/index.html' | relative_url }}">Home</a>
-        <a href="{{ '/about.html' | relative_url }}">About</a>
-        <a href="{{ '/blog.html' | relative_url }}">Insights</a>
-        <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/blog/' | relative_url }}">Insights</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
       </div>
     </footer>
   </div>

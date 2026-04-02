@@ -4,6 +4,7 @@ title: Home
 description: "Syed Muhammad Zain is a Computer Engineering student focused on software, data systems, and machine learning."
 nav: home
 body_class: page-home
+permalink: /
 ---
 <section class="hero hero-home">
   <article class="panel hero-copy hero-copy-home">
@@ -15,8 +16,8 @@ body_class: page-home
       stronger, and more useful than where it started.
     </p>
     <div class="button-row">
-      <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}">About Me</a>
-      <a class="btn btn-secondary" href="{{ '/blog.html' | relative_url }}">Latest Writing</a>
+      <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">About Me</a>
+      <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Latest Writing</a>
     </div>
     <div class="hero-note">
       <strong>Current direction</strong>
@@ -102,8 +103,8 @@ body_class: page-home
       </p>
     </div>
     <div class="button-row">
-      <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}">See More Background</a>
-      <a class="btn btn-secondary" href="{{ '/contact.html' | relative_url }}">Get In Touch</a>
+      <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">See More Background</a>
+      <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Get In Touch</a>
     </div>
   </article>
 </section>
@@ -181,7 +182,7 @@ body_class: page-home
     {% endfor %}
   </div>
   <div class="button-row">
-    <a class="btn btn-primary" href="{{ '/blog.html' | relative_url }}">View All Writing</a>
+    <a class="btn btn-primary" href="{{ '/blog/' | relative_url }}">View All Writing</a>
   </div>
 </section>
 
