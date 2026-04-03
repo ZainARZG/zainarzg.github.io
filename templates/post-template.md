@@ -6,6 +6,7 @@ tags:
   - "Tag One"
   - "Tag Two"
 image: "/assets/images/posts/default-post-cover.svg"
+image_alt: "Short description of the post cover image"
 ---
 
 Start with a clear opening paragraph that explains the topic and why it matters.

@@ -23,7 +23,7 @@ layout: site
     </div>
 
     <figure class="post-hero-media">
-      <img src="{{ post_image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+      <img src="{{ post_image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" decoding="async">
     </figure>
   </header>
 

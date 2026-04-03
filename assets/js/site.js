@@ -41,7 +41,7 @@ function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
   const themeMeta = document.querySelector('meta[name="theme-color"]');
   if (themeMeta) {
-    themeMeta.setAttribute("content", theme === "dark" ? "#0d1523" : "#f5f7fb");
+    themeMeta.setAttribute("content", theme === "dark" ? "#0a1220" : "#f3f6fb");
   }
   updateThemeToggle(theme);
 }

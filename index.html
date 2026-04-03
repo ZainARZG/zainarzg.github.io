@@ -14,50 +14,64 @@ image: /assets/images/site/site-preview.svg
     <p class="eyebrow">{{ profile.name }}</p>
     <h1>{{ profile.headline }}</h1>
     <p class="lead">{{ profile.hero_copy }}</p>
+    <p class="hero-purpose">{{ profile.site_purpose }}</p>
     <div class="button-row">
       <a class="btn btn-primary" href="{{ '/blog/' | relative_url }}">Read Posts</a>
       <a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About</a>
       <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
+    <div class="hero-pill-row">
+      <span class="tag">{{ profile.degree }}</span>
+      <span class="tag">Writing archive</span>
+      <span class="tag">{{ profile.highlight }}</span>
+    </div>
   </div>
 
-  <aside class="hero-aside">
-    <p class="eyebrow">Snapshot</p>
-    <h2>Grounded in practical work and strong fundamentals.</h2>
-    <div class="stat-list">
-      <div class="stat-item">
-        <span>Degree</span>
-        <strong>{{ profile.degree }}</strong>
+  <aside class="hero-visual-shell">
+    <div class="hero-visual-card">
+      <div class="hero-visual-note">
+        <span class="eyebrow">Current Direction</span>
+        <strong>Software, data, logic, and steady technical growth.</strong>
       </div>
-      <div class="stat-item">
-        <span>University</span>
-        <strong>{{ profile.university }}</strong>
-      </div>
-      <div class="stat-item">
-        <span>Current semester</span>
-        <strong>{{ profile.semester }}</strong>
-      </div>
-      <div class="stat-item">
-        <span>CGPA</span>
-        <strong>{{ profile.cgpa }}</strong>
-      </div>
-      <div class="stat-item">
-        <span>Recognition</span>
-        <strong>{{ profile.highlight }}</strong>
+      <figure class="hero-visual-media">
+        <img src="{{ profile.home_visual | relative_url }}" alt="Abstract visual representing software work, systems thinking, and structured learning" fetchpriority="high">
+      </figure>
+      <div class="hero-stats-ribbon" aria-label="Quick profile details">
+        <div class="hero-stat">
+          <span>Semester</span>
+          <strong>{{ profile.semester }}</strong>
+        </div>
+        <div class="hero-stat">
+          <span>CGPA</span>
+          <strong>{{ profile.cgpa }}</strong>
+        </div>
+        <div class="hero-stat">
+          <span>Based in</span>
+          <strong>{{ profile.location }}</strong>
+        </div>
       </div>
     </div>
   </aside>
 </section>
 
-<section class="spotlight-grid">
+<section class="mini-grid">
+  <article class="panel">
+    <div class="section-heading section-heading-tight">
+      <p class="eyebrow">Purpose</p>
+      <h2>One place for work and writing that can keep growing.</h2>
+    </div>
+    <p>
+      The homepage stays intentionally light so new writing can keep stacking up over time without needing a redesign every time something new is published.
+    </p>
+  </article>
+
   <article class="panel">
     <div class="section-heading section-heading-tight">
       <p class="eyebrow">Current Focus</p>
-      <h2>Software, databases, and systems thinking</h2>
+      <h2>Programming, databases, and digital systems.</h2>
     </div>
     <p>
-      Most of my work keeps circling back to programming, structured data, digital logic, and the kinds
-      of projects where a clear process matters as much as the final result.
+      Most of the work here circles back to structured problem-solving, practical coursework, and projects where the process matters as much as the output.
     </p>
   </article>
 
@@ -68,9 +82,6 @@ image: /assets/images/site/site-preview.svg
     </div>
     <div class="skill-group">
       {% for item in profile.skills.languages %}
-      <span class="tag">{{ item }}</span>
-      {% endfor %}
-      {% for item in profile.skills.foundations %}
       <span class="tag">{{ item }}</span>
       {% endfor %}
       {% for item in profile.skills.tools %}

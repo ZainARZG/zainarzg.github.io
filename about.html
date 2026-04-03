@@ -7,10 +7,15 @@ body_class: page-about
 permalink: /about/
 ---
 {% assign profile = site.data.profile %}
-<section class="panel page-intro-panel">
-  <p class="eyebrow">About</p>
-  <h1>Most at home when a problem has structure and the work leads somewhere useful.</h1>
-  <p class="lead">{{ profile.about_copy }}</p>
+<section class="panel intro-grid">
+  <div class="page-intro-panel">
+    <p class="eyebrow">About</p>
+    <h1>Most at home when a problem has structure and the work leads somewhere useful.</h1>
+    <p class="lead">{{ profile.about_copy }}</p>
+  </div>
+  <figure class="intro-visual">
+    <img src="{{ profile.about_visual | relative_url }}" alt="Abstract visual representing systems thinking, steady learning, and practical engineering work" loading="lazy" decoding="async">
+  </figure>
 </section>
 
 <section class="split-grid">
