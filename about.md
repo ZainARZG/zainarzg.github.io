@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div class="page-hero">
-  <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&q=80" alt="University campus" loading="lazy"/>
+  <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80" alt="Students studying" loading="lazy"/>
 </div>
 <div class="rv"><p class="section-tag">01 — My Story</p><h1>Not the path I<br/>was handed —<br/><em>the one I chose.</em></h1></div>
 
