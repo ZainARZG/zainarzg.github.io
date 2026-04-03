@@ -5,6 +5,8 @@ date: 2025-01-15
 article_num: 6
 tags: [AICT, Presentation, Exhibition]
 cover_svg: default-cover
+cover_image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80"
+cover_alt: "Team meeting and presentation"
 excerpt: "Choosing Seerat ul Nabi (PBUH) as my AICT presentation topic for Ma'am Munnazza — and getting full marks on something that mattered beyond the grade."
 ---
 

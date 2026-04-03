@@ -3,9 +3,11 @@ layout: default
 ---
 <article class="article-page">
   <div class="article-container">
+    {% if page.cover_image %}
     <div class="article-cover">
-      {% if page.cover_svg %}{% include svg/{{ page.cover_svg }}.svg %}{% else %}{% include svg/default-cover.svg %}{% endif %}
+      <img src="{{ page.cover_image }}" alt="{{ page.cover_alt | default: page.title }}" loading="lazy"/>
     </div>
+    {% endif %}
     <header class="article-header">
       {% if page.article_num %}<div class="article-num">{{ page.article_num }}</div>{% endif %}
       <h1>{{ page.title }}</h1>

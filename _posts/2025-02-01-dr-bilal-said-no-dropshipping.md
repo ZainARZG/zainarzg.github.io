@@ -5,6 +5,8 @@ date: 2025-02-01
 article_num: 7
 tags: [AI/ML, Database, Direction]
 cover_svg: ai-ml
+cover_image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+cover_alt: "AI neural network visualization"
 excerpt: "Proposing a dropshipping e-commerce site for the DBS project and getting clearly rejected — Dr. Bilal wanted local production, not Daraz and Amazon."
 ---
 

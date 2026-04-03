@@ -2,6 +2,8 @@
 - title: "Supervised Learning Approach for Next Day Temperature and Precipitation Forecasting in Basel"
   type: "Machine Learning · Supervised Learning · Weather Forecasting"
   semester: "1st Semester"
+  cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80"
+  cover_alt: "Code editor with weather data visualization"
   description: >
     A supervised ML model that forecasts next-day temperature and precipitation using 10 years
     of historical weather data from 18 major European cities. Built on the European Cities Weather
@@ -28,4 +30,9 @@
   link:
     text: "Dataset on Kaggle"
     url: "https://www.kaggle.com/datasets/orvile/european-cities-weather-prediction-dataset"
-  svg: "weather-prediction"
+  repo:
+    text: "Source Code on GitHub"
+    url: "https://github.com/ZainARZG/weather-prediction-basel"
+  report:
+    text: "Project Report"
+    url: "/assets/docs/project-report-pf-zain.pdf"

@@ -5,6 +5,8 @@ date: 2025-02-20
 article_num: 10
 tags: [Letter, Advice, Future]
 cover_svg: reflection
+cover_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
+cover_alt: "Team working on technology together"
 excerpt: "A letter to my first-semester self: on PF, the hard things, Database Systems, and trusting the process even when the first idea gets rejected."
 ---
 

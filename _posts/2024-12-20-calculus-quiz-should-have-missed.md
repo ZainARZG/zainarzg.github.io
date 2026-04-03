@@ -5,6 +5,8 @@ date: 2024-12-20
 article_num: 2
 tags: [Calculus, Grace, Assumptions]
 cover_svg: calculus
+cover_image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+cover_alt: "Mathematical equations and formulas"
 excerpt: "A smoggy winter morning, ironed clothes, forgotten glasses, and arriving 15 minutes late to a quiz that had already started — and the grace that followed."
 ---
 

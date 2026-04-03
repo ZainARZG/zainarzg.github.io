@@ -5,6 +5,8 @@ date: 2024-12-15
 article_num: 1
 tags: [Programming, Python, Late Nights]
 cover_svg: programming
+cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=80"
+cover_alt: "Programming workspace with code on screen"
 excerpt: "How growing up loving computers meant nothing when Dr. Bilal's PF asked me to actually write Python for the very first time — and the build-break-debug loop that made me fall in love."
 ---
 

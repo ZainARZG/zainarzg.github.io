@@ -5,6 +5,8 @@ date: 2025-02-10
 article_num: 8
 tags: [Bhalwal, Train, Home]
 cover_svg: home-train
+cover_image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800&q=80"
+cover_alt: "Train tracks and travel"
 excerpt: "Ramadan, online classes, regional wars, petrol prices — the moment second semester moved from the hostel to home in the space of a single week."
 ---
 

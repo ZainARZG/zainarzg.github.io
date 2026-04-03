@@ -8,9 +8,9 @@ title: Home
     <h1 class="hero-name"><span class="first-name">Syed</span>Muhammad <span class="last-name">Zain</span></h1>
     <p class="hero-desc">From <strong>{{ site.data.profile.location.city }}, {{ site.data.profile.location.district }}</strong> — a city I love for everything it is, not what it isn't.<br/>A night-owl engineer who doesn't stop until it's <strong>right</strong>, not just done.<br/>Building toward one place: <strong>{{ site.data.profile.tagline }}</strong> in AI &amp; ML.</p>
     <div class="hero-cta">
-      <a href="#project" class="btn btn-primary">View My Work</a>
-      <a href="#about" class="btn btn-outline">My Story</a>
-      <a href="mailto:{{ site.data.profile.email }}" class="btn btn-outline">Get In Touch</a>
+      <a href="{{ '/about' | relative_url }}" class="btn btn-primary">About Me</a>
+      <a href="{{ '/project' | relative_url }}" class="btn btn-outline">View My Work</a>
+      <a href="{{ '/blog' | relative_url }}" class="btn btn-outline">Read My Writing</a>
     </div>
   </div>
   <div class="hero-right">
@@ -22,31 +22,44 @@ title: Home
     <div class="stat-card"><div class="stat-label">University</div><div class="stat-value">{{ site.data.profile.education.university }}</div><div class="stat-sub">Hostel resident · Goes home every 2–3 weeks</div></div>
     <div class="stat-card"><div class="stat-label">End Goal</div><div class="stat-value">{{ site.data.profile.tagline }}</div><div class="stat-sub">AI / ML · Masters · Build what doesn't exist yet</div></div>
   </div>
-  <div class="hero-bg-text">ZAIN</div>
 </section>
 
-<div class="quote-section rv"><div class="quote-inner"><blockquote>{{ site.data.profile.quote.text }}</blockquote><p class="quote-attr">— {{ site.data.profile.quote.attribution }}</p></div></div>
-
-<section id="about" class="section">
-  <div class="about-grid">
-    <div class="rv"><p class="section-tag">01 — My Story</p><h2 class="section-title">Not the path I<br/>was handed —<br/><em>the one I chose.</em></h2><div class="about-text">{{ site.data.profile.about | markdownify }}</div></div>
-    <div class="rv" style="transition-delay:.15s">
-      <p class="section-tag">Academic Path</p>
-      <div class="timeline">
-        <div class="timeline-item"><div class="timeline-period">Semester 1 · 2024</div><div class="timeline-title">BS Computer Engineering — {{ site.data.profile.education.university }}</div><div class="timeline-desc">Programming Fundamentals (Python) · Applied Physics · Calculus I · Discrete Mathematics · AICT · Fehm ul Quran. CGPA: {{ site.data.profile.education.cgpa }} — 2nd in class. {{ site.data.profile.education.scholar }}.</div></div>
-        <div class="timeline-item"><div class="timeline-period">Semester 2 · 2025 — In Progress</div><div class="timeline-title">OOP · DBS · Calculus II · Stats · DLD · Comm Skills</div><div class="timeline-desc">Object Oriented Programming (C#) · Database Systems (SQL) · Calculus II · Statistics · Digital Logic Design lab · Communication Skills. Currently online due to regional disruption.</div></div>
-        <div class="timeline-item"><div class="timeline-period">Long-Term Goal</div><div class="timeline-title">Masters in Artificial Intelligence / Machine Learning</div><div class="timeline-desc">Not just a degree — a direction. Build deep expertise. Innovate, don't replicate. Become {{ site.data.profile.tagline }}.</div></div>
-      </div>
-      <div class="cgpa-panel"><div class="cgpa-big">{{ site.data.profile.education.cgpa }}</div><div class="cgpa-sub">{{ site.data.profile.education.rank }} · {{ site.data.profile.education.scholar }} · {{ site.data.profile.education.university }}</div></div>
-    </div>
+<!-- Quick links section -->
+<section class="section" style="text-align:center">
+  <p class="section-tag rv" style="justify-content:center">Explore</p>
+  <h2 class="section-title rv">What you'll find <em>here.</em></h2>
+  <div class="skills-grid rv" style="max-width:900px;margin:0 auto">
+    <a href="{{ '/about' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
+      <div class="skill-label">01 — About</div>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">My story, academic path, grades, and the journey from Bhalwal to UET.</p>
+    </a>
+    <a href="{{ '/skills' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
+      <div class="skill-label">02 — Skills</div>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Programming languages, IDEs, databases, and domains I work with.</p>
+    </a>
+    <a href="{{ '/project' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
+      <div class="skill-label">03 — Project</div>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">ML weather prediction model built with Python and scikit-learn.</p>
+    </a>
+    <a href="{{ '/blog' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
+      <div class="skill-label">04 — Writing</div>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Ten reflective essays about my first year in Computer Engineering.</p>
+    </a>
+    <a href="{{ '/identity' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
+      <div class="skill-label">05 — Identity</div>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Beyond the résumé — anime, games, peak hours, and the real goal.</p>
+    </a>
+    <a href="{{ '/contact' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
+      <div class="skill-label">06 — Contact</div>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Get in touch for collaboration, AI/ML talks, or just connecting.</p>
+    </a>
   </div>
-  <div class="rv" style="margin-top:4rem"><p class="section-tag">Semester 1 Grades</p><table class="grades-table"><thead><tr><th>Subject</th><th>Grade</th></tr></thead><tbody><tr><td>Programming Fundamentals (Python)</td><td>A</td></tr><tr><td>AICT (Theory + Lab)</td><td>A</td></tr><tr><td>Calculus I</td><td>A</td></tr><tr><td>Discrete Mathematics</td><td>A</td></tr><tr><td>Applied Physics Lab</td><td>A</td></tr><tr><td>Applied Physics Theory</td><td>A−</td></tr><tr><td>Fehm ul Quran</td><td>B</td></tr></tbody></table></div>
 </section>
 
-<section id="skills" class="section"><p class="section-tag rv">02 — Technical Skills</p><h2 class="section-title rv">What I <em>build with.</em></h2><div class="skills-grid"><div class="skill-card rv"><div class="skill-label">Programming Languages</div><div class="skill-tags"><span class="skill-tag">Python</span><span class="skill-tag">C</span><span class="skill-tag">C#</span><span class="skill-tag">SQL</span></div></div><div class="skill-card rv" style="transition-delay:.08s"><div class="skill-label">IDEs &amp; Editors</div><div class="skill-tags"><span class="skill-tag">VS Code</span><span class="skill-tag">Visual Studio Community</span></div></div><div class="skill-card rv" style="transition-delay:.16s"><div class="skill-label">Database &amp; Backend</div><div class="skill-tags"><span class="skill-tag">MySQL Workbench</span><span class="skill-tag">XAMPP</span><span class="skill-tag">WAMP</span><span class="skill-tag">WordPress</span></div></div><div class="skill-card rv" style="transition-delay:.24s"><div class="skill-label">Domains</div><div class="skill-tags"><span class="skill-tag">Machine Learning</span><span class="skill-tag">AI/ML</span><span class="skill-tag">OOP</span><span class="skill-tag">Digital Logic Design</span></div></div></div></section>
-
-<section id="project" class="section"><p class="section-tag rv">03 — Featured Project</p><h2 class="section-title rv">Born from a<br/><em>random conversation.</em></h2>{% for project in site.data.projects %}<div class="project-card rv"><div class="project-cover">{% include svg/{{ project.svg }}.svg %}</div><div class="project-body"><span class="project-type">{{ project.type }} · {{ project.semester }}</span><h3 class="project-title">{{ project.title }}</h3><p class="project-story">{{ project.story | strip | replace: "clicked", "<strong>clicked</strong>" }}</p><p class="project-desc">{{ project.description }}</p></div><div class="project-meta">{% for detail in project.details %}<div class="project-meta-item"><div class="project-meta-label">{{ detail.label }}</div><div class="project-meta-value">{{ detail.value }}</div></div>{% endfor %}</div><div class="project-footer"><div class="project-collab">Built with {% for collab in project.collaborators %}<span>{{ collab.name }}</span>{% if forloop.last == false %}, {% endif %}{% endfor %} — {% for collab in project.collaborators %}{{ collab.role }}{% if forloop.last == false %}, {% endif %}{% endfor %}.</div><a class="project-link" href="{{ project.link.url }}" target="_blank">{{ project.link.text }} →</a></div></div>{% endfor %}</section>
-
-<section id="identity" class="section"><p class="section-tag rv">05 — Who I Am</p><h2 class="section-title rv">Beyond the<br/><em>résumé.</em></h2><div class="identity-grid rv"><div class="identity-card"><div class="identity-label">Anime &amp; Manga</div><div class="identity-value">One Piece</div><div class="identity-desc">1000+ chapters deep. Completely committed. There is no anime like it.</div></div><div class="identity-card"><div class="identity-label">Manhwa</div><div class="identity-value">Bastard</div><div class="identity-desc">Dark, psychological, surgical. Reads like tight code — no wasted panel.</div></div><div class="identity-card"><div class="identity-label">Games</div><div class="identity-value">Sekiro · Minecraft</div><div class="identity-desc">Sekiro for discipline. Minecraft for architecture. Both are about mastery.</div></div><div class="identity-card"><div class="identity-label">What People Get Wrong</div><div class="identity-value">Serious. Cold.</div><div class="identity-desc">People mistake my focus for attitude. I stopped explaining the difference.</div></div><div class="identity-card"><div class="identity-label">When I'm Stuck</div><div class="identity-value">Try again. And again.</div><div class="identity-desc">No shortcuts. I sit with the problem until something breaks — and it's never me.</div></div><div class="identity-card"><div class="identity-label">Peak Hours</div><div class="identity-value">After midnight.</div><div class="identity-desc">Hostel goes quiet. Screen is the only light. That's when I do my best work.</div></div><div class="identity-card"><div class="identity-label">Home</div><div class="identity-value">{{ site.data.profile.location.city }}, {{ site.data.profile.location.district }}</div><div class="identity-desc">Not Lahore. Not fully developed. But it raised me and I love it exactly as it is.</div></div><div class="identity-card"><div class="identity-label">Side Project</div><div class="identity-value">AI YouTube Channel</div><div class="identity-desc">Automated animated videos using AI. Building it in parallel with the semester.</div></div><div class="identity-card"><div class="identity-label">The Real Goal</div><div class="identity-value">{{ site.data.profile.tagline }}</div><div class="identity-desc">Build things that didn't exist before. AI/ML is the arena. Masters is the next step.</div></div></div></section>
-
-<section id="contact" class="section contact-section"><p class="section-tag rv" style="justify-content:center">06 — Contact</p><h2 class="section-title rv" style="text-align:center;margin-bottom:1rem">Let's <em>connect.</em></h2><p class="contact-desc rv">A 2nd-semester CE student from {{ site.data.profile.location.city }} who works after midnight and doesn't stop until it's right. If you want to collaborate, talk AI/ML, or just connect — reach out.</p><div class="contact-links rv"><a class="contact-link" href="mailto:{{ site.data.profile.email }}"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>{{ site.data.profile.email }}</a><a class="contact-link" href="{{ site.data.profile.github_url }}" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>{{ site.data.profile.github }} on GitHub</a></div></section>
+<!-- Quote -->
+<div class="quote-section rv">
+  <div class="quote-inner">
+    <blockquote>{{ site.data.profile.quote.text }}</blockquote>
+    <p class="quote-attr">— {{ site.data.profile.quote.attribution }}</p>
+  </div>
+</div>

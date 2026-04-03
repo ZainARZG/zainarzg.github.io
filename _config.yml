@@ -12,7 +12,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  syntax_highlighter: rouge
 
 permalink: /blog/:title/
 
@@ -36,3 +35,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - _site/

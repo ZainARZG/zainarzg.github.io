@@ -5,6 +5,8 @@ date: 2025-01-10
 article_num: 5
 tags: [Lahore, Resilience, Journey]
 cover_svg: journey
+cover_image: "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=800&q=80"
+cover_alt: "City street at dusk"
 excerpt: "A full day navigating an unfamiliar Lahore for a laptop repair — nothing to eat all day except a single packet of grains, then 4km on foot through Faisalabad."
 ---
 

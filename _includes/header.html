@@ -1,12 +1,13 @@
 <header class="site-header">
   <nav class="nav">
-    <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.data.profile.short_name }}</a>
+    <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.data.profile.short_name }}<span>.</span></a>
     <ul class="nav-links">
-      <li><a href="{{ '/#about' | relative_url }}">About</a></li>
-      <li><a href="{{ '/#skills' | relative_url }}">Skills</a></li>
-      <li><a href="{{ '/#project' | relative_url }}">Project</a></li>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/about' | relative_url }}">About</a></li>
+      <li><a href="{{ '/skills' | relative_url }}">Skills</a></li>
+      <li><a href="{{ '/project' | relative_url }}">Project</a></li>
       <li><a href="{{ '/blog' | relative_url }}">Articles</a></li>
-      <li><a href="{{ '/#identity' | relative_url }}">Identity</a></li>
+      <li><a href="{{ '/identity' | relative_url }}">Identity</a></li>
       <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
     </ul>
     <div class="nav-right">
@@ -20,11 +21,12 @@
   </nav>
   <div class="mobile-menu" id="mobileMenu">
     <ul>
-      <li><a href="{{ '/#about' | relative_url }}">About</a></li>
-      <li><a href="{{ '/#skills' | relative_url }}">Skills</a></li>
-      <li><a href="{{ '/#project' | relative_url }}">Project</a></li>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/about' | relative_url }}">About</a></li>
+      <li><a href="{{ '/skills' | relative_url }}">Skills</a></li>
+      <li><a href="{{ '/project' | relative_url }}">Project</a></li>
       <li><a href="{{ '/blog' | relative_url }}">Articles</a></li>
-      <li><a href="{{ '/#identity' | relative_url }}">Identity</a></li>
+      <li><a href="{{ '/identity' | relative_url }}">Identity</a></li>
       <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
     </ul>
   </div>

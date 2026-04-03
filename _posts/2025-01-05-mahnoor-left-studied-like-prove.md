@@ -5,6 +5,8 @@ date: 2025-01-05
 article_num: 4
 tags: [Focus, Drift, Comeback]
 cover_svg: default-cover
+cover_image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
+cover_alt: "Students collaborating at desk"
 excerpt: "How Mahnoor Fatima held the CR and GR role together — and what the batch lost when she transferred to Lahore mid-semester."
 ---
 
