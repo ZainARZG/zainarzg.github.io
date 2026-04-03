@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The AICT Presentation, the Lab Reports, and the Printer That Was Never Available — S. M. Zain</title>
+  <meta name="description" content="Portfolio of Syed Muhammad Zain — 2nd-semester CE student, CGPA 3.91, building toward AI/ML.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+  <div id="cursor-glow"></div>
+  <header class="site-header">
+  <nav class="nav">
+    <a href="/" class="nav-logo">S. M. Zain</a>
+    <ul class="nav-links">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#skills">Skills</a></li>
+      <li><a href="/#project">Project</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/#identity">Identity</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <span class="nav-badge">CGPA 3.91</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#skills">Skills</a></li>
+      <li><a href="/#project">Project</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/#identity">Identity</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <main><article class="article-page">
+  <div class="article-container">
+    <div class="article-cover">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- Terminal window -->
+  <rect x="25" y="35" width="150" height="120" rx="8" fill="none" stroke="url(#grad1)" stroke-width="2"/>
+  <!-- Terminal header -->
+  <line x1="25" y1="55" x2="175" y2="55" stroke="url(#grad1)" stroke-width="1.5"/>
+  <!-- Window controls -->
+  <circle cx="40" cy="45" r="4" fill="#6366f1" opacity="0.6"/>
+  <circle cx="55" cy="45" r="4" fill="#6366f1" opacity="0.4"/>
+  <circle cx="70" cy="45" r="4" fill="#6366f1" opacity="0.3"/>
+  <!-- Code lines -->
+  <g fill="none" stroke="url(#grad2)" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <line x1="40" y1="72" x2="90" y2="72"/>
+    <line x1="40" y1="88" x2="130" y2="88"/>
+    <line x1="55" y1="104" x2="110" y2="104"/>
+    <line x1="55" y1="120" x2="140" y2="120"/>
+    <line x1="40" y1="136" x2="100" y2="136"/>
+  </g>
+  <!-- Code brackets -->
+  <path d="M38 70 L33 80 L38 90" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M145 118 L150 128 L145 138" fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <!-- Cursor blink -->
+  <line x1="105" y1="132" x2="105" y2="140" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+  <!-- Prompt symbol -->
+  <text x="35" y="76" font-size="10" fill="#6366f1" font-family="monospace" opacity="0.6">&gt;</text>
+  <!-- Decorative code brackets in background -->
+  <text x="140" y="30" font-size="12" fill="#6366f1" font-family="monospace" opacity="0.2">{ }</text>
+  <text x="20" y="175" font-size="10" fill="#06b6d4" font-family="monospace" opacity="0.2">&lt;/&gt;</text>
+</svg>
+    </div>
+    <header class="article-header">
+      <div class="article-num">6</div>
+      <h1>The AICT Presentation, the Lab Reports, and the Printer That Was Never Available</h1>
+      <div class="article-meta">
+        <span>Syed Muhammad Zain</span>
+        <span class="meta-sep">·</span>
+        <span>BS Computer Engineering · UET Lahore Campus Faisalabad</span>
+        <span class="meta-sep">·</span><span>January 2025</span>
+      </div>
+      
+        <div class="article-tags"><span class="tag">AICT</span><span class="tag">Presentation</span><span class="tag">Exhibition</span></div>
+      
+    </header>
+    <div class="article-body"><p>AICT — Applied Islamiat and Communication Techniques — is one of those subjects that sounds like it should be straightforward and then reveals layers of complexity you did not expect.</p>
+
+<p>For Ma’am Munnazza’s presentation component, I had a choice. I could pick something safe. Something technical. Something that would impress in the obvious way. Or I could pick something that actually mattered to me.</p>
+
+<p>I chose Seerat ul Nabi (PBUH).</p>
+
+<p>Not because it was easy. If anything, it was harder — because when you present on something you care about, you cannot phone it in. You have to actually deliver. You have to do justice to the subject, and the subject deserves more than a rushed slideshow and a nervous reading.</p>
+
+<p>I prepared carefully. I structured the presentation. I thought about what to include and what to leave out, because the Seerat is vast and a classroom presentation is not. I tried to find the balance between depth and accessibility, between reverence and clarity.</p>
+
+<p>And I got full marks.</p>
+
+<p>Full marks on a presentation about Seerat ul Nabi (PBUH). Full marks from Ma’am Munnazza, who does not give them out casually. Full marks on something that mattered to me personally, not just academically.</p>
+
+<blockquote>
+  <p>“The lab report was one thing. Getting it onto paper and submitted on time was another thing entirely.”</p>
+</blockquote>
+
+<p>But the presentation was only one part of AICT. The other part was the lab reports, and the lab reports came with their own challenges — chief among them being the printer that was never available.</p>
+
+<p>There is a particular kind of frustration that comes with having a completed lab report and no way to print it. The printer is always occupied. Always out of paper. Always somehow broken at the exact moment you need it. And the deadline does not care.</p>
+
+<p>So you learn to plan around the printer. You learn to finish early. You learn to submit on time not because the system makes it easy, but because you have figured out how to work around the system’s failures.</p>
+
+<p>The project exhibition was another layer entirely. Presenting a project is different from presenting a topic. A topic is information. A project is evidence — evidence that you have taken what you learned and turned it into something tangible. Something you can show. Something you can defend when someone asks, “Why did you do it this way?”</p>
+
+<p>AICT taught me that communication is not a soft skill. It is the skill. The ability to present ideas clearly, to write reports that are actually readable, to stand in front of people and explain your work with confidence — these are not secondary to technical ability. They are what make technical ability visible.</p>
+
+<p>I got full marks on the presentation. I survived the lab reports. I navigated the printer situation. And I walked away from AICT with something more valuable than a grade: the understanding that how you communicate your work matters as much as the work itself.</p>
+
+<p>Ma’am Munnazza’s class was not just about Islamiat. It was about learning to speak, to write, to present, to explain. And those are skills that do not expire when the semester ends.</p>
+</div>
+    <nav class="article-nav">
+      
+        <a href="/blog/10-hours-laptop-4km-foot/" class="nav-card"><span class="nav-dir">← Previous</span><span class="nav-title">10 Hours for a Laptop, 4 Kilometres on Foot, and Still Home Before Midnight</span></a>
+      
+      <a href="/blog" class="nav-back">↑ Back to Blog</a>
+      
+        <a href="/blog/dr-bilal-said-no-dropshipping/" class="nav-card right"><span class="nav-dir">Next →</span><span class="nav-title">Dr. Bilal Said No to Dropshipping and Accidentally Pointed Me Somewhere Better</span></a>
+      
+    </nav>
+  </div>
+</article>
+</main>
+  <footer class="site-footer">
+  <span>© 2026 <em>Syed Muhammad Zain</em> · BS Computer Engineering · UET Lahore Campus Faisalabad · Honahaar Scholar</span>
+  <span>Built from scratch, after midnight, from <em>Bhalwal</em>.</span>
+</footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

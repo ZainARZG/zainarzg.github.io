@@ -36,7 +36,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag

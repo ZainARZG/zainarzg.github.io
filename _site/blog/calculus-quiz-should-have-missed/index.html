@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Calculus Quiz I Should Have Missed — S. M. Zain</title>
+  <meta name="description" content="Portfolio of Syed Muhammad Zain — 2nd-semester CE student, CGPA 3.91, building toward AI/ML.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+  <div id="cursor-glow"></div>
+  <header class="site-header">
+  <nav class="nav">
+    <a href="/" class="nav-logo">S. M. Zain</a>
+    <ul class="nav-links">
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#skills">Skills</a></li>
+      <li><a href="/#project">Project</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/#identity">Identity</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <span class="nav-badge">CGPA 3.91</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#skills">Skills</a></li>
+      <li><a href="/#project">Project</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/#identity">Identity</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <main><article class="article-page">
+  <div class="article-container">
+    <div class="article-cover">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- Integral symbol -->
+  <path d="M55 50 Q50 50 50 60 L50 140 Q50 150 55 150" fill="none" stroke="url(#grad1)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Summation symbol -->
+  <polygon points="130,55 160,55 145,100 160,145 130,145 145,100" fill="none" stroke="url(#grad2)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Graph curve -->
+  <path d="M30 160 Q60 150 80 120 T120 80 T160 60" fill="none" stroke="url(#grad1)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Axes -->
+  <g fill="none" stroke="#94a3b8" stroke-width="1" stroke-linecap="round" opacity="0.5">
+    <line x1="30" y1="160" x2="170" y2="160"/>
+    <line x1="30" y1="160" x2="30" y2="40"/>
+  </g>
+  <!-- Infinity symbol -->
+  <path d="M85 175 Q95 165 100 175 Q105 185 115 175 Q105 165 100 175 Q95 185 85 175Z" fill="none" stroke="url(#grad1)" stroke-width="1.5" opacity="0.6"/>
+  <!-- Pi symbol hint -->
+  <text x="155" y="45" font-size="14" fill="#06b6d4" font-family="serif" opacity="0.5">pi</text>
+  <!-- Decorative math dots -->
+  <circle cx="170" cy="100" r="2" fill="#6366f1" opacity="0.4"/>
+  <circle cx="175" cy="110" r="1.5" fill="#06b6d4" opacity="0.3"/>
+  <circle cx="165" cy="115" r="2" fill="#6366f1" opacity="0.3"/>
+</svg>
+    </div>
+    <header class="article-header">
+      <div class="article-num">2</div>
+      <h1>The Calculus Quiz I Should Have Missed</h1>
+      <div class="article-meta">
+        <span>Syed Muhammad Zain</span>
+        <span class="meta-sep">·</span>
+        <span>BS Computer Engineering · UET Lahore Campus Faisalabad</span>
+        <span class="meta-sep">·</span><span>December 2024</span>
+      </div>
+      
+        <div class="article-tags"><span class="tag">Calculus</span><span class="tag">Grace</span><span class="tag">Assumptions</span></div>
+      
+    </header>
+    <div class="article-body"><p>It was a smoggy winter morning. The kind where the sun rises but you cannot really tell. The kind where the air feels heavy before you even step outside.</p>
+
+<p>I was running late. Not fashionably late. Not “I will slip in quietly” late. I was genuinely, undeniably late.</p>
+
+<p>The morning had gone wrong from the start. I had forgotten my glasses — which meant I was navigating a world that was slightly out of focus, squinting at everything, pretending I could see. I was ironing my clothes because appearance matters, or at least I tell myself it does. And I was moving at the speed of someone who does not yet know how long things actually take.</p>
+
+<blockquote>
+  <p>“She was not late today. And I was still ironing my clothes.”</p>
+</blockquote>
+
+<p>By the time I reached the classroom, the calculus quiz had already been going for fifteen minutes. I stood at the door. I knew I should not go in. The rules were clear. The expectations were clear. I was late, and lateness has consequences.</p>
+
+<p>But I went in anyway.</p>
+
+<p>I sat down. I picked up the paper. The questions looked familiar — not because I had studied perfectly, but because the material was the kind that stays with you if you have been paying attention. Derivatives. Limits. The kind of calculus that rewards understanding over memorization.</p>
+
+<p>I wrote what I could. I was not fast. I was not confident. But I was there, and the paper was in front of me, and I decided to treat it like any other quiz.</p>
+
+<p>When the results came back, I had full marks.</p>
+
+<p>Full marks. On a quiz I should have missed entirely. On a quiz I arrived fifteen minutes late to. On a quiz where I had every reason to expect a zero.</p>
+
+<p>I do not know why I was allowed to take it. Maybe the instructor did not notice how late I was. Maybe she noticed and decided it did not matter. Maybe there is a kind of grace that exists in academic spaces that we do not talk about enough — the kind that says, “You are here now. That is what matters.”</p>
+
+<p>What I learned from that quiz was not about calculus. I already knew the calculus. What I learned was about assumptions.</p>
+
+<p>I had assumed I would get a zero. I had assumed the rules would be applied without exception. I had assumed that being late meant being disqualified. And every one of those assumptions was wrong.</p>
+
+<p>Not because the rules do not matter. They do. But because the people who enforce them are human, and humans make space for other humans in ways that policy documents never capture.</p>
+
+<p>That quiz taught me to question my assumptions about what I deserve and what I do not. It taught me that showing up late is still showing up. And it taught me that sometimes — not always, but sometimes — grace is built into the system in ways you cannot predict.</p>
+
+<p>I still iron my clothes. I still forget my glasses. But I no longer assume that being late means being finished. Sometimes it just means starting fifteen minutes behind, and catching up anyway.</p>
+</div>
+    <nav class="article-nav">
+      
+        <a href="/blog/first-time-loved-something-breaking/" class="nav-card"><span class="nav-dir">← Previous</span><span class="nav-title">The First Time I Loved Something That Kept Breaking</span></a>
+      
+      <a href="/blog" class="nav-back">↑ Back to Blog</a>
+      
+        <a href="/blog/applied-physics-3-marks/" class="nav-card right"><span class="nav-dir">Next →</span><span class="nav-title">Applied Physics, 3 Marks in a Quiz, and What Came After</span></a>
+      
+    </nav>
+  </div>
+</article>
+</main>
+  <footer class="site-footer">
+  <span>© 2026 <em>Syed Muhammad Zain</em> · BS Computer Engineering · UET Lahore Campus Faisalabad · Honahaar Scholar</span>
+  <span>Built from scratch, after midnight, from <em>Bhalwal</em>.</span>
+</footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
