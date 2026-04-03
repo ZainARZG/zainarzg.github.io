@@ -1,16 +1,17 @@
 ---
 layout: site
-title: Page Not Found
-description: "The page you are looking for could not be found."
-body_class: page-404
+title: Not Found
+description: "The page you requested could not be found."
+nav: none
+body_class: page-not-found
 permalink: /404.html
 ---
 <section class="panel page-intro-panel">
   <p class="eyebrow">404</p>
-  <h1>This page could not be found.</h1>
-  <p class="lead">The link may be outdated or the page may have moved.</p>
+  <h1>That page is not here anymore.</h1>
+  <p class="lead">The best next stop is the homepage or the posts page.</p>
   <div class="button-row">
     <a class="btn btn-primary" href="{{ '/' | relative_url }}">Go Home</a>
-    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Open Posts</a>
+    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">Browse Posts</a>
   </div>
 </section>

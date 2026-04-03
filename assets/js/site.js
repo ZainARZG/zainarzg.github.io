@@ -39,6 +39,10 @@ function updateThemeToggle(theme) {
 
 function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeMeta) {
+    themeMeta.setAttribute("content", theme === "dark" ? "#0d1523" : "#f5f7fb");
+  }
   updateThemeToggle(theme);
 }
 
@@ -80,6 +84,41 @@ function setupThemeToggle() {
   }
 }
 
+function setupMenuToggle() {
+  const button = document.querySelector("[data-menu-toggle]");
+  const nav = document.querySelector("[data-site-nav]");
+
+  if (!button || !nav) {
+    return;
+  }
+
+  const closeMenu = () => {
+    nav.classList.remove("is-open");
+    button.setAttribute("aria-expanded", "false");
+  };
+
+  button.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("is-open");
+    button.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 760) {
+      closeMenu();
+    }
+  });
+}
+
 function setupTagFilter() {
   const filterBar = document.querySelector("[data-filter-bar]");
   const cards = Array.from(document.querySelectorAll("[data-post-card]"));
@@ -113,5 +152,6 @@ function setupTagFilter() {
 document.addEventListener("DOMContentLoaded", () => {
   applyTheme(getPreferredTheme());
   setupThemeToggle();
+  setupMenuToggle();
   setupTagFilter();
 });

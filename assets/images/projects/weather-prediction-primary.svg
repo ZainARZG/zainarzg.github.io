@@ -1,0 +1,28 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" rx="36" fill="#0F172A"/>
+  <rect x="52" y="52" width="1096" height="736" rx="28" fill="#12233C"/>
+  <rect x="92" y="96" width="260" height="34" rx="17" fill="#1B3358"/>
+  <text x="116" y="118" fill="#9AB2D4" font-family="Arial, sans-serif" font-size="16" letter-spacing="2.4">PROGRAMMING FUNDAMENTALS PROJECT</text>
+  <text x="92" y="206" fill="#F8FAFC" font-family="Georgia, serif" font-size="58" font-weight="700">Weather Prediction</text>
+  <text x="92" y="270" fill="#F8FAFC" font-family="Georgia, serif" font-size="58" font-weight="700">Model for Basel</text>
+  <text x="92" y="336" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="25">Next-day temperature and precipitation forecasting using European weather data.</text>
+  <rect x="92" y="402" width="178" height="50" rx="25" fill="#285FC4"/>
+  <text x="134" y="434" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">Python</text>
+  <rect x="286" y="402" width="190" height="50" rx="25" fill="#163447"/>
+  <text x="335" y="434" fill="#D8EEF3" font-family="Arial, sans-serif" font-size="20" font-weight="700">scikit-learn</text>
+  <rect x="492" y="402" width="170" height="50" rx="25" fill="#3E2E13"/>
+  <text x="548" y="434" fill="#F8E7C8" font-family="Arial, sans-serif" font-size="20" font-weight="700">Metrics</text>
+  <rect x="730" y="150" width="324" height="230" rx="28" fill="#0D1A2C" stroke="#274067"/>
+  <polyline points="776,314 824,286 868,300 918,240 978,262 1010,218" stroke="#8BC1FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="918" cy="240" r="11" fill="#F2BB63"/>
+  <polyline points="776,336 836,346 890,286 942,304 1000,246" stroke="#6AD9D0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="776" y="214" fill="#A9BDD8" font-family="Arial, sans-serif" font-size="22">Temperature + precipitation models</text>
+  <rect x="730" y="446" width="324" height="220" rx="28" fill="#0D1A2C" stroke="#274067"/>
+  <rect x="774" y="492" width="62" height="128" rx="14" fill="#285FC4"/>
+  <rect x="860" y="454" width="62" height="166" rx="14" fill="#6AD9D0"/>
+  <rect x="946" y="522" width="62" height="98" rx="14" fill="#F2BB63"/>
+  <text x="776" y="478" fill="#A9BDD8" font-family="Arial, sans-serif" font-size="22">Evaluation and visual analysis</text>
+  <text x="92" y="550" fill="#D6E3F3" font-family="Arial, sans-serif" font-size="22">Role: Student project contributor</text>
+  <text x="92" y="590" fill="#D6E3F3" font-family="Arial, sans-serif" font-size="22">Collaborator: Muhammad Tahir Yaqoob</text>
+  <text x="92" y="630" fill="#D6E3F3" font-family="Arial, sans-serif" font-size="22">Result: Working end-to-end training workflow with saved model artifacts</text>
+</svg>

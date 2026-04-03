@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#F4F7FC"/>
+  <rect x="58" y="58" width="1084" height="604" rx="28" fill="#FFFFFF"/>
+  <text x="98" y="136" fill="#54719A" font-family="Arial, sans-serif" font-size="16" letter-spacing="2.6">STRUCTURED THINKING</text>
+  <text x="98" y="238" fill="#152134" font-family="Georgia, serif" font-size="60" font-weight="700">Databases, systems,</text>
+  <text x="98" y="304" fill="#152134" font-family="Georgia, serif" font-size="60" font-weight="700">and clearer patterns.</text>
+  <text x="98" y="370" fill="#50657D" font-family="Arial, sans-serif" font-size="25">For posts about Database Systems, SQL, and learning to organize information more carefully.</text>
+  <rect x="728" y="160" width="280" height="336" rx="30" fill="#F8FAFE" stroke="#D7E2F0"/>
+  <rect x="774" y="210" width="190" height="40" rx="20" fill="#E9F1FF"/>
+  <rect x="774" y="274" width="190" height="152" rx="24" fill="#EFF5FC"/>
+  <rect x="804" y="306" width="130" height="20" rx="10" fill="#285FC4"/>
+  <rect x="804" y="344" width="156" height="16" rx="8" fill="#A7C3EB"/>
+  <rect x="804" y="376" width="118" height="16" rx="8" fill="#80D7D1"/>
+  <rect x="804" y="438" width="74" height="18" rx="9" fill="#E7B66A"/>
+</svg>

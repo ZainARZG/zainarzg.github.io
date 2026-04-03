@@ -5,13 +5,14 @@ summary: "A short summary for the posts page."
 tags:
   - "Tag One"
   - "Tag Two"
+image: "/assets/images/posts/default-post-cover.svg"
 ---
 
-Start with a clear opening paragraph.
+Start with a clear opening paragraph that explains the topic and why it matters.
 
 ## Main Section
 
-Write the main part of the post here.
+Write the main part of the post here. Aim for at least 400 to 500 words so the post feels complete.
 
 ## Closing Thought
 

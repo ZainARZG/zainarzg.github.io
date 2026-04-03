@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#F4F7FC"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="#FFFFFF"/>
+  <circle cx="1000" cy="164" r="118" fill="#285FC4" fill-opacity="0.12"/>
+  <circle cx="920" cy="544" r="96" fill="#0F7C86" fill-opacity="0.12"/>
+  <rect x="96" y="108" width="198" height="34" rx="17" fill="#EAF1FF"/>
+  <text x="118" y="130" fill="#375A8E" font-family="Arial, sans-serif" font-size="16" letter-spacing="2.2">POST COVER</text>
+  <text x="96" y="232" fill="#152134" font-family="Georgia, serif" font-size="60" font-weight="700">Writing on software,</text>
+  <text x="96" y="298" fill="#152134" font-family="Georgia, serif" font-size="60" font-weight="700">systems, and learning.</text>
+  <text x="96" y="364" fill="#50657D" font-family="Arial, sans-serif" font-size="26">Use this cover for new posts when no custom image is needed.</text>
+  <rect x="96" y="446" width="420" height="148" rx="28" fill="#F7FAFE" stroke="#D9E3F0"/>
+  <rect x="132" y="486" width="156" height="18" rx="9" fill="#285FC4"/>
+  <rect x="132" y="526" width="320" height="12" rx="6" fill="#C6D7EE"/>
+  <rect x="132" y="554" width="280" height="12" rx="6" fill="#D7E5F6"/>
+</svg>

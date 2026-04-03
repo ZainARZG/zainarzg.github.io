@@ -1,0 +1,13 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#0F172A"/>
+  <rect x="58" y="58" width="1084" height="604" rx="28" fill="#12233C"/>
+  <text x="98" y="136" fill="#9AB2D4" font-family="Arial, sans-serif" font-size="16" letter-spacing="2.6">FOUNDATIONS</text>
+  <text x="98" y="238" fill="#F8FAFC" font-family="Georgia, serif" font-size="60" font-weight="700">Programming, logic,</text>
+  <text x="98" y="304" fill="#F8FAFC" font-family="Georgia, serif" font-size="60" font-weight="700">and early confidence.</text>
+  <text x="98" y="370" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="25">For posts about Programming Fundamentals, learning habits, and the work of getting better.</text>
+  <rect x="724" y="168" width="280" height="260" rx="28" fill="#0D1A2C" stroke="#274067"/>
+  <rect x="772" y="222" width="86" height="86" rx="20" fill="#285FC4"/>
+  <rect x="872" y="222" width="86" height="86" rx="20" fill="#6AD9D0"/>
+  <rect x="772" y="322" width="186" height="56" rx="18" fill="#1A2E4A"/>
+  <text x="804" y="356" fill="#D8E6F6" font-family="Arial, sans-serif" font-size="22" font-weight="700">Build the basics</text>
+</svg>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Muhammad Zain | Resume</title>
+  <meta name="description" content="Resume of Syed Muhammad Zain, BS Computer Engineering student at UET Lahore Campus Faisalabad.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #eef2f7;
+      --sheet: #ffffff;
+      --sheet-alt: #f8fafc;
+      --text: #172033;
+      --muted: #526172;
+      --line: #d8e0ea;
+      --primary: #1f5f97;
+      --accent: #0f766e;
+      --shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1722;
+        --sheet: #131d2a;
+        --sheet-alt: #172231;
+        --text: #edf3f8;
+        --muted: #b8c5d3;
+        --line: #2a394c;
+        --primary: #8cc4ff;
+        --accent: #5eead4;
+        --shadow: 0 20px 45px rgba(0, 0, 0, 0.28);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg) 0%, var(--sheet-alt) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      width: min(980px, calc(100% - 32px));
+      margin: 28px auto;
+      background: var(--sheet);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      padding: 18px 24px 0;
+    }
+
+    .toolbar a,
+    .toolbar button {
+      border: 1px solid var(--line);
+      background: var(--sheet-alt);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .header {
+      padding: 34px 40px 28px;
+      border-bottom: 1px solid var(--line);
+      background:
+        radial-gradient(circle at top right, rgba(31, 95, 151, 0.12), transparent 32%),
+        linear-gradient(135deg, rgba(15, 118, 110, 0.06) 0%, transparent 100%);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.05;
+    }
+
+    .title {
+      margin: 8px 0 0;
+      font-size: 1.12rem;
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .summary {
+      margin: 18px 0 0;
+      max-width: 68ch;
+      color: var(--muted);
+    }
+
+    .contact {
+      display: grid;
+      gap: 8px;
+      min-width: 250px;
+    }
+
+    .contact a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .body {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+    }
+
+    .sidebar,
+    .main {
+      padding: 32px 32px 36px;
+    }
+
+    .sidebar {
+      background: var(--sheet-alt);
+      border-right: 1px solid var(--line);
+    }
+
+    .section + .section {
+      margin-top: 28px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 0.86rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 1.08rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .list {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .list li + li {
+      margin-top: 8px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(31, 95, 151, 0.1);
+      color: var(--text);
+      font-size: 0.95rem;
+      border: 1px solid rgba(31, 95, 151, 0.14);
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+      background: color-mix(in srgb, var(--sheet-alt) 65%, var(--sheet) 35%);
+    }
+
+    .card + .card {
+      margin-top: 18px;
+    }
+
+    .meta {
+      display: grid;
+      gap: 6px;
+      margin-top: 12px;
+      color: var(--muted);
+    }
+
+    .meta strong {
+      color: var(--text);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .links a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .availability {
+      margin-top: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(15, 118, 110, 0.1);
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    @media (max-width: 820px) {
+      .body {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .header,
+      .sidebar,
+      .main {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+      }
+
+      .page {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      .toolbar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="toolbar">
+      <a href="/">Back to site</a>
+      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <header class="header">
+      <div class="header-top">
+        <div>
+          <h1>Syed Muhammad Zain</h1>
+          <p class="title">BS Computer Engineering Student</p>
+          <p class="summary">
+            Computer Engineering student at UET Lahore Campus Faisalabad with strong interest in software,
+            database systems, digital logic, and machine learning. I work best in structured, practical
+            environments where ideas can be tested, improved, and turned into something useful.
+          </p>
+          <div class="availability">Open for internships and collaborations</div>
+        </div>
+
+        <div class="contact">
+          <a href="mailto:ZAINMUAMMAD160@GMAIL.COM">ZAINMUAMMAD160@GMAIL.COM</a>
+          <a href="https://github.com/ZAINARZG">github.com/ZAINARZG</a>
+          <span>Bhalwal, District Sargodha, Pakistan</span>
+          <span>UET Lahore Campus Faisalabad</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar">
+        <section class="section">
+          <h2>Education</h2>
+          <p><strong>BS Computer Engineering</strong></p>
+          <p>UET Lahore Campus Faisalabad</p>
+          <p>Current Semester: 2nd</p>
+          <p>CGPA: 3.90588</p>
+        </section>
+
+        <section class="section">
+          <h2>Highlights</h2>
+          <ul class="list">
+            <li>Honahaar Scholarship recipient</li>
+            <li>Strong academic performance in Programming Fundamentals and practical coursework</li>
+            <li>Continuing work in OOP, Database Systems, Statistics, and Digital Logic Design</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Skills</h2>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">C</span>
+            <span class="tag">C#</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Digital Logic</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Visual Studio</span>
+            <span class="tag">MySQL Workbench</span>
+            <span class="tag">XAMPP</span>
+            <span class="tag">WAMP</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section class="section">
+          <h2>Profile</h2>
+          <div class="card">
+            <p>
+              My work is currently centered on learning strong technical foundations in programming,
+              structured problem-solving, data handling, and systems thinking. I am especially drawn to
+              projects where logic, experimentation, and implementation all come together in a practical result.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Project</h2>
+          <div class="card">
+            <h3>Weather Prediction Model for Basel</h3>
+            <p>
+              Supervised learning project focused on predicting next-day temperature and precipitation in Basel
+              using historical weather data from European cities.
+            </p>
+
+            <div class="meta">
+              <p><strong>Role:</strong> Student project contributor</p>
+              <p><strong>Collaborator:</strong> Muhammad Tahir Yaqoob</p>
+              <p><strong>Tech Stack:</strong> Python, pandas, numpy, matplotlib, seaborn, scikit-learn, joblib</p>
+              <p><strong>Result:</strong> Built a working machine learning workflow that trained, evaluated, visualized, and saved two prediction models for weather forecasting.</p>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/ZainARZG/weather-prediction-basel">GitHub Repository</a>
+              <a href="/assets/docs/project-report-pf-zain.pdf">Project Report (PDF)</a>
+              <a href="https://www.kaggle.com/datasets/orvile/european-cities-weather-prediction-dataset">Kaggle Dataset</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Academic Direction</h2>
+          <div class="card">
+            <p>
+              I am most interested in the kind of work where software, databases, and data-driven systems
+              solve concrete problems. Programming Fundamentals gave me early confidence in problem-solving,
+              Database Systems strengthened my understanding of structured data, and digital logic continues
+              to build my systems-level thinking.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
