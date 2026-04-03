@@ -1,0 +1,47 @@
+{% assign project = include.project %}
+<article class="project-card">
+  <div class="project-media-grid">
+    {% for media in project.images %}
+    <figure class="project-media">
+      <img src="{{ media.src | relative_url }}" alt="{{ media.alt }}">
+    </figure>
+    {% endfor %}
+  </div>
+
+  <div class="project-copy">
+    <div class="section-heading section-heading-tight">
+      <p class="eyebrow">{{ project.subtitle }}</p>
+      <h3>{{ project.title }}</h3>
+    </div>
+
+    <p>{{ project.summary }}</p>
+    <p class="project-impact"><strong>Result:</strong> {{ project.impact }}</p>
+
+    <dl class="project-meta">
+      <div>
+        <dt>Role</dt>
+        <dd>{{ project.role }}</dd>
+      </div>
+      <div>
+        <dt>Collaborator</dt>
+        <dd>{{ project.collaborator }}</dd>
+      </div>
+      <div>
+        <dt>Tech stack</dt>
+        <dd>{{ project.tech_stack | join: ", " }}</dd>
+      </div>
+    </dl>
+
+    <div class="tag-list">
+      {% for item in project.tech_stack %}
+      <span class="tag">{{ item }}</span>
+      {% endfor %}
+    </div>
+
+    <div class="button-row">
+      <a class="btn btn-primary" href="{{ project.github_url }}">GitHub</a>
+      <a class="btn btn-secondary" href="{{ project.report_url | relative_url }}">Project Report</a>
+      <a class="btn btn-secondary" href="{{ project.dataset_url }}">Dataset</a>
+    </div>
+  </div>
+</article>

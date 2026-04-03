@@ -1,0 +1,14 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#0F172A"/>
+  <rect x="58" y="58" width="1084" height="604" rx="28" fill="#12233C"/>
+  <text x="98" y="136" fill="#9AB2D4" font-family="Arial, sans-serif" font-size="16" letter-spacing="2.6">PROJECT WORK</text>
+  <text x="98" y="238" fill="#F8FAFC" font-family="Georgia, serif" font-size="60" font-weight="700">Ideas become real</text>
+  <text x="98" y="304" fill="#F8FAFC" font-family="Georgia, serif" font-size="60" font-weight="700">through experiments.</text>
+  <text x="98" y="370" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="25">For posts about the weather model, project choices, and the shift from theory into implementation.</text>
+  <rect x="724" y="160" width="292" height="340" rx="30" fill="#0D1A2C" stroke="#274067"/>
+  <polyline points="780,428 826,378 874,392 928,324 984,346" stroke="#8BC1FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="780,450 836,456 888,402 946,416 986,370" stroke="#6AD9D0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="780" y="242" fill="#D8E6F6" font-family="Arial, sans-serif" font-size="22" font-weight="700">Training + evaluation</text>
+  <rect x="780" y="276" width="170" height="18" rx="9" fill="#285FC4"/>
+  <rect x="780" y="308" width="122" height="18" rx="9" fill="#6AD9D0"/>
+</svg>

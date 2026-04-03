@@ -1,0 +1,84 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1408 >>
+stream
+BT
+/F2 24 Tf
+50 760 Td
+(Syed Muhammad Zain) Tj
+/F1 13 Tf
+0 -22 Td
+(BS Computer Engineering Student) Tj
+0 -26 Td
+(Email: ZAINMUAMMAD160@GMAIL.COM) Tj
+0 -18 Td
+(GitHub: github.com/ZAINARZG) Tj
+0 -18 Td
+(Location: Bhalwal, District Sargodha, Pakistan) Tj
+0 -18 Td
+(University: UET Lahore Campus Faisalabad) Tj
+/F2 16 Tf
+0 -34 Td
+(Profile) Tj
+/F1 12 Tf
+0 -20 Td
+(Computer Engineering student focused on software, structured systems, digital logic, and practical technical work.) Tj
+0 -18 Td
+(I work best in environments where ideas can be tested, refined, and turned into something useful.) Tj
+/F2 16 Tf
+0 -34 Td
+(Education and Highlights) Tj
+/F1 12 Tf
+0 -20 Td
+(BS Computer Engineering | Current Semester: 2nd | CGPA: 3.90588) Tj
+0 -18 Td
+(Honahaar Scholarship recipient) Tj
+0 -18 Td
+(Continuing work in OOP, Database Systems, Statistics, and Digital Logic Design) Tj
+/F2 16 Tf
+0 -34 Td
+(Skills) Tj
+/F1 12 Tf
+0 -20 Td
+(Python, C, C#, SQL, Digital Logic, VS Code, Visual Studio, MySQL Workbench, XAMPP, WAMP) Tj
+/F2 16 Tf
+0 -34 Td
+(Selected Project) Tj
+/F1 12 Tf
+0 -20 Td
+(Weather Prediction Model for Basel) Tj
+0 -18 Td
+(Role: Student project contributor | Collaborator: Muhammad Tahir Yaqoob) Tj
+0 -18 Td
+(Tech stack: Python, pandas, numpy, matplotlib, seaborn, scikit-learn, joblib) Tj
+0 -18 Td
+(Built a working machine learning workflow for next-day temperature and precipitation forecasting in Basel.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref`n0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001711 00000 n 
+0000001781 00000 n 
+trailer`n<< /Size 7 /Root 1 0 R >>
+startxref`n1856
+%%EOF

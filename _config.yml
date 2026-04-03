@@ -1,12 +1,19 @@
 title: "Syed Muhammad Zain"
 author: "Syed Muhammad Zain"
-description: "Personal site and writing space of Syed Muhammad Zain."
+description: "Personal site of Syed Muhammad Zain, featuring selected work and writing on software, systems, and learning in computer engineering."
 url: "https://zainarzg.github.io"
 baseurl: ""
 lang: "en"
 timezone: "Asia/Karachi"
 permalink: /insights/:title/
 excerpt_separator: "\n\n\n"
+email: "ZAINMUAMMAD160@GMAIL.COM"
+github_url: "https://github.com/ZAINARZG"
+linkedin_url: ""
+resume_url: "/assets/docs/syed-muhammad-zain-resume.pdf"
+resume_page_url: "/resume.html"
+social_image: "/assets/images/site/site-preview.svg"
+default_post_image: "/assets/images/posts/default-post-cover.svg"
 
 defaults:
   - scope:
@@ -16,6 +23,7 @@ defaults:
       layout: post
       nav: blog
       body_class: page-post
+      image: "/assets/images/posts/default-post-cover.svg"
 
 exclude:
   - Gemfile

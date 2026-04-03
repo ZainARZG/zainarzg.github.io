@@ -1,37 +1,113 @@
 ---
 layout: site
 title: Home
-description: "Personal site of Syed Muhammad Zain, with writing on software, systems, and learning in computer engineering."
+description: "Syed Muhammad Zain is a Computer Engineering student at UET Lahore Campus Faisalabad, sharing selected work and writing on software, systems, and learning."
 nav: home
 body_class: page-home
 permalink: /
+image: /assets/images/site/site-preview.svg
 ---
-<section class="panel hero">
-  <p class="eyebrow">Syed Muhammad Zain</p>
-  <h1>Computer Engineering student writing about software, systems, and the work of learning them well.</h1>
-  <p class="lead">
-    I use this space to keep writing in one place, from coursework and technical reflections to the ideas
-    that keep shaping how I think about software and systems.
-  </p>
-  <div class="button-row">
-    <a class="btn btn-primary" href="{{ '/blog/' | relative_url }}">Read Posts</a>
-    <a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About</a>
+{% assign profile = site.data.profile %}
+{% assign featured_project = site.data.projects | first %}
+<section class="panel hero hero-grid">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ profile.name }}</p>
+    <h1>{{ profile.headline }}</h1>
+    <p class="lead">{{ profile.hero_copy }}</p>
+    <div class="button-row">
+      <a class="btn btn-primary" href="{{ '/blog/' | relative_url }}">Read Posts</a>
+      <a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Contact</a>
+    </div>
   </div>
+
+  <aside class="hero-aside">
+    <p class="eyebrow">Snapshot</p>
+    <h2>Grounded in practical work and strong fundamentals.</h2>
+    <div class="stat-list">
+      <div class="stat-item">
+        <span>Degree</span>
+        <strong>{{ profile.degree }}</strong>
+      </div>
+      <div class="stat-item">
+        <span>University</span>
+        <strong>{{ profile.university }}</strong>
+      </div>
+      <div class="stat-item">
+        <span>Current semester</span>
+        <strong>{{ profile.semester }}</strong>
+      </div>
+      <div class="stat-item">
+        <span>CGPA</span>
+        <strong>{{ profile.cgpa }}</strong>
+      </div>
+      <div class="stat-item">
+        <span>Recognition</span>
+        <strong>{{ profile.highlight }}</strong>
+      </div>
+    </div>
+  </aside>
 </section>
+
+<section class="spotlight-grid">
+  <article class="panel">
+    <div class="section-heading section-heading-tight">
+      <p class="eyebrow">Current Focus</p>
+      <h2>Software, databases, and systems thinking</h2>
+    </div>
+    <p>
+      Most of my work keeps circling back to programming, structured data, digital logic, and the kinds
+      of projects where a clear process matters as much as the final result.
+    </p>
+  </article>
+
+  <article class="panel">
+    <div class="section-heading section-heading-tight">
+      <p class="eyebrow">Core Tools</p>
+      <h2>Working comfortably with</h2>
+    </div>
+    <div class="skill-group">
+      {% for item in profile.skills.languages %}
+      <span class="tag">{{ item }}</span>
+      {% endfor %}
+      {% for item in profile.skills.foundations %}
+      <span class="tag">{{ item }}</span>
+      {% endfor %}
+      {% for item in profile.skills.tools %}
+      <span class="tag">{{ item }}</span>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+
+{% if featured_project %}
+<section class="panel">
+  <div class="section-heading">
+    <p class="eyebrow">Featured Project</p>
+    <h2>Selected work</h2>
+    <p>A project that reflects both technical curiosity and the habit of following an idea all the way through implementation.</p>
+  </div>
+  {% include project-card.html project=featured_project %}
+</section>
+{% endif %}
 
 <section class="panel">
   <div class="section-heading">
-    <p class="eyebrow">Recent Posts</p>
-    <h2>Latest writing</h2>
-    <p>Recent notes and reflections from study, projects, and ongoing work.</p>
+    <p class="eyebrow">Latest Writing</p>
+    <h2>Recent posts</h2>
+    <p>Notes from coursework, project work, and the process of learning to build with more clarity.</p>
   </div>
 
+  {% if site.posts.size > 0 %}
   <div class="post-grid">
     {% for post in site.posts limit: 3 %}
       {% include post-card.html post=post %}
     {% endfor %}
   </div>
-  {% if site.posts.size == 0 %}
+  <div class="button-row section-actions">
+    <a class="btn btn-secondary" href="{{ '/blog/' | relative_url }}">View All Posts</a>
+  </div>
+  {% else %}
   <p>No posts yet.</p>
   {% endif %}
 </section>

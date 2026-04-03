@@ -1,65 +1,96 @@
 ---
 layout: site
 title: About
-description: "About Syed Muhammad Zain and his direction in computer engineering."
+description: "About Syed Muhammad Zain, a BS Computer Engineering student focused on software, systems, and practical problem-solving."
 nav: about
 body_class: page-about
 permalink: /about/
 ---
+{% assign profile = site.data.profile %}
 <section class="panel page-intro-panel">
   <p class="eyebrow">About</p>
   <h1>Most at home when a problem has structure and the work leads somewhere useful.</h1>
-  <p class="lead">
-    I'm Syed Muhammad Zain from Bhalwal, District Sargodha, and I study BS Computer Engineering at
-    UET Lahore Campus Faisalabad. I am most interested in the kind of work where logic can be tested,
-    refined, and turned into something practical.
-  </p>
+  <p class="lead">{{ profile.about_copy }}</p>
 </section>
 
 <section class="split-grid">
   <article class="panel">
     <div class="section-heading">
-      <p class="eyebrow">Current Focus</p>
-      <h2>What I keep returning to</h2>
+      <p class="eyebrow">Academic Context</p>
+      <h2>Where I am right now</h2>
     </div>
     <p>
-      Most of my attention goes toward software, database systems, and machine learning. Programming Fundamentals
-      gave me early confidence in problem-solving, and SQL added a clearer way of thinking about structure, data, and systems.
+      I am currently studying {{ profile.degree }} at {{ profile.university }}, with a CGPA of {{ profile.cgpa }}.
+      My coursework so far keeps drawing me toward programming, database systems, and digital logic because they reward
+      careful thinking, iteration, and clear structure.
     </p>
   </article>
 
   <article class="panel">
     <div class="section-heading">
-      <p class="eyebrow">Ways Of Working</p>
-      <h2>How I tend to learn</h2>
+      <p class="eyebrow">Direction</p>
+      <h2>What I want to keep building</h2>
     </div>
     <p>
-      I work most naturally in Python, C, C#, and SQL, usually with VS Code, Visual Studio Community,
-      and MySQL Workbench. I am drawn to work that gets clearer through iteration, not work that depends only on memorization.
+      I am most interested in work where programming, structured data, and systems thinking come together in a practical way.
+      That includes software foundations, database work, digital logic, and project-based learning that becomes clearer with each iteration.
     </p>
   </article>
 </section>
 
 <section class="panel">
   <div class="section-heading">
-    <p class="eyebrow">Selected Work</p>
-    <h2>A few things I keep returning to</h2>
+    <p class="eyebrow">Skills</p>
+    <h2>Tools and foundations I rely on</h2>
   </div>
 
-  <div class="post-grid">
-    <article class="post-card">
-      <h3 class="post-card-title">Weather Prediction Model</h3>
-      <p class="post-card-summary">
-        A supervised learning project built with Muhammad Tahir Yaqoob for next-day temperature and precipitation forecasting
-        using long-range weather data from European cities.
-      </p>
+  <div class="skills-layout">
+    <article class="skill-cluster">
+      <h3>Languages</h3>
+      <div class="skill-group">
+        {% for item in profile.skills.languages %}
+        <span class="tag">{{ item }}</span>
+        {% endfor %}
+      </div>
     </article>
 
-    <article class="post-card">
-      <h3 class="post-card-title">AI Video Experiments</h3>
-      <p class="post-card-summary">
-        Ongoing exploration of AI-assisted animated video workflows outside formal coursework.
-      </p>
+    <article class="skill-cluster">
+      <h3>Foundations</h3>
+      <div class="skill-group">
+        {% for item in profile.skills.foundations %}
+        <span class="tag">{{ item }}</span>
+        {% endfor %}
+      </div>
     </article>
+
+    <article class="skill-cluster">
+      <h3>Tools</h3>
+      <div class="skill-group">
+        {% for item in profile.skills.tools %}
+        <span class="tag">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="section-heading">
+    <p class="eyebrow">Highlights</p>
+    <h2>Stable facts that matter</h2>
+  </div>
+  <div class="fact-grid">
+    <div class="fact-card">
+      <span class="fact-label">Location</span>
+      <strong>{{ profile.location }}</strong>
+    </div>
+    <div class="fact-card">
+      <span class="fact-label">Current semester</span>
+      <strong>{{ profile.semester }}</strong>
+    </div>
+    <div class="fact-card">
+      <span class="fact-label">Recognition</span>
+      <strong>{{ profile.highlight }}</strong>
+    </div>
   </div>
 </section>

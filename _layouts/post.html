@@ -1,23 +1,30 @@
 ---
 layout: site
 ---
-<article class="post">
-  <header class="panel post-header">
-    <p class="eyebrow">Post</p>
-    <h1>{{ page.title }}</h1>
-    <div class="post-meta-row">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      {% if page.tags %}
-      <div class="tag-list">
-        {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span>
-        {% endfor %}
+{% assign post_image = page.image | default: site.default_post_image %}
+<article class="post-shell">
+  <header class="panel post-hero">
+    <div class="post-hero-copy">
+      <p class="eyebrow">Post</p>
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta-row">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% if page.tags %}
+        <div class="tag-list">
+          {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
       </div>
+      {% if page.summary %}
+      <p class="lead">{{ page.summary }}</p>
       {% endif %}
     </div>
-    {% if page.summary %}
-    <p class="lead post-summary">{{ page.summary }}</p>
-    {% endif %}
+
+    <figure class="post-hero-media">
+      <img src="{{ post_image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+    </figure>
   </header>
 
   <div class="panel post-content">
