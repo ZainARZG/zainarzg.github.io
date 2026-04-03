@@ -1,0 +1,33 @@
+name: "Syed Muhammad Zain"
+short_name: "S. M. Zain"
+tagline: "The Innovator"
+email: "zainmuammad160@gmail.com"
+github: "ZAINARZG"
+github_url: "https://github.com/ZAINARZG"
+
+education:
+  degree: "BS Computer Engineering"
+  university: "UET Lahore Campus Faisalabad"
+  semester: "2nd Semester"
+  cgpa: "3.91"
+  rank: "2nd Highest in Class"
+  scholar: "Honahaar Scholar"
+
+location:
+  city: "Bhalwal"
+  district: "Sargodha"
+
+goals:
+  short_term: "Masters in Artificial Intelligence / Machine Learning"
+  long_term: "The Innovator — Build things that didn't exist before"
+
+about: |
+  I grew up in **Bhalwal, Sargodha**. Not as developed as Lahore, not as loud. It doesn't have everything — but it's mine and I love it. I loved computers before I knew what engineering was. When CE became an option, it was never a question.
+
+  First semester hit different from what I expected. All-nighters before mids and finals. PF and AICT labs built from scratch. A full day navigating an unfamiliar Lahore to repair my laptop — nothing to eat but a packet of grains the whole day, the bus back sold out but still running, then 4km on foot through Faisalabad. A Honahaar Scholarship trip with document complications I hadn't expected. A groupmate I got close to transferred to Lahore. I lost focus for a while. Then I studied harder than I ever had before.
+
+  I finished with a **CGPA of 3.91 — 2nd highest in my class**. Second semester is online now. Wars, petrol prices, Eid. Studying from home. But I'm still here, and I'm not stopping.
+
+quote:
+  text: "A full day navigating an unfamiliar Lahore on a packet of grains, a sold-out bus that still ran, 4 kilometres on foot through Faisalabad — ate, opened the laptop, and checked everything was still standing."
+  attribution: "Semester 1 · The grind that made me"

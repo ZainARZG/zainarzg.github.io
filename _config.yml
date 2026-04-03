@@ -1,0 +1,42 @@
+# ===== SITE SETTINGS =====
+title: "Syed Muhammad Zain — The Innovator"
+tagline: "BS Computer Engineering · UET Lahore Campus Faisalabad"
+description: "Portfolio of Syed Muhammad Zain — 2nd-semester CE student, CGPA 3.91, building toward AI/ML."
+url: "https://zainarzg.github.io"
+baseurl: ""
+author: "Syed Muhammad Zain"
+email: "zainmuammad160@gmail.com"
+github_username: "ZAINARZG"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+permalink: /blog/:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

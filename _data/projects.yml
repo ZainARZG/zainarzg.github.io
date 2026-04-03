@@ -1,0 +1,31 @@
+# ===== PROJECTS DATA =====
+- title: "Supervised Learning Approach for Next Day Temperature and Precipitation Forecasting in Basel"
+  type: "Machine Learning · Supervised Learning · Weather Forecasting"
+  semester: "1st Semester"
+  description: >
+    A supervised ML model that forecasts next-day temperature and precipitation using 10 years
+    of historical weather data from 18 major European cities. Built on the European Cities Weather
+    Prediction Dataset from Kaggle. Covers data preprocessing, feature engineering, model training
+    and evaluation — applied to a real-world forecasting challenge. Presented at the 1st semester
+    project exhibition in front of teachers, fellow students, and seniors.
+  story: >
+    The idea didn't come from an assignment brief. I was talking to ChatGPT one night about some
+    model or code — weather came up casually, and something clicked. When Dr. Bilal later talked
+    about training a model in class, I remembered that conversation immediately. My collaborator
+    Muhammad Tahir Yaqoob was also my roommate, which made the whole process seamless.
+  collaborators:
+    - name: "Muhammad Tahir Yaqoob"
+      role: "Groupmate & Roommate"
+  details:
+    - label: "Type"
+      value: "ML Forecasting"
+    - label: "Dataset"
+      value: "18 cities · 10 yrs"
+    - label: "Supervisor"
+      value: "Dr. Bilal"
+    - label: "Semester"
+      value: "1st Semester"
+  link:
+    text: "Dataset on Kaggle"
+    url: "https://www.kaggle.com/datasets/orvile/european-cities-weather-prediction-dataset"
+  svg: "weather-prediction"
