@@ -29,6 +29,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - templates
+  - assets/css/frame.sass
+  - assets/css/index.sass
+  - assets/css/minimal.sass
+  - assets/css/sidebar.sass
 
 plugins:
   - jekyll-feed
