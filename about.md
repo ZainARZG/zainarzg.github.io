@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+<div class="page-hero">
+  <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&q=80" alt="University campus" loading="lazy"/>
+</div>
 <div class="rv"><p class="section-tag">01 — My Story</p><h1>Not the path I<br/>was handed —<br/><em>the one I chose.</em></h1></div>
 
 <div class="about-grid rv">

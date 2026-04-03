@@ -3,6 +3,9 @@ layout: page
 title: Skills
 permalink: /skills/
 ---
+<div class="page-hero">
+  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&q=80" alt="Code editor" loading="lazy"/>
+</div>
 <div class="rv"><p class="section-tag">02 — Technical Skills</p><h1>What I <em>build with.</em></h1></div>
 
 <div class="skills-grid rv">

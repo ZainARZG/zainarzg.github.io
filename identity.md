@@ -3,6 +3,9 @@ layout: page
 title: Identity
 permalink: /identity/
 ---
+<div class="page-hero">
+  <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80" alt="Gaming setup" loading="lazy"/>
+</div>
 <div class="rv"><p class="section-tag">05 — Who I Am</p><h1>Beyond the<br/><em>résumé.</em></h1></div>
 
 <div class="identity-grid rv">

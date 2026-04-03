@@ -3,6 +3,9 @@ layout: default
 title: Home
 ---
 <section class="hero">
+  <div class="hero-bg-image">
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80" alt="Digital network" loading="lazy"/>
+  </div>
   <div class="hero-left">
     <div class="hero-tag">{{ site.data.profile.education.degree }} · {{ site.data.profile.education.university }} · {{ site.data.profile.education.semester }}</div>
     <h1 class="hero-name"><span class="first-name">Syed</span>Muhammad <span class="last-name">Zain</span></h1>
