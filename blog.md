@@ -6,7 +6,7 @@ permalink: /blog/
 <div class="rv">
   <p class="section-tag">04 — Reflective Writing</p>
   <h1>My CE journey — <em>in my own words.</em></h1>
-  <p style="color:var(--text-muted);max-width:560px;font-size:.95rem;margin-bottom:2.5rem;font-weight:300;">Ten reflective essays about my first year in Computer Engineering — from late-night debugging to the trips that shaped me.</p>
+  <p style="color:var(--text-muted);max-width:560px;font-size:.95rem;margin-bottom:2.5rem;font-weight:300;">{{ site.posts | size }} reflective essays about my first year in Computer Engineering — from late-night debugging to the trips that shaped me.</p>
 </div>
 
 <div class="tag-filters" id="tag-filters"></div>

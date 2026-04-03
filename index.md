@@ -46,7 +46,7 @@ title: Home
     </a>
     <a href="{{ '/blog' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
       <div class="skill-label">04 — Writing</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Ten reflective essays about my first year in Computer Engineering.</p>
+      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">{{ site.posts | size }} reflective essays about my first year in Computer Engineering.</p>
     </a>
     <a href="{{ '/identity' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
       <div class="skill-label">05 — Identity</div>
