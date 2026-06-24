@@ -12,7 +12,8 @@ permalink: /blog/
 <div class="tag-filters" id="tag-filters"></div>
 
 <div class="blog-grid" id="blog-grid">
-  {% for post in site.posts %}
+  {% assign posts_sorted = site.posts | sort: "article_num" %}
+  {% for post in posts_sorted %}
   <a href="{{ post.url | relative_url }}" class="blog-card rv" data-tags="{{ post.tags | join: ',' }}" style="transition-delay:{{ forloop.index0 | times: 0.06 }}s">
     {% if post.cover_image %}
     <div class="blog-card-img-wrap">
