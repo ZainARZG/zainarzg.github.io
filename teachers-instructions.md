@@ -201,7 +201,7 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 
 ### Completed
 
-- All **10 existing posts** expanded to 1000+ words ✅
+- All **11 posts** written to 1000+ words ✅
 - **Dr. Bilal Ahmad** mentioned in every post (different context per post) ✅
 - **Social links** (LinkedIn, Google Scholar, Facebook) rotated across posts, integrated seamlessly ✅
 - **Hashtags** (#MLwithDrBilalAhmad, #DrBilalAhmad, #MLProject) added to every post ✅
@@ -211,7 +211,7 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 - **Post 5 (Laptop)**: Kept 1st semester only, no DBS mention ✅
 - **Post 7 (DBS/dropshipping)**: Treated as 2nd semester content, ML weather prediction focus ✅
 - **Post 9 (Letter to self)**: DBS/dropshipping/DB references removed → purely 1st semester content ✅
-- **Custom blog order** set by `article_num` (not dates): PF → Calculus → Physics → Groupmate → Laptop → AICT → Letter → CGPA → DBS → Train home ✅
+- **Custom blog order** set by `article_num` (not dates): Train home → DBS dropshipping → DBS Lab Eval → CGPA → Letter → AICT → Laptop → Groupmate → Physics → Calculus → PF ✅
 - **AGENTS.md** excluded from Jekyll build (Liquid syntax conflict) ✅
 - **teachers-instructions.md** excluded from Jekyll build ✅
 - **Empty placeholder post** (`2026-06-04-your-title.md`) removed ✅
@@ -219,38 +219,40 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 
 ### Pending
 
-- **5 new posts** still needed to reach 15 total
+- **4 new posts** still needed to reach 15 total
 - Awaiting user's remaining points (Point 1, Point 3, and any additional notes)
 
 ### Blog Display Order (by article_num)
 
 | # | Post | article_num | Content Period |
 |---|------|-------------|----------------|
-| 1 | PF build-break-debug | 1 | 1st sem start |
-| 2 | Calculus quiz | 2 | 1st sem early |
-| 3 | Physics 3 marks | 3 | 1st sem early→finals |
-| 4 | Groupmate left | 4 | 1st sem mid |
-| 5 | Laptop repair | 5 | 1st sem |
+| 1 | Train home | 1 | 2nd sem mid |
+| 2 | DBS dropshipping | 2 | 2nd sem start |
+| 3 | DBS lab eval (Ramadan) | 3 | 2nd sem holidays |
+| 4 | CGPA 3.91 | 4 | 1st sem results |
+| 5 | Letter to self | 5 | 1st sem only |
 | 6 | AICT presentation | 6 | 1st sem end |
-| 7 | Letter to self | 7 | 1st sem only |
-| 8 | CGPA 3.91 | 8 | 1st sem results |
-| 9 | DBS dropshipping | 9 | 2nd sem |
-| 10 | Train home | 10 | 2nd sem |
+| 7 | Laptop repair | 7 | 1st sem |
+| 8 | Groupmate left | 8 | 1st sem mid |
+| 9 | Physics 3 marks | 9 | 1st sem early→finals |
+| 10 | Calculus quiz | 10 | 1st sem early |
+| 11 | PF build-break-debug | 11 | 1st sem start |
 
 ### Link Rotation
 
 | Post | Link(s) Used |
 |------|-------------|
-| 1 PF | LinkedIn + Google Scholar |
-| 2 Calculus | Facebook |
-| 3 Physics | Google Scholar |
-| 4 Groupmate | LinkedIn |
-| 5 Laptop | Facebook |
+| 1 Train home | LinkedIn |
+| 2 DBS dropshipping | Google Scholar |
+| 3 DBS lab eval (Ramadan) | LinkedIn |
+| 4 CGPA | Google Scholar |
+| 5 Letter | Facebook |
 | 6 AICT | LinkedIn |
-| 7 DBS | Google Scholar |
-| 8 Train home | LinkedIn |
-| 9 CGPA | Google Scholar |
-| 10 Letter | Facebook |
+| 7 Laptop | Facebook |
+| 8 Groupmate | LinkedIn |
+| 9 Physics | Google Scholar |
+| 10 Calculus | Facebook |
+| 11 PF | LinkedIn + Google Scholar |
 
 ### Deployment Notes
 

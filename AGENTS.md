@@ -4,7 +4,7 @@
 
 Personal portfolio website for **Syed Muhammad Zain** — BS Computer Engineering student at UET Lahore Campus Faisalabad (CGPA 3.91, 2nd highest in class, Honahaar Scholar). Built with **Jekyll** (static site generator), hosted on GitHub Pages at `zainarzg.github.io`.
 
-The site functions as a living résumé: biography, skills inventory, academic project showcase (weather ML model), personal blog (10 reflective essays about first-year CE), identity page, and contact page.
+The site functions as a living résumé: biography, skills inventory, academic project showcase (weather ML model), personal blog (11 reflective essays about first-year CE), identity page, and contact page.
 
 Design is a dark-first cyberpunk/neon theme with light-mode alternative — all custom CSS, no UI framework.
 
@@ -25,7 +25,7 @@ _includes/
   header.html              ← Nav bar, theme toggle, mobile menu
   footer.html              ← Footer credit line
   svg/*.svg                ← Cover illustrations for blog posts
-_posts/*.md                ← Blog posts (10 essays, 2024-12 to 2025-02)
+_posts/*.md                ← Blog posts (11 essays, 2024-12 to 2025-03)
 assets/
   css/style.css            ← All styles (249 lines), dark/light theme via CSS vars
   js/main.js               ← All JS (vanilla, ~150 lines, IIFE pattern)
@@ -44,7 +44,7 @@ assets/
 | `_layouts/` | Jekyll layout templates (inheritance: default → page/post) |
 | `_includes/` | Reusable partials: header, footer, SVG illustrations |
 | `_includes/svg/` | 9 SVG illustrations referenced by blog posts via `cover_svg` frontmatter |
-| `_posts/` | Blog post collection (10 posts, tagged, dated, ordered by `article_num`) |
+| `_posts/` | Blog post collection (11 posts, tagged, dated, ordered by `article_num`) |
 | `assets/css/` | Single stylesheet with dark/light theme |
 | `assets/js/` | Single vanilla JS file |
 | `assets/images/` | Static images |
