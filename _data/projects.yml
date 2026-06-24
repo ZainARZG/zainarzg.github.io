@@ -36,3 +36,69 @@
   report:
     text: "Project Report"
     url: "/assets/docs/project-report-pf-zain.pdf"
+
+- title: "Database Design and ML Survival Prediction on TCGA-LAML Leukemia Dataset"
+  type: "Database Systems · Machine Learning · Healthcare"
+  semester: "2nd Semester"
+  cover_image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&q=80"
+  cover_alt: "Microscope in a laboratory setting"
+  description: >
+    An end-to-end database design and machine learning pipeline predicting Overall Survival
+    (Months) for Acute Myeloid Leukemia patients using the TCGA-LAML dataset from cBioPortal.
+    The raw CSV with 54 columns was normalized into 11 relational MySQL tables in Third Normal
+    Form. SQL queries with JOINs exported the combined dataset, and three regression models
+    (Ridge, Decision Tree, Random Forest) were trained and evaluated. A FastAPI web application
+    with a responsive dashboard was built for interactive survival prediction.
+  story: >
+    When Dr. Bilal announced an open-ended project, we initially wanted to build a TTS model.
+    He redirected us: the project needed a database component. After being rejected on popular
+    Kaggle datasets, he opened cBioPortal on his screen and pointed to a leukemia dataset.
+    "Show me its research paper," he said. That moment changed the trajectory of the project.
+  collaborators:
+    - name: "Muhammad Tahir Yaqoob"
+      role: "Groupmate & Roommate"
+  details:
+    - label: "Type"
+      value: "Survival Prediction"
+    - label: "Dataset"
+      value: "TCGA-LAML · 200 patients"
+    - label: "Supervisor"
+      value: "Dr. Bilal Ahmad"
+    - label: "Semester"
+      value: "2nd Semester"
+  report:
+    text: "Project Report (PDF)"
+    url: "/assets/docs/Project_Report_Database_Design_and_ML_Prediction.pdf"
+
+- title: "University Admission Management System — C# Console Application"
+  type: "Object-Oriented Programming · C# · 3-Tier Architecture"
+  semester: "2nd Semester"
+  cover_image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=1200&q=80"
+  cover_alt: "Code on a dark monitor screen"
+  description: >
+    A console-based University Admission Management System built with C# following a strict
+    3-Tier Architecture: Presentation Layer (console menus and input handling), Business Logic
+    Layer (merit calculation, program allocation, subject registration, fee calculation), and
+    Data Layer (in-memory storage). Features include student management, multi-program preference
+    entry, merit list generation, seat allocation, subject registration capped at 9 credit hours
+    per student, and automated fee generation.
+  story: >
+    This was the first OOP mini project that taught me why architecture matters. Before this,
+    I wrote everything in one file. Splitting it into Presentation, Business Logic, and Data
+    layers felt unnecessary at first, but when the console menu grew to 22 options and the
+    business rules started colliding, the separation saved everything I had built.
+  collaborators:
+    - name: "Solo Project"
+      role: "Individual"
+  details:
+    - label: "Type"
+      value: "Admission System"
+    - label: "Language"
+      value: "C#"
+    - label: "Architecture"
+      value: "3-Tier"
+    - label: "Semester"
+      value: "2nd Semester"
+  report:
+    text: "Project Report (PDF)"
+    url: "/assets/docs/Mini Project University Admission System.pdf"
