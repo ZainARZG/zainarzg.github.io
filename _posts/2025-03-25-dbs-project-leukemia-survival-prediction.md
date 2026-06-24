@@ -4,8 +4,8 @@ title: "The DBS Project That Took Us from TTS to Leukemia Survival Prediction"
 date: 2025-03-25
 article_num: 1
 tags: [DBS, Project, ML, Leukemia, Database, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
-cover_image: "https://raw.githubusercontent.com/ZainARZG/zainarzg.github.io/master/assets/images/dbs-project-cover.webp"
-cover_alt: "DBS project work and leukemia survival prediction system"
+cover_image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80"
+cover_alt: "Microscope and laboratory equipment representing the medical research and ML analysis behind the DBS leukemia survival prediction project"
 excerpt: "Our DBS project started with a TTS model idea that got rejected, went through multiple dataset attempts, and ended with a leukemia survival prediction system using 11 normalized tables and Ridge Regression."
 ---
 
