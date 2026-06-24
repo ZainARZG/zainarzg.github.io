@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two OOP Projects, One Mindset: From Console Admissions to a Unity Game Framework — S. M. Zain</title>
+  <meta name="description" content="Portfolio of Syed Muhammad Zain — 2nd-semester CE student, CGPA 3.91, building toward AI/ML.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+  <nav class="nav">
+    <a href="/" class="nav-logo">S. M. Zain<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/skills">Skills</a></li>
+      <li><a href="/project">Project</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/identity">Identity</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <span class="nav-badge">CGPA 3.91</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/skills">Skills</a></li>
+      <li><a href="/project">Project</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/identity">Identity</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <main><article class="article-page">
+  <div class="article-container">
+    
+    <div class="article-cover">
+      <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80" alt="Lines of code on a dark screen with syntax highlighting" loading="lazy"/>
+    </div>
+    
+    <header class="article-header">
+      <div class="article-num">2</div>
+      <h1>Two OOP Projects, One Mindset: From Console Admissions to a Unity Game Framework</h1>
+      <div class="article-meta">
+        <span>Syed Muhammad Zain</span>
+        <span class="meta-sep">·</span>
+        <span>BS Computer Engineering · UET Lahore Campus Faisalabad</span>
+        <span class="meta-sep">·</span><span>March 2025</span>
+      </div>
+      
+        <div class="article-tags"><span class="tag">OOP</span><span class="tag">C#</span><span class="tag">Unity</span><span class="tag">Project</span><span class="tag">Programming</span><span class="tag">DrBilalAhmad</span><span class="tag">MLwithDrBilalAhmad</span><span class="tag">MLProject</span></div>
+      
+    </header>
+    <div class="article-body"><p>The period after the midterms was project season. Every course seemed to have one, and the deadlines clustered together in a way that forced us to think seriously about time management. Among them were two mini projects for the Object-Oriented Programming course — one console-based and one in Unity — that together covered the full spectrum of what OOP really means in practice.</p>
+
+<p>The first project was a University Admission Management System built entirely in C# as a console application. The requirement was to implement a three-tier architecture: a Presentation Layer that handled all console input and output, a Business Logic Layer that processed the rules, and a Data Layer that managed the storage. The system had to manage students, programs, subjects, admissions, and fee calculations — all through a text-based menu interface.</p>
+
+<p>The domain was immediately relatable. The program had to handle exactly the kind of processes that we as students had experienced firsthand: applying to programs, checking merit lists, getting allocated to a program, registering subjects, and calculating fees. Students had FSC and ECAT marks, programs had seats and subjects, and the admission process required sorting by merit score and allocating based on preferences. There was a constraint system — no student could register more than 9 credit hours, and no program could exceed 20 credit hours for its subjects. The fee department calculated fees based on registered subjects and their per-credit-hour rates.</p>
+
+<p>Building this in a three-tier architecture taught me something that a single-file script never could: the importance of separation of concerns. The Menu class handled navigation without knowing anything about admission logic. The AdmissionManager processed admissions without caring about how data was displayed. The StudentDL class stored and retrieved data without understanding what the data meant. Each layer had one job, and the boundaries between them were strict. When a bug appeared in fee calculation, I knew exactly where to look — the FeeCalculator in the Business Logic Layer — without touching a single line of presentation or data code.</p>
+
+<p>What made the admission project particularly challenging was the amount of edge cases the system had to handle. What happened when a student with no program preferences tried to register subjects? What if a program’s seats were all filled but students were still being added to the system? What if a student entered an invalid subject code during registration? Each of these scenarios had to be anticipated and managed gracefully — the system could not crash, and it could not produce incorrect results. The three-tier architecture proved its value here. Each edge case was handled at the appropriate layer: data validation in the Presentation Layer, business rules in the Logic Layer, and state consistency in the Data Layer. Changing how one layer handled its responsibilities never required touching the other two.</p>
+
+<p>The console application also had to handle user navigation fluidly — a menu system where users could go back to the previous screen at any point by typing “b” or “back.” This required a custom NavigationBackException that could be thrown from any depth of the input handling and caught at the menu loop level. It was a small detail, but it made the difference between a frustrating command-line experience and one that actually felt usable.</p>
+
+<p>The second project took OOP into a completely different context: game development in Unity. The objective was to design a modular, scalable game architecture using the four pillars of OOP — Encapsulation, Abstraction, Inheritance, and Polymorphism — this time applied to a real-time interactive system rather than a console-based data processor.</p>
+
+<p>The core of the Unity project was a health system built around encapsulation. The CombatHealth class stored the current health as a private variable that could only be modified through controlled public methods. TakeDamage validated the input, clamped the health to a valid range, and triggered death detection as a guaranteed side effect. No external script could bypass this by setting health directly, because the variable simply was not accessible. The SerializeField attribute kept maxHealth editable in the Unity Inspector while preserving encapsulation in code — a practical compromise that game developers use daily.</p>
+
+<p>For data management, we used Unity’s ScriptableObject system to create a base item class with common fields like itemID, displayName, and itemRarity. Different item types — weapons, consumables, armor — inherited from this base class and added their own specialized fields. This meant the inventory system could store any item type in a single generic list and treat them uniformly through their shared base class interface. Adding a new item type required creating a new derived class without modifying any existing code.</p>
+
+<p>The most architecturally interesting part was the event-driven communication system. Instead of the health component holding direct references to the UI, the audio manager, and every other system that cared about health changes, it simply exposed a public event and broadcast it when the health changed. Any number of external systems could subscribe to that event without the health component knowing or caring about their existence. This decoupling meant the CombatHealth component could be attached to the player, enemies, and destructible objects without modification — true reusability through polymorphic design.</p>
+
+<p>What struck me most was how the skills transferred between the two projects. The discipline of thinking about class boundaries before writing code — learned in the console admission system — made the Unity project easier to design. And the experience of debugging event-driven systems in Unity made me appreciate the clean separation of the three-tier architecture even more. They were two different languages, two different platforms, two different domains. But the OOP mindset was identical.</p>
+
+<p>The lessons from these two projects, though applied in very different contexts, reinforced the same fundamental principle that <strong>Dr. Bilal Ahmad</strong> had taught in his Programming Fundamentals course: clean code is not about making the computer understand you — it is about making the next person who reads your code understand you. The three-tier architecture of the admission system and the event-driven architecture of the Unity framework both aimed at the same goal: creating code that could be understood, extended, and debugged without requiring the original author to be present.</p>
+
+<p>Connect with him on <a href="https://www.facebook.com/drbilalphd/">Facebook</a>. His emphasis on programming fundamentals — clear structure, meaningful naming, single responsibility — is visible in every well-architected system I have built since.</p>
+
+<p>Two projects, two platforms, two completely different domains. But the OOP principles that made both of them work — encapsulation, abstraction, inheritance, polymorphism — were the same. And the value of writing code that is not just functional but maintainable is a lesson that applies whether you are building a university admission console app or a full-scale game framework.</p>
+
+<p>#MLwithDrBilalAhmad #DrBilalAhmad #MLProject</p>
+</div>
+    <nav class="article-nav">
+      
+        <a href="/blog/dbs-project-leukemia-survival-prediction/" class="nav-card"><span class="nav-dir">← Previous</span><span class="nav-title">The DBS Project That Took Us from TTS to Leukemia Survival Prediction</span></a>
+      
+      <a href="/blog" class="nav-back">↑ Back to Blog</a>
+      
+        <a href="/blog/dld-project-ambulance-priority-system/" class="nav-card right"><span class="nav-dir">Next →</span><span class="nav-title">No Microcontroller, No Code: Building a Smart Ambulance Priority System with Pure Digital Logic</span></a>
+      
+    </nav>
+  </div>
+</article>
+</main>
+  <footer class="site-footer">
+  <span>© 2026 <em>Syed Muhammad Zain</em> · BS Computer Engineering · UET Lahore Campus Faisalabad</span>
+  <span>Built from scratch, after midnight, from <em>Bhalwal</em>.</span>
+</footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

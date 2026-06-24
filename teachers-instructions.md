@@ -201,7 +201,7 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 
 ### Completed
 
-- All **12 posts** written to 1000+ words ✅
+- All **15 posts** written to 1000+ words ✅
 - **Dr. Bilal Ahmad** mentioned in every post (different context per post) ✅
 - **Social links** (LinkedIn, Google Scholar, Facebook) rotated across posts, integrated seamlessly ✅
 - **Hashtags** (#MLwithDrBilalAhmad, #DrBilalAhmad, #MLProject) added to every post ✅
@@ -211,50 +211,52 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 - **Post 5 (Laptop)**: Kept 1st semester only, no DBS mention ✅
 - **Post 7 (DBS/dropshipping)**: Treated as 2nd semester content, ML weather prediction focus ✅
 - **Post 9 (Letter to self)**: DBS/dropshipping/DB references removed → purely 1st semester content ✅
-- **Custom blog order** set by `article_num` (not dates): Returning to campus → DBS Lab Eval → Train home → DBS dropshipping → CGPA → Letter → AICT → Laptop → Groupmate → Physics → Calculus → PF ✅
+- **Custom blog order** set by `article_num` (not dates): DBS Project → OOP Projects → DLD Project → Returning to campus → DBS Lab Eval → Train home → DBS dropshipping → CGPA → Letter → AICT → Laptop → Groupmate → Physics → Calculus → PF ✅
 - **AGENTS.md** excluded from Jekyll build (Liquid syntax conflict) ✅
 - **teachers-instructions.md** excluded from Jekyll build ✅
 - **Empty placeholder post** (`2026-06-04-your-title.md`) removed ✅
 - **Site builds and deploys** to GitHub Pages successfully ✅
 
-### Pending
-
-- **3 new posts** still needed to reach 15 total
-- Awaiting user's remaining points (Point 1, Point 3, and any additional notes)
 
 ### Blog Display Order (by article_num)
 
 | # | Post | article_num | Content Period |
 |---|------|-------------|----------------|
-| 1 | Returning to campus + DBS mids | 1 | 2nd sem |
-| 2 | DBS lab eval (Ramadan) | 2 | 2nd sem holidays |
-| 3 | Train home | 3 | 2nd sem mid |
-| 4 | DBS dropshipping | 4 | 2nd sem start |
-| 5 | CGPA 3.91 | 5 | 1st sem results |
-| 6 | Letter to self | 6 | 1st sem only |
-| 7 | AICT presentation | 7 | 1st sem end |
-| 8 | Laptop repair | 8 | 1st sem |
-| 9 | Groupmate left | 9 | 1st sem mid |
-| 10 | Physics 3 marks | 10 | 1st sem early→finals |
-| 11 | Calculus quiz | 11 | 1st sem early |
-| 12 | PF build-break-debug | 12 | 1st sem start |
+| 1 | DBS Project (Leukemia ML) | 1 | 2nd sem |
+| 2 | OOP Projects (Admission + Unity) | 2 | 2nd sem |
+| 3 | DLD Project (Ambulance) | 3 | 2nd sem |
+| 4 | Returning to campus + DBS mids | 4 | 2nd sem |
+| 5 | DBS lab eval (Ramadan) | 5 | 2nd sem holidays |
+| 6 | Train home | 6 | 2nd sem mid |
+| 7 | DBS dropshipping | 7 | 2nd sem start |
+| 8 | CGPA 3.91 | 8 | 1st sem results |
+| 9 | Letter to self | 9 | 1st sem only |
+| 10 | AICT presentation | 10 | 1st sem end |
+| 11 | Laptop repair | 11 | 1st sem |
+| 12 | Groupmate left | 12 | 1st sem mid |
+| 13 | Physics 3 marks | 13 | 1st sem early→finals |
+| 14 | Calculus quiz | 14 | 1st sem early |
+| 15 | PF build-break-debug | 15 | 1st sem start |
 
 ### Link Rotation
 
 | Post | Link(s) Used |
 |------|-------------|
-| 1 Returning to campus + DBS mids | Facebook |
-| 2 DBS lab eval (Ramadan) | LinkedIn |
-| 3 Train home | LinkedIn |
-| 4 DBS dropshipping | Google Scholar |
-| 5 CGPA | Google Scholar |
-| 6 Letter | Facebook |
-| 7 AICT | LinkedIn |
-| 8 Laptop | Facebook |
-| 9 Groupmate | LinkedIn |
-| 10 Physics | Google Scholar |
-| 11 Calculus | Facebook |
-| 12 PF | LinkedIn + Google Scholar |
+| 1 DBS Project (Leukemia ML) | Google Scholar |
+| 2 OOP Projects (Admission + Unity) | Facebook |
+| 3 DLD Project (Ambulance) | LinkedIn |
+| 4 Returning to campus + DBS mids | Facebook |
+| 5 DBS lab eval (Ramadan) | LinkedIn |
+| 6 Train home | LinkedIn |
+| 7 DBS dropshipping | Google Scholar |
+| 8 CGPA | Google Scholar |
+| 9 Letter | Facebook |
+| 10 AICT | LinkedIn |
+| 11 Laptop | Facebook |
+| 12 Groupmate | LinkedIn |
+| 13 Physics | Google Scholar |
+| 14 Calculus | Facebook |
+| 15 PF | LinkedIn + Google Scholar |
 
 ### Deployment Notes
 
