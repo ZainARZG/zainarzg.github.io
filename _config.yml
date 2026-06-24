@@ -38,3 +38,5 @@ exclude:
   - node_modules/
   - vendor/
   - _site/
+  - AGENTS.md
+  - teachers-instructions.md
