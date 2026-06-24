@@ -4,8 +4,8 @@ title: "The Iran-US Tension Passed, the University Reopened, and the Mids Hit Ha
 date: 2025-03-15
 article_num: 1
 tags: [DBS, University, Mids, IranUS, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
-cover_image: "https://images.unsplash.com/photo-1519406596751-0a3ccc4937fe?w=800&q=80"
-cover_alt: "Empty classroom with wooden desks, chairs, and a map on the wall"
+cover_image: "https://plus.unsplash.com/premium_photo-1671070687988-b2d6805ea896?w=800&q=80"
+cover_alt: "Classroom with wooden desks, chairs, and a large window with natural light"
 excerpt: "The Iran-US tension de-escalated and we returned to campus with only a week before mids. The DBS exam was long, combined with a quiz in the same time, and I could not finish everything — 20 out of 30."
 ---
 
