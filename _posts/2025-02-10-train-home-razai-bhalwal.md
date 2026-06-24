@@ -44,7 +44,7 @@ The second semester moved from the hostel to home in the space of a single week.
 
 It was not the plan I had started the semester with. But it was the plan that worked. And sometimes the best plans are the ones you do not make — the ones that circumstances make for you, and you just have the sense to accept.
 
-Bhalwal feels different after months away. Quieter. Slower. More intentional. But the work that matters — the DBS projects, the ML models, the learning — happens wherever I am. The train ride home was not an interruption. It was a transition between two versions of the same learning journey, and both of them matter.
+Bhalwal feels different after being away. Quieter. Slower. More intentional. But the work that matters — the DBS projects, the ML models, the learning — happens wherever I am. The train ride home was not an interruption. It was a transition between two versions of the same learning journey, and both of them matter.
 
 ---
 
