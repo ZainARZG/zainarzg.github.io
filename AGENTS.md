@@ -25,7 +25,7 @@ _includes/
   header.html              ← Nav bar, theme toggle, mobile menu
   footer.html              ← Footer credit line
   svg/*.svg                ← Cover illustrations for blog posts
-_posts/*.md                ← Blog posts (11 essays, 2024-12 to 2025-03)
+_posts/*.md                ← Blog posts (12 essays, 2024-12 to 2025-03)
 assets/
   css/style.css            ← All styles (249 lines), dark/light theme via CSS vars
   js/main.js               ← All JS (vanilla, ~150 lines, IIFE pattern)
@@ -44,7 +44,7 @@ assets/
 | `_layouts/` | Jekyll layout templates (inheritance: default → page/post) |
 | `_includes/` | Reusable partials: header, footer, SVG illustrations |
 | `_includes/svg/` | 9 SVG illustrations referenced by blog posts via `cover_svg` frontmatter |
-| `_posts/` | Blog post collection (11 posts, tagged, dated, ordered by `article_num`) |
+| `_posts/` | Blog post collection (12 posts, tagged, dated, ordered by `article_num`) |
 | `assets/css/` | Single stylesheet with dark/light theme |
 | `assets/js/` | Single vanilla JS file |
 | `assets/images/` | Static images |

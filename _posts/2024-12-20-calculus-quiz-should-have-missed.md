@@ -2,7 +2,7 @@
 layout: post
 title: "The Calculus Quiz I Should Have Missed"
 date: 2024-12-20
-article_num: 10
+article_num: 11
 tags: [Calculus, Grace, Assumptions, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: calculus
 cover_image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
