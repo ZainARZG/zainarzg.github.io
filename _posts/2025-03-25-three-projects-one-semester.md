@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "The Semester That Built Me: Three Projects in ML, OOP, and Digital Logic"
+title: "The Semester That Built Me: Four Projects Across ML, OOP, and Digital Logic"
 date: 2025-03-25
 article_num: 1
 tags: [DBS, OOP, DLD, Project, ML, Unity, Digital Logic, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80"
-cover_alt: "Lines of code on a dark screen with syntax highlighting, representing the programming and engineering mindset shared across three very different projects"
-excerpt: "Three projects in one semester — a leukemia survival prediction system, two OOP applications, and a hardware-only ambulance priority traffic controller — that together taught me what engineering really means."
+cover_alt: "Lines of code on a dark screen with syntax highlighting, representing the programming and engineering mindset shared across four very different projects"
+excerpt: "Four projects in one semester — a leukemia survival prediction system, two OOP applications, and a hardware-only ambulance priority traffic controller — that together taught me what engineering really means."
 ---
-The second semester at UET Lahore, Faisalabad Campus, was a crucible. The courses came at us from every direction — Database Systems, Object-Oriented Programming, Digital Logic Design — and each one demanded a project that would test everything we had learned. By the end of it, I had built three completely different systems: a machine learning pipeline for leukemia survival prediction, a pair of OOP applications spanning console and Unity, and a hardware-only ambulance priority traffic controller built with nothing but logic gates and flip-flops. They had nothing in common on the surface, but together they taught me what it actually means to design, build, and debug something that works.
+The second semester at UET Lahore, Faisalabad Campus, was a crucible. The courses came at us from every direction — Database Systems, Object-Oriented Programming, Digital Logic Design — and each one demanded a project that would test everything we had learned. By the end of it, I had built four distinct systems: a machine learning pipeline for leukemia survival prediction, a console-based admission management system, a Unity RPG game framework, and a hardware-only ambulance priority traffic controller built with nothing but logic gates and flip-flops. They had nothing in common on the surface, but together they taught me what it actually means to design, build, and debug something that works.
 
 ### The DBS Project: From TTS to Leukemia Survival Prediction
 
@@ -52,11 +52,11 @@ What made this project genuinely educational was the hardware-only constraint. T
 
 ### What They All Taught Me
 
-Three projects. Three completely different domains. One machine learning pipeline, one pair of OOP applications, one hardware-only logic system. On paper, they look like the work of three different people.
+Four projects spanning two programming languages, a database system, and a physical circuit. A machine learning pipeline, a console-based admission system, a Unity game framework, and a hardware-only traffic controller. On paper, they look like the work of four different people.
 
 But the thread running through all of them was the same way of thinking. The DBS project taught me that dataset selection is a research decision, not just a technical one — and that the credibility of your data determines the credibility of everything that follows. The OOP projects taught me that clean code is not about making the computer understand you — it is about making the next person who reads your code understand you, a principle that Dr. Bilal Ahmad had drilled into us during Programming Fundamentals. The DLD project taught me that getting the design right before touching the build is always cheaper than debugging it later — whether the build is a circuit on a breadboard or a system with thousands of lines of code.
 
-The semester built three projects. But more than that, it built a way of approaching problems that I still carry into everything I build.
+The semester built four projects. But more than that, it built a way of approaching problems that I still carry into everything I build.
 
 Explore his work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en). His emphasis on research credibility, clean structure, and thinking before building is visible in every one of these projects — from the cBioPortal dataset we fought to get approved to the discipline of designing a circuit on paper before touching a single wire.
 
