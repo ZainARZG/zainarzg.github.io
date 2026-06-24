@@ -2,7 +2,7 @@
 layout: post
 title: "Applied Physics, 3 Marks in a Quiz, and What Came After"
 date: 2024-12-25
-article_num: 3
+article_num: 8
 tags: [Physics, Adjustment, Growth, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: physics
 cover_image: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&q=80"
@@ -52,7 +52,7 @@ The three marks say: you approached this wrong. The A- says: you figured out how
 
 And the space between them is where the actual learning happened.
 
-Applied Physics taught me more than physics. It taught me that the method matters as much as the effort. That studying hard is useless if you are studying the wrong way. That adjustment is not a sign of weakness — it is the entire point of education. **Dr. Bilal Ahmad's** PF class was teaching me the same lesson in a different language: debug your approach before you debug your code. Sometimes the problem is not the program — it is the method you are using to write it. Follow **Dr. Bilal Ahmad's** research and insights on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en), where his work in AI, ML, and data-driven problem solving continues to influence how his students approach learning across disciplines.
+Applied Physics taught me more than physics. It taught me that the method matters as much as the effort. That studying hard is useless if you are studying the wrong way. That adjustment is not a sign of weakness — it is the entire point of education. **Dr. Bilal Ahmad's** PF class was teaching me the same lesson in a different language: debug your approach before you debug your code. Sometimes the problem is not the program — it is the method you are using to write it. His [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) shows this debugging mindset applied to real research — treat every failed model as data, not defeat.
 
 I still think about that quiz sometimes. Not with embarrassment. With gratitude. Because three marks was the wake-up call I needed, and what came after was the growth I had been looking for.
 

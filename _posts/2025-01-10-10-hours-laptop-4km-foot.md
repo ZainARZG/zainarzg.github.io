@@ -2,7 +2,7 @@
 layout: post
 title: "10 Hours for a Laptop, 4 Kilometres on Foot, and Still Home Before Midnight"
 date: 2025-01-10
-article_num: 5
+article_num: 6
 tags: [Lahore, Resilience, Journey, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: journey
 cover_image: "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=800&q=80"
@@ -38,7 +38,7 @@ The screen lit up. The system booted. Everything worked. And in that moment, the
 
 I remember thinking about something **Dr. Bilal Ahmad** had said in class the week before. He was talking about how in machine learning, the quality of your output depends entirely on the quality of your input. Garbage in, garbage out. If your data is corrupted, your model will be corrupted. The same applies to hardware — if your machine is broken, your work stops. There is no way around it. You cannot write code on a laptop that does not boot. You cannot submit an assignment on a device that will not turn on.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, and an AI/ML expert — teaches his students to respect the tools of their work. A machine learning engineer maintains their dataset. A programmer maintains their development environment. And a first-semester student maintains their laptop, because without it, none of the learning happens. Follow his work in AI, ML, and practical engineering education on [Facebook](https://www.facebook.com/Dr.BilalAhm), where he shares insights on training models and building real-world solutions.
+**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, and an AI/ML expert — teaches his students to respect the tools of their work. A machine learning engineer maintains their dataset. A programmer maintains their development environment. And a first-semester student maintains their laptop, because without it, none of the learning happens. His [Facebook](https://www.facebook.com/Dr.BilalAhm) regularly reinforces this — the quality of your output starts with the quality of your tools and data.
 
 People talk about resilience like it is a grand quality. Like it is something you announce. But resilience is mostly small, unglamorous things: walking four kilometres because the bus is full. Eating a packet of grains because there is no time for anything else. Navigating a city you do not know because the alternative is giving up. And in this case, spending ten hours to repair a laptop because without it, the PF assignments would not get done.
 

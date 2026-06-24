@@ -2,7 +2,7 @@
 layout: post
 title: "The Train Home, the Razai, and What Bhalwal Feels Like After Months Away"
 date: 2025-02-10
-article_num: 10
+article_num: 1
 tags: [Bhalwal, Train, Home, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: home-train
 cover_image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800&q=80"
@@ -38,7 +38,7 @@ One of the classes I continued online was **Dr. Bilal Ahmad's** Database Systems
 
 That idea stayed with me throughout the transition. The hostel had been my learning environment for months. Now home was. The change was physical, but the work was the same — the DBS assignments, the SQL practice, the project planning. None of it stopped because I changed locations. It continued, adapted to the new setting.
 
-I remember one particular afternoon — I was sitting at my desk, working through a set of SQL join queries that **Dr. Bilal** had assigned. The table relationships were complex, and I kept getting the wrong output. Outside my window, Bhalwal was quiet in that afternoon way that only small towns can be. Inside, I was debugging a query, trying to figure out why my left join was returning nulls where it should not have. The problem was the same one I would have faced in the hostel computer lab. The solution was the same process of elimination, the same systematic checking of assumptions. The location did not change the logic. **Dr. Bilal Ahmad** shares his approach to adaptable, real-world engineering education on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on learning that travels with you continues to shape how I study, wherever I am.
+I remember one particular afternoon — I was sitting at my desk, working through a set of SQL join queries that **Dr. Bilal** had assigned. The table relationships were complex, and I kept getting the wrong output. Outside my window, Bhalwal was quiet in that afternoon way that only small towns can be. Inside, I was debugging a query, trying to figure out why my left join was returning nulls where it should not have. The problem was the same one I would have faced in the hostel computer lab. The solution was the same process of elimination, the same systematic checking of assumptions. The location did not change the logic. It is the kind of adaptable thinking **Dr. Bilal Ahmad** emphasises on his [LinkedIn](https://www.linkedin.com/in/drbilalphd/) — learning that travels with you, wherever you are.
 
 The second semester moved from the hostel to home in the space of a single week. One day I was in the hostel, and the next I was on a train, and the day after that I was at my desk at home, attending a DBS lecture online, with the razai on the chair beside me and the familiar walls of my room around me.
 

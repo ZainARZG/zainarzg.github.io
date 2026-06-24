@@ -2,7 +2,7 @@
 layout: post
 title: "Dr. Bilal Said No to Dropshipping and Accidentally Pointed Me Somewhere Better"
 date: 2025-02-01
-article_num: 9
+article_num: 2
 tags: [AI/ML, Database, Direction, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: ai-ml
 cover_image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
@@ -35,7 +35,7 @@ Both options were harder than dropshipping. Both required learning things I had 
 I chose the AI/ML direction.
 The decision was not instant. I spent a few days going back and forth between the two options. The database project felt safer — I knew the tools, I understood the requirements, and I could execute it without learning an entirely new skillset. The AI/ML path was uncertain. I had never trained a machine learning model before. I did not know what feature engineering meant. The word "epoch" was not in my vocabulary at that point.
 
-But I kept thinking about something **Dr. Bilal Ahmad** had said in one of his lectures. He was talking about how he trains ML models on medical datasets — echocardiograms, clinical records, diagnostic images — and how the models are only as good as the data they are trained on. He said: "If you want to build something that matters, start with data that matters." That sentence stuck with me. A dropshipping database, no matter how well built, would never make anyone's life better. An ML model that predicted something real might. You can explore **Dr. Bilal Ahmad's** research publications and academic work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en). His focus on real-world ML applications continues to guide how I approach every new project.
+But I kept thinking about something **Dr. Bilal Ahmad** had said in one of his lectures. He was talking about how he trains ML models on medical datasets — echocardiograms, clinical records, diagnostic images — and how the models are only as good as the data they are trained on. He said: "If you want to build something that matters, start with data that matters." That sentence stuck with me. A dropshipping database, no matter how well built, would never make anyone's life better. An ML model that predicted something real might. You can see this same thinking in his work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) — research on real-world ML applications that pushed me to choose the harder path.
 
 So I chose the harder path.
 

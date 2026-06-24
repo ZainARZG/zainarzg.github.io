@@ -2,7 +2,7 @@
 layout: post
 title: "What I Would Tell the Version of Me Who Arrived at UET Not Knowing the Routes"
 date: 2025-02-15
-article_num: 7
+article_num: 4
 tags: [Letter, Advice, Future, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
@@ -38,7 +38,7 @@ Your CGPA is going to be 3.91. It is going to look impressive from the outside. 
 
 The Honahaar Scholarship is going to be part of your journey. It is going to add pressure, but it is also going to add purpose. Let it motivate you, not paralyze you.
 
-The most important thing you will learn from **Dr. Bilal Ahmad's** PF class is not Python. It is the build-break-debug loop as a way of approaching life. You build something — a program, a habit, a skill. It breaks — an error, a setback, a failure. You debug — you figure out what went wrong, isolate the variable, fix it. You build again. The loop does not end. That is not a flaw. That is the point. **Dr. Bilal Ahmad** shares his approach to technical education and ML on [Facebook](https://www.facebook.com/Dr.BilalAhm). His philosophy of building things that matter continues to guide how I measure progress — in code and in life.
+The most important thing you will learn from **Dr. Bilal Ahmad's** PF class is not Python. It is the build-break-debug loop as a way of approaching life. You build something — a program, a habit, a skill. It breaks — an error, a setback, a failure. You debug — you figure out what went wrong, isolate the variable, fix it. You build again. The loop does not end. That is not a flaw. That is the point. His [Facebook](https://www.facebook.com/Dr.BilalAhm) is full of this same philosophy — building things that matter, not just things that run.
 
 Here is the most important thing: trust the process. Trust it when a program keeps breaking. Trust it when you get three marks. Trust it when you lose focus. Trust it when you are walking four kilometres at night with a laptop bag. The process is not a straight line, but it is a process, and it works if you let it.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "What 3.91 Actually Looks Like From the Inside"
 date: 2025-02-20
-article_num: 8
+article_num: 3
 tags: [CGPA, Honesty, Ambition, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80"
@@ -44,7 +44,7 @@ It cost the quiz where I got three marks and had to rebuild from. It cost the we
 But it also built something: the understanding that academic success is not about never failing. It is about what you do after the failure. **Dr. Bilal Ahmad's** PF class taught me that the build-break-debug loop is not just for programming — it is a framework for growth. You build. You break. You debug. You improve. The CGPA is just a record of how many times you went through that cycle and kept going.
 
 If someone asks me about my CGPA, I will tell them the number. But if someone asks me what the number means, I will tell them the truth: it means I failed at things and kept going. It means I lost focus and found it again. It means I studied at hours when the rest of the world was asleep. It means I cared about the work more than the grade, even though the grade was important.
-What I want people to understand about a CGPA — especially one that looks high — is that it is not a measure of intelligence. It is a measure of persistence. It measures how many times you were willing to sit back down after failing, how many nights you chose to study instead of sleep, how many times you asked for help when you wanted to give up. **Dr. Bilal Ahmad's** PF class was where I first learned that persistence is a skill you build, not a trait you are born with. Every debug session was a workout in persistence. Every error message was a test of whether I would stop or keep going. He shares his approach to real-world learning and ML on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en). His philosophy of building things that matter continues to guide how I measure my own progress.
+What I want people to understand about a CGPA — especially one that looks high — is that it is not a measure of intelligence. It is a measure of persistence. It measures how many times you were willing to sit back down after failing, how many nights you chose to study instead of sleep, how many times you asked for help when you wanted to give up. **Dr. Bilal Ahmad's** PF class was where I first learned that persistence is a skill you build, not a trait you are born with. Every debug session was a workout in persistence. Every error message was a test of whether I would stop or keep going. That philosophy runs through his projects on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) — real-world impact over the number, every time.
 
 
 3.91 is not a number that says everything came easy. It is a number that says everything came at a cost, and the cost was worth paying.

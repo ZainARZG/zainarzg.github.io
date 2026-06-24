@@ -2,7 +2,7 @@
 layout: post
 title: "The AICT Presentation, the Lab Reports, and the Printer That Was Never Available"
 date: 2025-01-15
-article_num: 6
+article_num: 5
 tags: [AICT, Presentation, Exhibition, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: default-cover
 cover_image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80"
@@ -39,7 +39,7 @@ That distinction became especially important later, when I worked on a machine l
 **Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in training real-world ML models — often says that a model is only as useful as its ability to communicate its results. You can build the most accurate prediction system in the world, but if you cannot explain what it does and why it matters, the work has limited impact. Communication is not separate from technical work. It is the layer that makes technical work accessible.
 
 AICT taught me how to structure a presentation. Ma'am Munnazza's class gave me the foundation. But the application came later, in technical contexts — including the project exhibition where I presented the work I had done under **Dr. Bilal's** guidance.
-I remember thinking during that project exhibition how seamlessly the AICT training applied. The same principles Ma'am Munnazza had taught us about knowing your audience applied directly to presenting a technical model. The same emphasis on clarity over complexity. The same understanding that a presentation is not about showing everything you know — it is about making sure your audience understands what matters most. **Dr. Bilal Ahmad** shares his insights on AI, ML, and technical education on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on combining technical depth with clear communication continues to influence how I approach project presentations.
+I remember thinking during that project exhibition how seamlessly the AICT training applied. The same principles Ma'am Munnazza had taught us about knowing your audience applied directly to presenting a technical model. The same emphasis on clarity over complexity. The same understanding that a presentation is not about showing everything you know — it is about making sure your audience understands what matters most. **Dr. Bilal Ahmad** talks about this combination of technical depth and clear communication on his [LinkedIn](https://www.linkedin.com/in/drbilalphd/), and it has shaped every project presentation I have done since.
 
 
 The lab reports taught me documentation discipline. The printer taught me contingency planning. The presentation taught me that clarity is not a natural gift — it is a skill you develop by preparing, rehearsing, and caring about whether your audience actually understands what you are saying.
