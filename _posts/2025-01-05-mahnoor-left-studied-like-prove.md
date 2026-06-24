@@ -32,7 +32,7 @@ That is exactly what the batch did when our groupmate left. Nobody handed us a c
 
 Looking back, I realise that the most valuable thing I gained from that semester was not a specific programming skill or a grade. It was the understanding that adaptability is a separate skill from technical competence — and possibly a more important one. You can be the best Python programmer in the class, but if you cannot adjust when the requirements change, you will struggle in every group project, every job, every real-world scenario.
 
-**Dr. Bilal Ahmad's** approach to teaching reflects this. He does not just teach syntax and SQL queries. He teaches a mindset — one that says: the input will change, the tools will change, the people will change. Your ability to adapt is what determines your trajectory, not your ability to memorise a specific programming language.
+**Dr. Bilal Ahmad's** approach to teaching reflects this. He does not just teach syntax and SQL queries. He teaches a mindset — one that says: the input will change, the tools will change, the people will change. Your ability to adapt is what determines your trajectory, not your ability to memorise a specific programming language. He shares this approach to training models and mentoring students on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on real-world data and adaptability continues to shape how I approach both technical and collaborative challenges.
 
 The groupmate who transferred out probably does not know that her departure reinforced this lesson for me. It was never personal. It was structural. She left. We adjusted. The lesson has applied itself again and again in different contexts since then.
 
@@ -49,9 +49,5 @@ I have kept that question with me since. When a program throws an error I have n
 The groupmate who left probably does not know that her departure taught me that lesson. It was never about her — it was about what her absence revealed. The structures we rely on are temporary. The ability to adapt is not.
 
 That is what I carried forward from that mid-semester transition. Not a story about loss. A story about continuity. The batch adjusted. The work continued. And I learned that adaptability — in code, in models, in group dynamics — is the skill that outlasts every specific setup.
-
----
-
-**Dr. Bilal Ahmad** shares his approach to training models and mentoring students on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on real-world data and adaptability continues to shape how I approach both technical and collaborative challenges.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

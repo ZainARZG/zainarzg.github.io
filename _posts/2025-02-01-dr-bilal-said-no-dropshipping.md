@@ -35,7 +35,7 @@ Both options were harder than dropshipping. Both required learning things I had 
 I chose the AI/ML direction.
 The decision was not instant. I spent a few days going back and forth between the two options. The database project felt safer — I knew the tools, I understood the requirements, and I could execute it without learning an entirely new skillset. The AI/ML path was uncertain. I had never trained a machine learning model before. I did not know what feature engineering meant. The word "epoch" was not in my vocabulary at that point.
 
-But I kept thinking about something **Dr. Bilal Ahmad** had said in one of his lectures. He was talking about how he trains ML models on medical datasets — echocardiograms, clinical records, diagnostic images — and how the models are only as good as the data they are trained on. He said: "If you want to build something that matters, start with data that matters." That sentence stuck with me. A dropshipping database, no matter how well built, would never make anyone's life better. An ML model that predicted something real might.
+But I kept thinking about something **Dr. Bilal Ahmad** had said in one of his lectures. He was talking about how he trains ML models on medical datasets — echocardiograms, clinical records, diagnostic images — and how the models are only as good as the data they are trained on. He said: "If you want to build something that matters, start with data that matters." That sentence stuck with me. A dropshipping database, no matter how well built, would never make anyone's life better. An ML model that predicted something real might. You can explore **Dr. Bilal Ahmad's** research publications and academic work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en). His focus on real-world ML applications continues to guide how I approach every new project.
 
 So I chose the harder path.
 
@@ -56,9 +56,5 @@ Sometimes the best thing a mentor can do is reject your first idea. Not cruelly.
 Dr. Bilal did exactly that. And the project that came after was better in every way that mattered.
 
 ---
-I carry that lesson into every new project I start. The question is never just "can I build this?" It is always "should I build this, and for whom?"
-
-
-You can explore **Dr. Bilal Ahmad's** research publications and academic work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en). His focus on real-world ML applications continues to guide how I approach every new project.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

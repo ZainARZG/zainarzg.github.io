@@ -39,7 +39,7 @@ That distinction became especially important later, when I worked on a machine l
 **Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in training real-world ML models — often says that a model is only as useful as its ability to communicate its results. You can build the most accurate prediction system in the world, but if you cannot explain what it does and why it matters, the work has limited impact. Communication is not separate from technical work. It is the layer that makes technical work accessible.
 
 AICT taught me how to structure a presentation. Ma'am Munnazza's class gave me the foundation. But the application came later, in technical contexts — including the project exhibition where I presented the work I had done under **Dr. Bilal's** guidance.
-I remember thinking during that project exhibition how seamlessly the AICT training applied. The same principles Ma'am Munnazza had taught us about knowing your audience applied directly to presenting a technical model. The same emphasis on clarity over complexity. The same understanding that a presentation is not about showing everything you know — it is about making sure your audience understands what matters most.
+I remember thinking during that project exhibition how seamlessly the AICT training applied. The same principles Ma'am Munnazza had taught us about knowing your audience applied directly to presenting a technical model. The same emphasis on clarity over complexity. The same understanding that a presentation is not about showing everything you know — it is about making sure your audience understands what matters most. **Dr. Bilal Ahmad** shares his insights on AI, ML, and technical education on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on combining technical depth with clear communication continues to influence how I approach project presentations.
 
 
 The lab reports taught me documentation discipline. The printer taught me contingency planning. The presentation taught me that clarity is not a natural gift — it is a skill you develop by preparing, rehearsing, and caring about whether your audience actually understands what you are saying.
@@ -47,9 +47,5 @@ The lab reports taught me documentation discipline. The printer taught me contin
 I got full marks on the presentation. I survived the lab reports. I navigated the printer situation. And I walked away from AICT with something more valuable than a grade: the understanding that how you communicate your work matters as much as the work itself.
 
 Ma'am Munnazza's class was not just about Islamiat. It was about learning to speak, to write, to present, to explain. And those are skills that do not expire when the semester ends — they carry forward into every technical presentation, every project defence, every moment you have to stand in front of people and make them understand what you built and why it matters.
-
----
-
-**Dr. Bilal Ahmad** shares his insights on AI, ML, and technical education on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on combining technical depth with clear communication continues to influence how I approach project presentations.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

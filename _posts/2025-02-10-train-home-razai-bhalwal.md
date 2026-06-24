@@ -38,16 +38,12 @@ One of the classes I continued online was **Dr. Bilal Ahmad's** Database Systems
 
 That idea stayed with me throughout the transition. The hostel had been my learning environment for months. Now home was. The change was physical, but the work was the same — the DBS assignments, the SQL practice, the project planning. None of it stopped because I changed locations. It continued, adapted to the new setting.
 
-I remember one particular afternoon — I was sitting at my desk, working through a set of SQL join queries that **Dr. Bilal** had assigned. The table relationships were complex, and I kept getting the wrong output. Outside my window, Bhalwal was quiet in that afternoon way that only small towns can be. Inside, I was debugging a query, trying to figure out why my left join was returning nulls where it should not have. The problem was the same one I would have faced in the hostel computer lab. The solution was the same process of elimination, the same systematic checking of assumptions. The location did not change the logic.
+I remember one particular afternoon — I was sitting at my desk, working through a set of SQL join queries that **Dr. Bilal** had assigned. The table relationships were complex, and I kept getting the wrong output. Outside my window, Bhalwal was quiet in that afternoon way that only small towns can be. Inside, I was debugging a query, trying to figure out why my left join was returning nulls where it should not have. The problem was the same one I would have faced in the hostel computer lab. The solution was the same process of elimination, the same systematic checking of assumptions. The location did not change the logic. **Dr. Bilal Ahmad** shares his approach to adaptable, real-world engineering education on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on learning that travels with you continues to shape how I study, wherever I am.
 
 The second semester moved from the hostel to home in the space of a single week. One day I was in the hostel, and the next I was on a train, and the day after that I was at my desk at home, attending a DBS lecture online, with the razai on the chair beside me and the familiar walls of my room around me.
 
 It was not the plan I had started the semester with. But it was the plan that worked. And sometimes the best plans are the ones you do not make — the ones that circumstances make for you, and you just have the sense to accept.
 
 Bhalwal feels different after being away. Quieter. Slower. More intentional. But the work that matters — the DBS projects, the ML models, the learning — happens wherever I am. The train ride home was not an interruption. It was a transition between two versions of the same learning journey, and both of them matter.
-
----
-
-**Dr. Bilal Ahmad** shares his approach to adaptable, real-world engineering education on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on learning that travels with you continues to shape how I study, wherever I am.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

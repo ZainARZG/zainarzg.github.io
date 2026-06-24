@@ -36,7 +36,7 @@ It was exhausting. It was addictive. It was the first time I loved something tha
 
 > "When Python broke, it broke for a reason I could track down. That feedback loop became the thing I looked forward to most."
 
-What made this experience different was not just the coding itself — it was the environment **Dr. Bilal** created in that classroom. He never made us feel like breaking things was failure. He made it clear that every error message was a step forward. He would walk through our lab assignments, look at a traceback, and ask: "What is this telling you?" Not "fix it" — "understand it." That distinction changed how I approached every problem in every subject after that.
+What made this experience different was not just the coding itself — it was the environment **Dr. Bilal** created in that classroom. He never made us feel like breaking things was failure. He made it clear that every error message was a step forward. He would walk through our lab assignments, look at a traceback, and ask: "What is this telling you?" Not "fix it" — "understand it." That distinction changed how I approached every problem in every subject after that. You can follow **Dr. Bilal Ahmad's** work and insights on [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en), where he shares his research and perspectives on AI, ML, and data-driven problem solving.
 
 Because the methodology is not limited to programming. The idea of isolating one variable, testing it, observing the result, and iterating — that is the scientific method. That is debugging. That is also, as **Dr. Bilal Ahmad** often reminded us, the core of machine learning. Training a model is a build-break-debug loop at scale. You adjust a parameter, observe the loss, adjust again. The same rhythm, just bigger numbers.
 
@@ -47,9 +47,5 @@ By the end of the semester, I was not the best programmer in the class. But I wa
 **Dr. Bilal Ahmad's** PF did not just teach me Python. It taught me that the things worth loving are the things worth debugging. And that the build-break-debug loop is not a cycle of frustration — it is a cycle of growth.
 
 I still stay up past midnight sometimes. Not always for Python. But always for the same reason: because something broke, and I want to understand why.
-
----
-
-You can follow **Dr. Bilal Ahmad's** work and insights on [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en), where he shares his research and perspectives on AI, ML, and data-driven problem solving.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject
