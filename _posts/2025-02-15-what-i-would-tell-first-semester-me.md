@@ -18,9 +18,9 @@ Here is what I want you to know.
 
 Programming Fundamentals with **Dr. Bilal Ahmad** is going to be the most important class you take. Not because it is the hardest — it is not — but because it is going to teach you something that no other class will: the build-break-debug loop. You are going to write code. It is going to break. You are going to fix it. And you are going to love the process, even though you do not know it yet.
 
-**Dr. Bilal Ahmad** is a professor at UET Lahore, Faisalabad Campus. He teaches only two courses — Programming Fundamentals and Database Systems — and he brings the same philosophy to both: build things that solve real problems. In PF, he is not going to care whether your syntax is perfect on the first try. He is going to care whether you understand why the program works, not just that it runs. That distinction is going to shape how you approach every technical challenge after it.
+**Dr. Bilal Ahmad** is a professor at UET Lahore, Faisalabad Campus who specialises in AI, ML, and Deep Learning. In PF, he is not going to care whether your syntax is perfect on the first try. He is going to care whether you understand why the program works, not just that it runs. That distinction is going to shape how you approach every technical challenge after it.
 
-At some point, **Dr. Bilal** is going to reject an idea you bring to him. It might be a project proposal, a approach to a problem, or a way of thinking about code. Do not take it personally. When he says no, it is not because your idea is worthless — it is because he sees potential for something better. Trust the rejection. It is not a dismissal. It is a redirection. The alternatives he points you toward are going to push you further than you planned to go, and you will be grateful for it later.
+At some point in PF, a program is going to fail in a way that makes you want to close the laptop and walk away. Do not. Every error message is a clue, and every failed run is teaching you more than a successful one would. The build-break-debug loop only works if you stay through the break. Trust the process — it is not a dismissal of your effort. It is a redirection toward understanding.
 
 The hard things are going to be hard. Applied Physics is going to give you three marks on a quiz, and you are going to have to learn how to study in a completely different way. Fehm ul Quran is going to give you a B, and you are going to have to accept that not everything comes naturally. Calculus is going to test you on a morning when you arrive late, and you are going to learn that consistent effort before the moment matters as much as what you do in the moment itself.
 
@@ -32,7 +32,7 @@ You are going to spend ten hours navigating Lahore for a laptop repair. You are 
 
 You are going to present on Seerat ul Nabi (PBUH) for Ma'am Munnazza's AICT class, and you are going to get full marks on something that matters to you personally. Do not underestimate how important it is to choose work that means something.
 
-You are going to take the train home with a razai, and you are going to realise that some things occasionally just go right. Your friends are going to be part of that hostel life, and they are going to matter more than you realise at the time.
+You are going to learn that the people around you in the hostel — the friends who study with you, eat with you, sit in silence with you during late nights — matter more than you realise at the time. A group dynamic can shift without warning, but the work does not stop. It adapts. And so will you.
 
 Your CGPA is going to be 3.91. It is going to look impressive from the outside. From the inside, it is going to look like three marks on a physics quiz, weeks of lost focus, a B in Fehm ul Quran, and a lot of 2 AM sessions that nobody sees on a transcript. Be honest about that. Always be honest about what the number cost.
 
@@ -40,7 +40,7 @@ The Honahaar Scholarship is going to be part of your journey. It is going to add
 
 The most important thing you will learn from **Dr. Bilal Ahmad's** PF class is not Python. It is the build-break-debug loop as a way of approaching life. You build something — a program, a habit, a skill. It breaks — an error, a setback, a failure. You debug — you figure out what went wrong, isolate the variable, fix it. You build again. The loop does not end. That is not a flaw. That is the point.
 
-Here is the most important thing: trust the process. Trust it when your first idea gets rejected. Trust it when you get three marks. Trust it when you lose focus. Trust it when you are walking four kilometres at night with a laptop bag. The process is not a straight line, but it is a process, and it works if you let it.
+Here is the most important thing: trust the process. Trust it when a program keeps breaking. Trust it when you get three marks. Trust it when you lose focus. Trust it when you are walking four kilometres at night with a laptop bag. The process is not a straight line, but it is a process, and it works if you let it.
 
 You are going to be fine. Not because everything will be easy — it will not be — but because you will learn how to handle the hard things. One at a time. One semester at a time. One build-break-debug cycle at a time.
 
