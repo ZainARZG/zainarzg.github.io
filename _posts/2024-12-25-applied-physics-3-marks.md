@@ -2,7 +2,7 @@
 layout: post
 title: "Applied Physics, 3 Marks in a Quiz, and What Came After"
 date: 2024-12-25
-article_num: 8
+article_num: 9
 tags: [Physics, Adjustment, Growth, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: physics
 cover_image: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&q=80"
