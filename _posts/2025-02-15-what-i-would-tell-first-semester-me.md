@@ -2,7 +2,7 @@
 layout: post
 title: "What I Would Tell the Version of Me Who Arrived at UET Not Knowing the Routes"
 date: 2025-02-15
-article_num: 7
+article_num: 8
 tags: [Letter, Advice, Future, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"

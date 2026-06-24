@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Project Exhibition Where I Stood Alone at Three Tables"
+title: "The Project Exhibition: Three Tables, and the One Question I Answered Alone"
 date: 2025-04-05
-article_num: 14
+article_num: 1
 tags: [Exhibition, DLD, DBS, OOP, Unity, Project, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80"
 cover_alt: "A project exhibition with students presenting their work at separate tables"
