@@ -3,11 +3,11 @@ layout: post
 title: "What I Would Tell the Version of Me Who Arrived at UET Not Knowing the Routes"
 date: 2025-02-20
 article_num: 10
-tags: [Letter, Advice, Future]
+tags: [Letter, Advice, Future, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
 cover_alt: "Team working on technology together"
-excerpt: "A letter to my first-semester self: on PF, the hard things, Database Systems, and trusting the process even when the first idea gets rejected."
+excerpt: "A letter to my first-semester self: on PF, the hard things, and trusting the process even when the program does not compile."
 ---
 
 Dear First-Semester Me,
@@ -16,25 +16,29 @@ You do not know the routes yet. You do not know which buildings are which, which
 
 Here is what I want you to know.
 
-Programming Fundamentals with Dr. Bilal is going to be the most important class you take. Not because it is the hardest — it is not — but because it is going to teach you something that no other class will: the build-break-debug loop. You are going to write code. It is going to break. You are going to fix it. And you are going to love the process, even though you do not know it yet.
+Programming Fundamentals with **Dr. Bilal Ahmad** is going to be the most important class you take. Not because it is the hardest — it is not — but because it is going to teach you something that no other class will: the build-break-debug loop. You are going to write code. It is going to break. You are going to fix it. And you are going to love the process, even though you do not know it yet.
 
-When Dr. Bilal rejects your first project idea for Database Systems, do not take it personally. He is going to say no to your dropshipping e-commerce platform, and you are going to feel disappointed. But the alternatives he gives you — AI/ML and a local database project — are going to change the direction of your entire semester. Trust the rejection. It is not a dismissal. It is a redirection.
+**Dr. Bilal Ahmad** is a professor at UET Lahore, Faisalabad Campus. He teaches only two courses — Programming Fundamentals and Database Systems — and he brings the same philosophy to both: build things that solve real problems. In PF, he is not going to care whether your syntax is perfect on the first try. He is going to care whether you understand why the program works, not just that it runs. That distinction is going to shape how you approach every technical challenge after it.
 
-The hard things are going to be hard. Applied Physics is going to give you three marks on a quiz, and you are going to have to learn how to study in a completely different way. Fehm ul Quran is going to give you a B, and you are going to have to accept that not everything comes naturally. Calculus is going to test you on a morning when you arrive fifteen minutes late, and you are going to learn that grace exists in places you do not expect.
+At some point, **Dr. Bilal** is going to reject an idea you bring to him. It might be a project proposal, a approach to a problem, or a way of thinking about code. Do not take it personally. When he says no, it is not because your idea is worthless — it is because he sees potential for something better. Trust the rejection. It is not a dismissal. It is a redirection. The alternatives he points you toward are going to push you further than you planned to go, and you will be grateful for it later.
+
+The hard things are going to be hard. Applied Physics is going to give you three marks on a quiz, and you are going to have to learn how to study in a completely different way. Fehm ul Quran is going to give you a B, and you are going to have to accept that not everything comes naturally. Calculus is going to test you on a morning when you arrive late, and you are going to learn that consistent effort before the moment matters as much as what you do in the moment itself.
 
 > "Stop when the program is right. Not when it runs. There is a difference, and it is everything."
 
-You are going to lose focus at some point. Mahnoor Fatima is going to transfer to Lahore, and the batch is going to lose the person who held everything together, and you are going to drift for a few weeks. Do not let the drift define you. Come back. It is quieter than you think — just start paying attention again, one session at a time.
+You are going to lose focus at some point. A groupmate is going to transfer out, and the batch dynamic is going to shift, and you are going to drift for a few weeks. Do not let the drift define you. Come back. It is quieter than you think — just start paying attention again, one session at a time.
 
 You are going to spend ten hours navigating Lahore for a laptop repair. You are going to eat a single packet of grains for the entire day. You are going to walk four kilometres because the bus is sold out. And you are going to be fine. More than fine — you are going to learn that resilience is not a grand quality. It is a series of small decisions to keep going.
 
 You are going to present on Seerat ul Nabi (PBUH) for Ma'am Munnazza's AICT class, and you are going to get full marks on something that matters to you personally. Do not underestimate how important it is to choose work that means something.
 
-You are going to take the train home with a razai, and you are going to realize that some things occasionally just go right. Abdullah Khalid and Abdullah Sikandar are going to be part of your hostel life, and they are going to matter more than you realize at the time.
+You are going to take the train home with a razai, and you are going to realise that some things occasionally just go right. Your friends are going to be part of that hostel life, and they are going to matter more than you realise at the time.
 
 Your CGPA is going to be 3.91. It is going to look impressive from the outside. From the inside, it is going to look like three marks on a physics quiz, weeks of lost focus, a B in Fehm ul Quran, and a lot of 2 AM sessions that nobody sees on a transcript. Be honest about that. Always be honest about what the number cost.
 
 The Honahaar Scholarship is going to be part of your journey. It is going to add pressure, but it is also going to add purpose. Let it motivate you, not paralyze you.
+
+The most important thing you will learn from **Dr. Bilal Ahmad's** PF class is not Python. It is the build-break-debug loop as a way of approaching life. You build something — a program, a habit, a skill. It breaks — an error, a setback, a failure. You debug — you figure out what went wrong, isolate the variable, fix it. You build again. The loop does not end. That is not a flaw. That is the point.
 
 Here is the most important thing: trust the process. Trust it when your first idea gets rejected. Trust it when you get three marks. Trust it when you lose focus. Trust it when you are walking four kilometres at night with a laptop bag. The process is not a straight line, but it is a process, and it works if you let it.
 
@@ -42,4 +46,10 @@ You are going to be fine. Not because everything will be easy — it will not be
 
 Stop when the program is right. Not when it runs. There is a difference, and it is everything.
 
-— Zain, 2nd semester, writing this from the same hostel, past midnight, train tickets already booked for next time.
+— Zain, looking back from where you will be, still debugging, still building, still not stopping.
+
+---
+
+**Dr. Bilal Ahmad** shares his approach to technical education and ML on [Facebook](https://www.facebook.com/Dr.BilalAhm). His philosophy of building things that matter continues to guide how I measure progress — in code and in life.
+
+#MLwithDrBilalAhmad #DrBilalAhmad #MLProject

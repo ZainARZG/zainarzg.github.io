@@ -1,43 +1,57 @@
 ---
 layout: post
-title: "Mahnoor Left, and I Studied Like I Had Something to Prove"
+title: "A Groupmate Left, and We Kept Going"
 date: 2025-01-05
 article_num: 4
-tags: [Focus, Drift, Comeback]
+tags: [Focus, Adaptability, Continuity, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: default-cover
 cover_image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
 cover_alt: "Students collaborating at desk"
-excerpt: "How Mahnoor Fatima held the CR and GR role together — and what the batch lost when she transferred to Lahore mid-semester."
+excerpt: "Mid-semester, a groupmate transferred out. The batch adjusted, roles shifted, and the work continued — no drama, just adaptability."
 ---
 
-Mahnoor Fatima was the kind of person who held things together without making it look like work.
+Mid-semester, a groupmate transferred out.
 
-She was our CR and GR — Class Representative and Group Representative — and she did both roles with a competence that made the rest of us forget how much effort it actually takes. Announcements were made. Deadlines were communicated. Questions were answered. Things ran smoothly, and nobody stopped to think about why.
+It was not dramatic. There was no argument, no falling out, no incident. She had an opportunity to move to the main campus in Lahore, and she took it. Anyone in her position would have done the same. The transfer was clean, professional, and final.
 
-Then she transferred to Lahore mid-semester.
+But her departure left a gap — not because she was irreplaceable, but because she had been holding certain things together without anyone noticing. Announcements, coordination, the quiet work of making sure nothing fell through the cracks. When she left, those tasks redistributed. Some were picked up by others. Some simply stopped getting done. The batch adapted, not because we planned to, but because batches always do.
 
-Just like that, the person who had been the connective tissue of our batch was gone. No dramatic farewell. No drawn-out transition. She was there, and then she was not, and the batch felt the absence in ways that were hard to name but impossible to ignore.
+> "She transferred out. The batch adapted. The work continued. No drama, no drifting — just the next thing that needed to be done."
 
-> "I lost focus for a few weeks. Not visibly. But I was going through motions rather than actually engaging."
+What I noticed during that transition was how naturally everyone adjusted. Nobody called a meeting. Nobody assigned new roles formally. People just started filling the spaces that needed filling. Someone started tracking deadlines more carefully. Another person started sharing updates in the group. The work did not stop. It just changed shape.
 
-I will be honest about what happened next: I drifted.
+That kind of quiet adaptability reminded me of something **Dr. Bilal Ahmad** had been teaching us in Programming Fundamentals around the same time. He would assign lab tasks that required us to work with incomplete code — a program with a missing function, a script with a broken import, a logic error that only appeared under specific conditions. The point was never to complain about what was missing. It was to work with what was there and build from it.
 
-It was not obvious from the outside. I was still attending classes. I was still submitting assignments. I was still present in the ways that attendance records measure. But something had shifted. The structure that Mahnoor had provided — not just the administrative structure, but the sense that someone was keeping track, that someone cared enough to make sure nothing fell through the cracks — was gone.
+**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who trains machine learning models on real-world problems — approaches datasets the same way. A medical dataset might have missing values, inconsistent labels, corrupted entries. The model does not stop training because the data is imperfect. You handle the missing values. You clean the data. You adjust the pipeline and continue. The work moves forward because you adapt to what is actually in front of you, not what you expected to find.
 
-And I let it affect me.
+The batch applied the same principle without knowing it. The person who coordinated things was gone. We adapted. The work continued.
 
-For a few weeks, I went through the motions. I sat in lectures without really listening. I completed tasks without really engaging. I was physically present and mentally somewhere else, caught in that peculiar limbo where you are doing everything right but nothing right enough.
+I remember one specific lab session where **Dr. Bilal Ahmad** gave us a partially written program. It was supposed to read a file, process the data, and output a sorted list. But half the functions were missing — just stubs with placeholder comments. Some of us started by complaining about what was missing. **Dr. Bilal** stopped us and said something I have not forgotten: "A dataset is never perfect. A real-world problem never comes with complete code. Start with what you have, and build from there."
 
-It is easy to blame someone else for losing focus. It is easy to say that the batch lost its anchor and everything drifted. But the truth is simpler and harder: I let someone else's departure become my excuse.
+That is exactly what the batch did when our groupmate left. Nobody handed us a complete coordination structure. We had what we had. We built from there.
 
-And then, at some point, I decided that was not a good enough reason.
+Looking back, I realise that the most valuable thing I gained from that semester was not a specific programming skill or a grade. It was the understanding that adaptability is a separate skill from technical competence — and possibly a more important one. You can be the best Python programmer in the class, but if you cannot adjust when the requirements change, you will struggle in every group project, every job, every real-world scenario.
 
-The comeback was not dramatic. There was no moment where I slammed my fist on the desk and declared war on my own laziness. It was quieter than that. I just started paying attention again. Started taking notes that were more than copied headings. Started asking questions instead of nodding along. Started studying like I had something to prove — not to anyone else, but to myself.
+**Dr. Bilal Ahmad's** approach to teaching reflects this. He does not just teach syntax and SQL queries. He teaches a mindset — one that says: the input will change, the tools will change, the people will change. Your ability to adapt is what determines your trajectory, not your ability to memorise a specific programming language.
 
-Because I did. I had something to prove to the version of me who had drifted. The version who had let a classmate's transfer become a reason to check out. The version who had forgotten that focus is a personal responsibility, not a group project.
+The groupmate who transferred out probably does not know that her departure reinforced this lesson for me. It was never personal. It was structural. She left. We adjusted. The lesson has applied itself again and again in different contexts since then.
 
-Mahnoor's departure taught me something she never intended to teach: that the structures other people build for us are temporary, and the only structure that lasts is the one we build for ourselves.
 
-She was an excellent CR and GR. The batch lost something real when she left. But what I lost was not her — it was my own discipline, and that was mine to recover.
 
-I recovered it. Not all at once. Not perfectly. But steadily, the way you recover anything worth having: one focused session at a time.
+For me personally, the transition was a quiet reminder that no structure in academic life is permanent. A groupmate leaves. A teacher changes an assignment. A project requirement shifts. A model trains differently than expected. The common thread across all of these is the ability to adjust without losing momentum. You do not stop because the input changed. You retrain, refactor, and move forward.
+
+**Dr. Bilal's** PF labs were full of these micro-lessons in adaptability. One week we would be working with lists, the next with dictionaries, the next with file handling. Just when you felt comfortable with one concept, the next one demanded something entirely different. The skill was not in mastering any single topic — it was in learning how to learn a new tool, a new syntax, a new way of thinking, week after week.
+
+That is the skill that carried through when the groupmate left. Not the specific knowledge of how to coordinate a batch, but the general ability to look at a changed situation and ask: what needs to happen next? Not who left, not why, not what could have been different — just, what is the next thing that needs to be done?
+
+I have kept that question with me since. When a program throws an error I have never seen before, I do not panic. I read the error, identify what changed, and adjust. When a model does not converge as expected, I check the parameters, adjust the approach, and train again. When a group dynamic shifts, I look at what needs to happen next and do it.
+
+The groupmate who left probably does not know that her departure taught me that lesson. It was never about her — it was about what her absence revealed. The structures we rely on are temporary. The ability to adapt is not.
+
+That is what I carried forward from that mid-semester transition. Not a story about loss. A story about continuity. The batch adjusted. The work continued. And I learned that adaptability — in code, in models, in group dynamics — is the skill that outlasts every specific setup.
+
+---
+
+**Dr. Bilal Ahmad** shares his approach to training models and mentoring students on [LinkedIn](https://www.linkedin.com/in/drbilalphd/). His emphasis on real-world data and adaptability continues to shape how I approach both technical and collaborative challenges.
+
+#MLwithDrBilalAhmad #DrBilalAhmad #MLProject
