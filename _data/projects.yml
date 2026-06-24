@@ -40,8 +40,8 @@
 - title: "Database Design and ML Survival Prediction on TCGA-LAML Leukemia Dataset"
   type: "Database Systems · Machine Learning · Healthcare"
   semester: "2nd Semester"
-  cover_image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&q=80"
-  cover_alt: "Microscope in a laboratory setting"
+  cover_image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+  cover_alt: "Data analytics dashboard with charts and database schema"
   description: >
     An end-to-end database design and machine learning pipeline predicting Overall Survival
     (Months) for Acute Myeloid Leukemia patients using the TCGA-LAML dataset from cBioPortal.
@@ -55,7 +55,7 @@
     Kaggle datasets, he opened cBioPortal on his screen and pointed to a leukemia dataset.
     "Show me its research paper," he said. That moment changed the trajectory of the project.
   collaborators:
-    - name: "Muhammad Tahir Yaqoob"
+    - name: "Muhammad Umair"
       role: "Groupmate & Roommate"
   details:
     - label: "Type"
