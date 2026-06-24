@@ -36,7 +36,7 @@ It was exhausting. It was addictive. It was the first time I loved something tha
 
 > "When Python broke, it broke for a reason I could track down. That feedback loop became the thing I looked forward to most."
 
-What made this experience different was not just the coding itself — it was the environment **Dr. Bilal** created in that classroom. He never made us feel like breaking things was failure. He made it clear that every error message was a step forward. He would walk through our lab assignments, look at a traceback, and ask: "What is this telling you?" Not "fix it" — "understand it." That distinction changed how I approached every problem in every subject after that. His [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) are full of this same approach — treating every problem as something to understand, not just to fix.
+You can follow Dr. Bilal Ahmad on [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en), where the same approach runs through everything he does — treat every problem as something to understand, not just to fix.
 
 Because the methodology is not limited to programming. The idea of isolating one variable, testing it, observing the result, and iterating — that is the scientific method. That is debugging. That is also, as **Dr. Bilal Ahmad** often reminded us, the core of machine learning. Training a model is a build-break-debug loop at scale. You adjust a parameter, observe the loss, adjust again. The same rhythm, just bigger numbers.
 

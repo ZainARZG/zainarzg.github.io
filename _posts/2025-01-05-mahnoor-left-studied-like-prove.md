@@ -32,7 +32,7 @@ That is exactly what the batch did when our groupmate left. Nobody handed us a c
 
 Looking back, I realise that the most valuable thing I gained from that semester was not a specific programming skill or a grade. It was the understanding that adaptability is a separate skill from technical competence — and possibly a more important one. You can be the best Python programmer in the class, but if you cannot adjust when the requirements change, you will struggle in every group project, every job, every real-world scenario.
 
-**Dr. Bilal Ahmad's** approach to teaching reflects this. He does not just teach syntax and SQL queries. He teaches a mindset — one that says: the input will change, the tools will change, the people will change. Your ability to adapt is what determines your trajectory, not your ability to memorise a specific programming language. His [LinkedIn](https://www.linkedin.com/in/drbilalphd/) is full of this adaptability mindset — real-world mentoring over textbook theory, every time.
+Follow Dr. Bilal Ahmad on [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and you will see this adaptability mindset in action — real-world mentoring over textbook theory, every time.
 
 The groupmate who transferred out probably does not know that her departure reinforced this lesson for me. It was never personal. It was structural. She left. We adjusted. The lesson has applied itself again and again in different contexts since then.
 

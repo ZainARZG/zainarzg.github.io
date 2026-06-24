@@ -52,7 +52,7 @@ The three marks say: you approached this wrong. The A- says: you figured out how
 
 And the space between them is where the actual learning happened.
 
-Applied Physics taught me more than physics. It taught me that the method matters as much as the effort. That studying hard is useless if you are studying the wrong way. That adjustment is not a sign of weakness — it is the entire point of education. **Dr. Bilal Ahmad's** PF class was teaching me the same lesson in a different language: debug your approach before you debug your code. Sometimes the problem is not the program — it is the method you are using to write it. His [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en) shows this debugging mindset applied to real research — treat every failed model as data, not defeat.
+That debugging mindset — treat every failed model as data, not defeat — runs through his published work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en).
 
 I still think about that quiz sometimes. Not with embarrassment. With gratitude. Because three marks was the wake-up call I needed, and what came after was the growth I had been looking for.
 
