@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "What 3.91 Actually Looks Like From the Inside"
-date: 2025-02-15
-article_num: 9
+date: 2025-02-20
+article_num: 10
 tags: [CGPA, Honesty, Ambition, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80"
