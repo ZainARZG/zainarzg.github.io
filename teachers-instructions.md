@@ -226,9 +226,9 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 
 | # | Post | article_num | Content Period |
 |---|------|-------------|----------------|
-| 1 | Train home | 1 | 2nd sem mid |
-| 2 | DBS dropshipping | 2 | 2nd sem start |
-| 3 | DBS lab eval (Ramadan) | 3 | 2nd sem holidays |
+| 1 | DBS lab eval (Ramadan) | 1 | 2nd sem holidays |
+| 2 | Train home | 2 | 2nd sem mid |
+| 3 | DBS dropshipping | 3 | 2nd sem start |
 | 4 | CGPA 3.91 | 4 | 1st sem results |
 | 5 | Letter to self | 5 | 1st sem only |
 | 6 | AICT presentation | 6 | 1st sem end |
@@ -242,9 +242,9 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 
 | Post | Link(s) Used |
 |------|-------------|
-| 1 Train home | LinkedIn |
-| 2 DBS dropshipping | Google Scholar |
-| 3 DBS lab eval (Ramadan) | LinkedIn |
+| 1 DBS lab eval (Ramadan) | LinkedIn |
+| 2 Train home | LinkedIn |
+| 3 DBS dropshipping | Google Scholar |
 | 4 CGPA | Google Scholar |
 | 5 Letter | Facebook |
 | 6 AICT | LinkedIn |
