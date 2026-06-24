@@ -4,7 +4,7 @@
 
 Personal portfolio website for **Syed Muhammad Zain** — BS Computer Engineering student at UET Lahore Campus Faisalabad (CGPA 3.91, 2nd highest in class, Honahaar Scholar). Built with **Jekyll** (static site generator), hosted on GitHub Pages at `zainarzg.github.io`.
 
-The site functions as a living résumé: biography, skills inventory, academic project showcase (weather ML model), personal blog (11 reflective essays about first-year CE), identity page, and contact page.
+The site functions as a living résumé: biography, skills inventory, academic project showcase (weather ML model), personal blog (10 reflective essays about first-year CE), identity page, and contact page.
 
 Design is a dark-first cyberpunk/neon theme with light-mode alternative — all custom CSS, no UI framework.
 
@@ -13,7 +13,7 @@ Design is a dark-first cyberpunk/neon theme with light-mode alternative — all 
 ## Architecture & Data Flow
 
 ```
-_config.yml                ← Jekyll config (collections, defaults, permalinks)
+_config.yml                ← Jekyll config (collections, defaults, permalinks, excludes)
 _data/
   profile.yml              ← Personal info, education, quotes, goals
   projects.yml             ← Project entries (1 entry: weather ML forecasting)
@@ -25,7 +25,7 @@ _includes/
   header.html              ← Nav bar, theme toggle, mobile menu
   footer.html              ← Footer credit line
   svg/*.svg                ← Cover illustrations for blog posts
-_posts/*.md                ← Blog posts (11 essays, 2024-12 to 2025-02)
+_posts/*.md                ← Blog posts (10 essays, 2024-12 to 2025-02)
 assets/
   css/style.css            ← All styles (249 lines), dark/light theme via CSS vars
   js/main.js               ← All JS (vanilla, ~150 lines, IIFE pattern)
@@ -44,10 +44,10 @@ assets/
 | `_layouts/` | Jekyll layout templates (inheritance: default → page/post) |
 | `_includes/` | Reusable partials: header, footer, SVG illustrations |
 | `_includes/svg/` | 9 SVG illustrations referenced by blog posts via `cover_svg` frontmatter |
-| `_posts/` | Blog post collection (11 posts, tagged, dated) |
+| `_posts/` | Blog post collection (10 posts, tagged, dated, ordered by `article_num`) |
 | `assets/css/` | Single stylesheet with dark/light theme |
 | `assets/js/` | Single vanilla JS file |
-| `assets/images/` | Static images (currently 1: `a.jpg`) |
+| `assets/images/` | Static images |
 | `_site/` | Jekyll build output (generated, excluded from source) |
 
 ---
@@ -80,7 +80,7 @@ jekyll clean
 - **Relative URLs**: all internal links use `{% link … %}` or `| relative_url` filter
 - **Theme toggle**: `data-theme` attribute on `<html>`, persisted in `localStorage`
 - **SVG includes**: `{% include svg/home-train.svg %}` — each blog post sets `cover_svg` in frontmatter, matched to a file in `_includes/svg/`
-- **Post listing**: `blog.md` iterates `{% for post in site.posts %}` with tag-filtering via JS
+- **Blog sorting**: Posts sorted by `article_num` (custom order, not reverse-chronological by date). `blog.md` uses `{% assign posts_sorted = site.posts | sort: "article_num" %}` then iterates `posts_sorted`.
 
 ### Frontmatter Conventions
 
@@ -98,11 +98,11 @@ permalink: /about/
 ---
 layout: post
 title: "Title in Quotes"
-date: 2025-02-10
-article_num: 8
-tags: [Tag1, Tag2, Tag3]
-cover_svg: home-train          # matches _includes/svg/home-train.svg
-cover_image: "https://..."      # Unsplash fallback image
+date: 2025-02-15
+article_num: 7            # custom sort key — determines blog display order
+tags: [Tag1, Tag2, Tag3, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
+cover_svg: reflection     # matches _includes/svg/reflection.svg
+cover_image: "https://..." # Unsplash fallback image
 cover_alt: "Alt text"
 excerpt: "Short summary"
 ---
@@ -135,23 +135,12 @@ excerpt: "Short summary"
 
 ---
 
-## Runtime/Tooling Preferences
+## Deployment
 
-- **Ruby + Jekyll**: static site generation, no Node.js build step
-- **Hosting**: GitHub Pages (push to `main` auto-deploys)
-- **Markdown**: kramdown with GFM input
-- **No package manager** (no `package.json`, no `Gemfile` in source — Jekyll manages gems via system/gemfile at the Ruby level)
-- **No CI config** — GitHub Actions not configured (Pages uses standard build)
-
----
-
-## Testing & QA
-
-- No automated test framework — this is a static site
-- Verify locally: `jekyll build` completes without Liquid errors
-- Check all `site.data.*` references resolve (typos in YAML keys produce silent empty outputs in Liquid)
-- Verify blog tag taxonomy is consistent across posts
-- Validate HTML output after build for broken relative links
+- **Hosting**: GitHub Pages on `zainarzg.github.io`
+- **Build source**: `master` branch (Pages configured to build from `master`)
+- **Workflow**: commit to `main`, then `git push origin main:master` to trigger Pages build
+- **Build type**: legacy (no custom Actions workflow)
 
 ---
 
@@ -159,11 +148,13 @@ excerpt: "Short summary"
 
 | File | What it controls |
 |------|-----------------|
-| `_config.yml` | Site title, URL, collections, defaults, exclude patterns |
+| `_config.yml` | Site title, URL, collections, defaults, exclude patterns (excludes `AGENTS.md`, `teachers-instructions.md`) |
 | `_data/profile.yml` | All personal info — name, education, CGPA, location, quotes, goals |
 | `_data/projects.yml` | Project showcase entries (add new projects here) |
 | `assets/css/style.css` | Complete visual identity — colors, layout, responsive rules |
 | `assets/js/main.js` | All interactive behavior — theme, menus, filters, animations |
 | `index.md` | Homepage with hero section and quick-link cards |
-| `blog.md` | Blog index with dynamic tag filtering |
-| `_posts/` | Add new blog posts here with correct date-based filename convention |
+| `blog.md` | Blog index with dynamic tag filtering, sorted by `article_num` |
+| `_posts/` | Add new blog posts here with correct `article_num` to place in order |
+| `AGENTS.md` | This file — repo guidelines (excluded from Jekyll build) |
+| `teachers-instructions.md` | Teacher requirements & planning notes (excluded from Jekyll build) |

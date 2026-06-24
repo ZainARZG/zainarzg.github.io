@@ -197,6 +197,70 @@ You will make 10-15 posts that indicate what did I teach you. It could be anythi
 
 ---
 
+## Current Status (as of 2026-06-24)
+
+### Completed
+
+- All **10 existing posts** expanded to 1000+ words ✅
+- **Dr. Bilal Ahmad** mentioned in every post (different context per post) ✅
+- **Social links** (LinkedIn, Google Scholar, Facebook) rotated across posts, integrated seamlessly ✅
+- **Hashtags** (#MLwithDrBilalAhmad, #DrBilalAhmad, #MLProject) added to every post ✅
+- **Frontmatter tags** updated with DrBilalAhmad, MLwithDrBilalAhmad, MLProject tags ✅
+- **Post 2 (Calculus)**: Rewritten — user didn't enter class, still got full marks; broken function/core logic metaphor ✅
+- **Post 4 (Groupmate)**: Mahnoor's name removed → "groupmate left, we adjusted" ✅
+- **Post 5 (Laptop)**: Kept 1st semester only, no DBS mention ✅
+- **Post 7 (DBS/dropshipping)**: Treated as 2nd semester content, ML weather prediction focus ✅
+- **Post 9 (Letter to self)**: DBS/dropshipping/DB references removed → purely 1st semester content ✅
+- **Custom blog order** set by `article_num` (not dates): PF → Calculus → Physics → Groupmate → Laptop → AICT → Letter → CGPA → DBS → Train home ✅
+- **AGENTS.md** excluded from Jekyll build (Liquid syntax conflict) ✅
+- **teachers-instructions.md** excluded from Jekyll build ✅
+- **Empty placeholder post** (`2026-06-04-your-title.md`) removed ✅
+- **Site builds and deploys** to GitHub Pages successfully ✅
+
+### Pending
+
+- **5 new posts** still needed to reach 15 total
+- Awaiting user's remaining points (Point 1, Point 3, and any additional notes)
+
+### Blog Display Order (by article_num)
+
+| # | Post | article_num | Content Period |
+|---|------|-------------|----------------|
+| 1 | PF build-break-debug | 1 | 1st sem start |
+| 2 | Calculus quiz | 2 | 1st sem early |
+| 3 | Physics 3 marks | 3 | 1st sem early→finals |
+| 4 | Groupmate left | 4 | 1st sem mid |
+| 5 | Laptop repair | 5 | 1st sem |
+| 6 | AICT presentation | 6 | 1st sem end |
+| 7 | Letter to self | 7 | 1st sem only |
+| 8 | CGPA 3.91 | 8 | 1st sem results |
+| 9 | DBS dropshipping | 9 | 2nd sem |
+| 10 | Train home | 10 | 2nd sem |
+
+### Link Rotation
+
+| Post | Link(s) Used |
+|------|-------------|
+| 1 PF | LinkedIn + Google Scholar |
+| 2 Calculus | Facebook |
+| 3 Physics | Google Scholar |
+| 4 Groupmate | LinkedIn |
+| 5 Laptop | Facebook |
+| 6 AICT | LinkedIn |
+| 7 DBS | Google Scholar |
+| 8 Train home | LinkedIn |
+| 9 CGPA | Google Scholar |
+| 10 Letter | Facebook |
+
+### Deployment Notes
+
+- GitHub Pages builds from `master` branch (not `main`)
+- After committing to `main`, run `git push origin main:master` to trigger Pages build
+- `_config.yml` excludes `AGENTS.md` and `teachers-instructions.md` from Jekyll processing
+- `blog.md` sorts posts by `article_num` ascending (custom order)
+
+---
+
 ## Planning Notes (from discussions)
 
 **Post 10 (letter to self):** Keep as 1st semester only. Remove DBS/dropshipping/DB references. Keep PF references.
