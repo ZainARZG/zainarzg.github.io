@@ -4,8 +4,8 @@ title: "Ramadan, Sehri, and the DBS Lab Evaluation That Started at 7 PM"
 date: 2025-03-05
 article_num: 1
 tags: [DBS, Ramadan, Lab Evaluation, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
-cover_image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=80"
-cover_alt: "Student asleep at desk surrounded by study notes and a laptop"
+cover_image: "https://images.unsplash.com/photo-1599831000634-8d758653c1e7?w=800&q=80"
+cover_alt: "Student asleep with head on desk surrounded by study notes and laptop"
 excerpt: "The Iran-US situation sent us home during holidays, and Dr. Bilal scheduled a DBS lab evaluation at 7 PM in Ramadan. I prepared after sehri, fell asleep before finishing, and somehow survived because he chose to ignore what everyone had done wrong."
 ---
 
