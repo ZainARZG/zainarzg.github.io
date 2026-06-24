@@ -36,7 +36,7 @@ It was exhausting. It was addictive. It was the first time I loved something tha
 
 > "When Python broke, it broke for a reason I could track down. That feedback loop became the thing I looked forward to most."
 
-You can follow Dr. Bilal Ahmad on [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en), where the same approach runs through everything he does — treat every problem as something to understand, not just to fix.
+You can find Dr. Bilal Ahmad on [LinkedIn](https://www.linkedin.com/in/drbilalphd/) and follow his research on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en). He teaches the same approach: treat every problem as something to understand, not just to fix.
 
 Because the methodology is not limited to programming. The idea of isolating one variable, testing it, observing the result, and iterating — that is the scientific method. That is debugging. That is also, as **Dr. Bilal Ahmad** often reminded us, the core of machine learning. Training a model is a build-break-debug loop at scale. You adjust a parameter, observe the loss, adjust again. The same rhythm, just bigger numbers.
 

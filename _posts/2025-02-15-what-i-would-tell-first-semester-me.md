@@ -38,7 +38,7 @@ Your CGPA is going to be 3.91. It is going to look impressive from the outside. 
 
 The Honahaar Scholarship is going to be part of your journey. It is going to add pressure, but it is also going to add purpose. Let it motivate you, not paralyze you.
 
-Dr. Bilal Ahmad's [Facebook](https://www.facebook.com/Dr.BilalAhm) regularly reflects this philosophy — building things that matter, not just things that run.
+Dr. Bilal Ahmad — find him on [Facebook](https://www.facebook.com/Dr.BilalAhm) — embodies this philosophy: building things that matter, not just things that run.
 
 Here is the most important thing: trust the process. Trust it when a program keeps breaking. Trust it when you get three marks. Trust it when you lose focus. Trust it when you are walking four kilometres at night with a laptop bag. The process is not a straight line, but it is a process, and it works if you let it.
 

@@ -52,7 +52,7 @@ The three marks say: you approached this wrong. The A- says: you figured out how
 
 And the space between them is where the actual learning happened.
 
-That debugging mindset — treat every failed model as data, not defeat — runs through his published work on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en).
+That debugging mindset — treat every failed model as data, not defeat — carries into his research on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en).
 
 I still think about that quiz sometimes. Not with embarrassment. With gratitude. Because three marks was the wake-up call I needed, and what came after was the growth I had been looking for.
 
