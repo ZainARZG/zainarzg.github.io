@@ -2,7 +2,7 @@
 layout: post
 title: "The First Time I Loved Something That Kept Breaking"
 date: 2024-12-15
-article_num: 15
+article_num: 13
 tags: [Programming, Python, Late Nights, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: programming
 cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=80"
