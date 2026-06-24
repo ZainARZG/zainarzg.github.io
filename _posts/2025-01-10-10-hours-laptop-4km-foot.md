@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Hours for a Laptop, 4 Kilometres on Foot, and Still Home Before Midnight"
-date: 2025-01-10
+date: 2025-12-10
 article_num: 11
 tags: [Lahore, Resilience, Journey, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: journey

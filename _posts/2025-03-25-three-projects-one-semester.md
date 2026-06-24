@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Semester That Built Me: Four Projects Across ML, OOP, and Digital Logic"
-date: 2025-03-25
+date: 2026-05-15
 article_num: 3
 tags: [DBS, OOP, DLD, Project, ML, Unity, Digital Logic, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80"

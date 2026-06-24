@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I Would Tell the Version of Me Who Arrived at UET Not Knowing the Routes"
-date: 2025-02-15
+date: 2026-01-10
 article_num: 9
 tags: [Letter, Advice, Future, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: reflection

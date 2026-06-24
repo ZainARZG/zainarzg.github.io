@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Groupmate Left, and We Kept Going"
-date: 2025-01-05
+date: 2025-11-15
 article_num: 12
 tags: [Focus, Adaptability, Continuity, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_svg: default-cover

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Finals Are Over, and I Do Not Know What Happens Next"
-date: 2025-04-15
+date: 2026-06-21
 article_num: 1
 tags: [Finals, DBS, DLD, SATS, Exams, Semester, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"

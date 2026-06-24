@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The First Time I Loved Something That Kept Breaking"
-date: 2024-12-15
+date: 2025-10-15
 article_num: 15
 tags: [Programming, Python, Late Nights, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: programming

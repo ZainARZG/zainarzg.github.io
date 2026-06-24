@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dr. Bilal Said No to Dropshipping and Accidentally Pointed Me Somewhere Better"
-date: 2025-02-01
+date: 2026-02-10
 article_num: 7
 tags: [AI/ML, Database, Direction, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_svg: ai-ml

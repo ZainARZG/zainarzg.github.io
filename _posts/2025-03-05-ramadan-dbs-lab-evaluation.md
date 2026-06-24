@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ramadan, Sehri, and the DBS Lab Evaluation That Started at 7 PM"
-date: 2025-03-05
+date: 2026-03-12
 article_num: 5
 tags: [DBS, Ramadan, Lab Evaluation, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1542325488573-a28b3cd3c91d?w=800&q=80"
