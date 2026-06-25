@@ -37,8 +37,7 @@ title: Home
   <p class="section-tag rv" style="justify-content:center">Recent Writing</p>
   <h2 class="section-title rv" style="text-align:center">Thoughts I've <em>put down.</em></h2>
   <div class="blog-grid">
-    {% assign recent_posts = site.posts | sort: 'date' | reverse | limit: 3 %}
-    {% for post in recent_posts %}
+    {% for post in site.posts limit:3 %}
     <a href="{{ post.url | relative_url }}" class="blog-card rv">
       {% if post.cover_image %}
       <div class="blog-card-img-wrap">
