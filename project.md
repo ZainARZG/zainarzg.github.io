@@ -5,10 +5,9 @@ permalink: /project/
 ---
 <div class="rv"><p class="section-tag">03 — Featured Project</p><h1>Born from a<br/><em>random conversation.</em></h1></div>
 
-{% assign project_pages = "/project/weather-ml/|/project/leukemia-survival/|/project/admission-system/" | split: "|" %}
 
 {% for project in site.data.projects %}
-{% assign page_url = project_pages[forloop.index0] %}
+{% assign page_url = "/project/" | append: project.slug | append: "/" %}
 <div class="project-card rv" data-href="{{ page_url }}" style="cursor:pointer">
   <div class="project-cover"><img src="{{ project.cover_image }}" alt="{{ project.cover_alt | default: project.title }}" loading="lazy"/></div>
   <div class="project-body">

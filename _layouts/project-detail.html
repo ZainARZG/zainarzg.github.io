@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign p = site.data.projects[page.project_index] %}
+{% assign p = site.data.projects | where: "slug", page.project_slug | first %}
 <section class="page-section">
 <div class="page-container" style="max-width:860px;">
   <a href="/project/" class="semester-back-link">← All Projects</a>

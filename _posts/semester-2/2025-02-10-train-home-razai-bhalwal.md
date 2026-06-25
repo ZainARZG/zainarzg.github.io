@@ -5,7 +5,6 @@ date: 2026-02-28
 semester: 2
 article_num: 10
 tags: [Bhalwal, Train, Home, DrBilalAhmad, MLwithDrBilalAhmad]
-cover_svg: home-train
 cover_image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800&q=80"
 cover_alt: "Train tracks and travel"
 excerpt: "Ramadan, online classes, regional wars, petrol prices — the moment second semester moved from the hostel to home in the space of a single week."

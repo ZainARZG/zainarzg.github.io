@@ -5,7 +5,6 @@ date: 2025-10-25
 semester: 1
 article_num: 2
 tags: [Calculus, Grace, Assumptions, DrBilalAhmad, MLwithDrBilalAhmad]
-cover_svg: calculus
 cover_image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
 cover_alt: "Mathematical equations and formulas"
 excerpt: "A smoggy winter morning, ironed clothes, forgotten glasses, and arriving 15 minutes late to a quiz I never actually took — and still getting full marks."

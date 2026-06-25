@@ -5,7 +5,6 @@ date: 2025-11-01
 semester: 1
 article_num: 3
 tags: [Physics, Adjustment, Growth, DrBilalAhmad, MLwithDrBilalAhmad]
-cover_svg: physics
 cover_image: "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&q=80"
 cover_alt: "Physics laboratory equipment"
 excerpt: "Getting 3 marks on quiz one — not from not trying, but from approaching a theory-heavy subject with the wrong preparation method entirely."

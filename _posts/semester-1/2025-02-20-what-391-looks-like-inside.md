@@ -5,7 +5,6 @@ date: 2026-01-25
 semester: 1
 article_num: 7
 tags: [CGPA, Honesty, Ambition, DrBilalAhmad, MLwithDrBilalAhmad]
-cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80"
 cover_alt: "Focused workspace with laptop"
 excerpt: "The real cost behind the number: a quiz with 3 marks, weeks of lost focus, a B in Fehm ul Quran, and 2 AM sessions nobody sees on a transcript."

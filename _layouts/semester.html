@@ -12,7 +12,7 @@ layout: default
   <div class="rv">
     <p class="section-tag">{{ page.semester | prepend: '0' | slice: -2, 2 }} — Semester</p>
     <h1>{{ sem_label }}</h1>
-    <p style="color:var(--text-muted);max-width:560px;font-size:.95rem;margin-bottom:2.5rem;font-weight:300;">{{ sem_posts.size }} {{ sem_posts.size | plus: 0 | pluralize: 'essay', 'essays' }}</p>
+    <p style="color:var(--text-muted);max-width:560px;font-size:.95rem;margin-bottom:2.5rem;font-weight:300;">{{ sem_posts.size }} {% if sem_posts.size == 1 %}essay{% else %}essays{% endif %}</p>
   </div>
 
   {% if sem_posts.size > 0 %}

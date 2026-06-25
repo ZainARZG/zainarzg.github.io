@@ -5,7 +5,6 @@ date: 2026-01-10
 semester: 1
 article_num: 8
 tags: [Letter, Advice, Future, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
-cover_svg: reflection
 cover_image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
 cover_alt: "Team working on technology together"
 excerpt: "A letter to my first-semester self: on PF, the hard things, and trusting the process even when the program does not compile."

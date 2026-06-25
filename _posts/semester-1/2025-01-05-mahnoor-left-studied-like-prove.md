@@ -5,7 +5,6 @@ date: 2025-11-15
 semester: 1
 article_num: 4
 tags: [Focus, Adaptability, Continuity, DrBilalAhmad, MLwithDrBilalAhmad]
-cover_svg: default-cover
 cover_image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
 cover_alt: "Students collaborating at desk"
 excerpt: "Mid-semester, a groupmate transferred out. The batch adjusted, roles shifted, and the work continued — no drama, just adaptability."

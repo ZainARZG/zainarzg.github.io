@@ -1,5 +1,6 @@
 # ===== PROJECTS DATA =====
 - title: "Supervised Learning Approach for Next Day Temperature and Precipitation Forecasting in Basel"
+  slug: weather-ml
   type: "Machine Learning · Supervised Learning · Weather Forecasting"
   semester: "1st Semester"
   cover_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80"
@@ -39,6 +40,7 @@
 
 - title: "Database Design and ML Survival Prediction on TCGA-LAML Leukemia Dataset"
   type: "Database Systems · Machine Learning · Healthcare"
+  slug: leukemia-survival
   semester: "2nd Semester"
   cover_image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
   cover_alt: "Data analytics dashboard with charts and database schema"
@@ -72,6 +74,7 @@
 
 - title: "University Admission Management System — C# Console Application"
   type: "Object-Oriented Programming · C# · 3-Tier Architecture"
+  slug: admission-system
   semester: "2nd Semester"
   cover_image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=1200&q=80"
   cover_alt: "Code on a dark monitor screen"
