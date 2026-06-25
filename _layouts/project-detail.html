@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% assign p = site.data.projects[page.project_index] %}
+<section class="page-section">
+<div class="page-container" style="max-width:860px;">
+  <a href="/project/" class="semester-back-link">← All Projects</a>
+
+  <div class="article-cover" style="margin-bottom:2rem;">
+    <img src="{{ p.cover_image }}" alt="{{ p.cover_alt | default: p.title }}" loading="lazy"/>
+  </div>
+
+  <div class="rv">
+    <p class="section-tag">{{ p.type }}</p>
+    <h1>{{ p.title }}</h1>
+    <div class="article-meta" style="margin-top:.8rem;margin-bottom:2rem;">
+      <span>{{ p.semester }}</span>
+      <span class="meta-sep">·</span>
+      <span>
+        Built with
+        {% for collab in p.collaborators %}
+          {{ collab.name }}{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+        —
+        {% for collab in p.collaborators %}
+          {{ collab.role }}{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </span>
+    </div>
+  </div>
+
+  <div class="article-body">
+    <h3>The Story</h3>
+    <p>{{ p.story }}</p>
+
+    <h3>What It Does</h3>
+    <p>{{ p.description }}</p>
+  </div>
+
+  <div class="project-meta" style="margin:2rem 0;border:1px solid var(--border);border-radius:6px;overflow:hidden;">
+    {% for detail in p.details %}
+    <div class="project-meta-item">
+      <div class="project-meta-label">{{ detail.label }}</div>
+      <div class="project-meta-value">{{ detail.value }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0;">
+    {% if p.report %}
+    <a href="{{ p.report.url }}" target="_blank" class="btn btn-primary">{{ p.report.text }} →</a>
+    {% endif %}
+    {% if p.repo %}
+    <a href="{{ p.repo.url }}" target="_blank" class="btn btn-outline">{{ p.repo.text }} →</a>
+    {% endif %}
+    {% if p.link %}
+    <a href="{{ p.link.url }}" target="_blank" class="btn btn-outline">{{ p.link.text }} →</a>
+    {% endif %}
+  </div>
+
+  <div style="margin-top:3rem;text-align:center;">
+    <a href="/project/" class="btn btn-outline">← Back to All Projects</a>
+  </div>
+</div>
+</section>
