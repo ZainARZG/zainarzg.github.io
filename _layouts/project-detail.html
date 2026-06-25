@@ -10,27 +10,22 @@ layout: default
     <img src="{{ p.cover_image }}" alt="{{ p.cover_alt | default: p.title }}" loading="lazy"/>
   </div>
 
-  <div class="rv">
+  <div class="article-header">
     <p class="section-tag">{{ p.type }}</p>
     <h1>{{ p.title }}</h1>
-    <div class="article-meta" style="margin-top:.8rem;margin-bottom:2rem;">
+    <div class="article-meta">
       <span>{{ p.semester }}</span>
       <span class="meta-sep">·</span>
       <span>
-        Built with
         {% for collab in p.collaborators %}
-          {{ collab.name }}{% if forloop.last == false %}, {% endif %}
-        {% endfor %}
-        —
-        {% for collab in p.collaborators %}
-          {{ collab.role }}{% if forloop.last == false %}, {% endif %}
+          {{ collab.name }} · {{ collab.role }}{% if forloop.last == false %} | {% endif %}
         {% endfor %}
       </span>
     </div>
   </div>
 
   <div class="article-body">
-    <h3>The Story</h3>
+    <h3>The Story Behind It</h3>
     <p>{{ p.story }}</p>
 
     <h3>What It Does</h3>
@@ -58,8 +53,14 @@ layout: default
     {% endif %}
   </div>
 
-  <div style="margin-top:3rem;text-align:center;">
-    <a href="/project/" class="btn btn-outline">← Back to All Projects</a>
+  <div class="article-nav">
+    <a href="/project/" class="nav-back">← Back to All Projects</a>
+    {% if page.next_project %}
+    <a href="{{ page.next_project }}" class="nav-card right">
+      <span class="nav-dir">Next Project</span>
+      <span class="nav-title">→</span>
+    </a>
+    {% endif %}
   </div>
 </div>
 </section>

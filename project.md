@@ -15,19 +15,12 @@ permalink: /project/
     <span class="project-type">{{ project.type }} · {{ project.semester }}</span>
     <h3 class="project-title">{{ project.title }}</h3>
     <p class="project-story">{{ project.story | strip | replace: "clicked", "<strong>clicked</strong>" }}</p>
-    <p class="project-desc">{{ project.description }}</p>
   </div>
   <div class="project-meta">{% for detail in project.details %}<div class="project-meta-item"><div class="project-meta-label">{{ detail.label }}</div><div class="project-meta-value">{{ detail.value }}</div></div>{% endfor %}</div>
-  {% if project.report or project.repo or project.link %}
   <div class="project-footer">
     <div class="project-collab">Built with {% for collab in project.collaborators %}<span>{{ collab.name }}</span>{% if forloop.last == false %}, {% endif %}{% endfor %} — {% for collab in project.collaborators %}{{ collab.role }}{% if forloop.last == false %}, {% endif %}{% endfor %}.</div>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap">
-      {% if project.report %}<a class="project-link" href="{{ project.report.url }}" target="_blank">{{ project.report.text }} →</a>{% endif %}
-      {% if project.repo %}<a class="project-link" href="{{ project.repo.url }}" target="_blank">{{ project.repo.text }} →</a>{% endif %}
-      {% if project.link %}<a class="project-link" href="{{ project.link.url }}" target="_blank">{{ project.link.text }} →</a>{% endif %}
-    </div>
+    <span class="project-link" style="font-size:.75rem;font-weight:700;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:4px;text-shadow:var(--glow-accent)">Read full story →</span>
   </div>
-  {% endif %}
 </div>
 {% endfor %}
 
@@ -35,7 +28,7 @@ permalink: /project/
 (function(){
   document.querySelectorAll('.project-card[data-href]').forEach(function(card){
     card.addEventListener('click', function(e){
-      if(e.target.closest('a, button, .project-link')) return;
+      if(e.target.closest('a, button')) return;
       window.location.href = card.getAttribute('data-href');
     });
   });
