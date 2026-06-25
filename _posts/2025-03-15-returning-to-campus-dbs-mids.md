@@ -2,7 +2,8 @@
 layout: post
 title: "The Iran-US Tension Passed, the University Reopened, and the Mids Hit Hard"
 date: 2026-03-30
-article_num: 4
+semester: 2
+article_num: 12
 tags: [DBS, University, Mids, IranUS, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://plus.unsplash.com/premium_photo-1671070687988-b2d6805ea896?w=800&q=80"
 cover_alt: "Classroom with wooden desks, chairs, and a large window with natural light"

@@ -241,6 +241,13 @@ img{max-width:100%;height:auto;display:block}
 .rv{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}.rv.in{opacity:1;transform:none}
 @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@keyframes fi{from{opacity:0}to{opacity:1}}
 
+/* ===== SEMESTER SECTIONS ===== */
+.semester-section{margin-bottom:3rem}
+.semester-heading{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.5rem;padding-top:.8rem;position:relative}
+.semester-heading-line{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.25}
+.semester-label{font-size:.75rem;font-weight:800;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;white-space:nowrap;text-shadow:var(--glow-accent)}
+.semester-subtitle{font-size:.7rem;color:var(--text-muted);font-weight:400;letter-spacing:.05em;text-transform:none}
+@media(max-width:600px){.semester-heading{flex-wrap:wrap;gap:.5rem}.semester-heading-line{order:3;width:100%}.semester-subtitle{width:100%;font-size:.65rem}}
 /* ===== RESPONSIVE ===== */
 @media(max-width:1024px){.blog-grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}}
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:6rem}.hero-right{display:none}.about-grid{grid-template-columns:1fr;gap:2.5rem}.skills-grid,.identity-grid{grid-template-columns:1fr 1fr}.project-meta{grid-template-columns:1fr 1fr}.project-meta-item:nth-child(2){border-right:none}.project-cover{height:220px}.article-cover{height:240px}}
