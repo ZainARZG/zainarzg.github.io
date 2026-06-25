@@ -4,7 +4,12 @@ title: Home
 ---
 <section class="hero">
   <div class="hero-bg-image">
-    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80" alt="Digital network" loading="lazy"/>
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=960&q=80"
+         srcset="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=480&q=80 480w,
+                 https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=960&q=80 960w,
+                 https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80 1920w"
+         sizes="100vw"
+         alt="Digital network" loading="lazy"/>
   </div>
   <div class="hero-left">
     <div class="hero-tag">{{ site.data.profile.education.degree }} · {{ site.data.profile.education.university }} · {{ site.data.profile.education.semester }}</div>
@@ -27,35 +32,41 @@ title: Home
   </div>
 </section>
 
-<!-- Quick links section -->
-<section class="section" style="text-align:center">
-  <p class="section-tag rv" style="justify-content:center">Explore</p>
-  <h2 class="section-title rv">What you'll find <em>here.</em></h2>
-  <div class="skills-grid rv" style="max-width:900px;margin:0 auto">
-    <a href="{{ '/about' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
-      <div class="skill-label">01 — About</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">My story, academic path, grades, and the journey from Bhalwal to UET.</p>
+<!-- Recent writing -->
+<section class="section">
+  <p class="section-tag rv" style="justify-content:center">Recent Writing</p>
+  <h2 class="section-title rv" style="text-align:center">Thoughts I've <em>put down.</em></h2>
+  <div class="blog-grid">
+    {% assign recent_posts = site.posts | sort: 'date' | reverse | limit: 3 %}
+    {% for post in recent_posts %}
+    <a href="{{ post.url | relative_url }}" class="blog-card rv">
+      {% if post.cover_image %}
+      <div class="blog-card-img-wrap">
+        <img src="{{ post.cover_image }}" alt="{{ post.cover_alt | default: post.title }}" class="blog-card-img" loading="lazy"/>
+      </div>
+      {% endif %}
+      <div class="blog-card-body">
+        {% if post.tags %}
+        <div class="blog-card-tags">
+          {% for tag in post.tags limit:3 %}
+          <span class="blog-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <h3 class="blog-card-title">{{ post.title }}</h3>
+        {% if post.excerpt %}
+        <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+        {% endif %}
+      </div>
+      <div class="blog-card-footer">
+        <span class="blog-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        <span class="blog-card-arrow">→</span>
+      </div>
     </a>
-    <a href="{{ '/skills' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
-      <div class="skill-label">02 — Skills</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Programming languages, IDEs, databases, and domains I work with.</p>
-    </a>
-    <a href="{{ '/project' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
-      <div class="skill-label">03 — Project</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">ML weather prediction model built with Python and scikit-learn.</p>
-    </a>
-    <a href="{{ '/blog' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
-      <div class="skill-label">04 — Writing</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">{{ site.posts | size }} reflective essays about my first year in Computer Engineering.</p>
-    </a>
-    <a href="{{ '/identity' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
-      <div class="skill-label">05 — Identity</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Beyond the résumé — anime, games, peak hours, and the real goal.</p>
-    </a>
-    <a href="{{ '/contact' | relative_url }}" class="skill-card" style="text-decoration:none;color:inherit;display:block">
-      <div class="skill-label">06 — Contact</div>
-      <p style="font-size:.95rem;color:var(--text-secondary);line-height:1.7">Get in touch for collaboration, AI/ML talks, or just connecting.</p>
-    </a>
+    {% endfor %}
+  </div>
+  <div style="text-align:center;margin-top:2rem">
+    <a href="{{ '/blog' | relative_url }}" class="btn btn-outline">Read All Essays →</a>
   </div>
 </section>
 

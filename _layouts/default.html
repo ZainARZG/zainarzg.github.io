@@ -11,6 +11,14 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.data.profile.short_name }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {{ site.data.profile.short_name }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ site.description }}">
 </head>
 <body>
   {% include header.html %}
