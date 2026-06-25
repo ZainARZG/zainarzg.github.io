@@ -43,7 +43,7 @@ layout: default
 
   <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0;">
     {% if p.report %}
-    <a href="{{ p.report.url }}" target="_blank" class="btn btn-primary">{{ p.report.text }} →</a>
+    <a href="{{ p.report.url }}" target="_blank" class="btn btn-outline">{{ p.report.text }} →</a>
     {% endif %}
     {% if p.repo %}
     <a href="{{ p.repo.url }}" target="_blank" class="btn btn-outline">{{ p.repo.text }} →</a>
