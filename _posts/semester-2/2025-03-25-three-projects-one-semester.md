@@ -13,7 +13,7 @@ The second semester at UET Lahore, Faisalabad Campus, was a crucible. The course
 
 ### The DBS Project: From TTS to Leukemia Survival Prediction
 
-The Database Systems project began with an announcement that felt liberating at first. **Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in AI, ML, and Deep Learning — gave a surprisingly open-ended instruction: "You can train anything."
+The Database Systems project began with an announcement that felt liberating at first. **Dr. Bilal Ahmad** does not believe in prescribing every step — "You can train anything" was the brief, and the constraint was what made it real.
 
 My group gathered immediately after class, excited and probably too confident. We decided to build a Text-to-Speech model. Tacotron, FastSpeech, WaveNet — we researched all the architectures and imagined a system that could take text input and produce natural-sounding speech. It felt impressive. But when we presented the idea to Dr. Bilal Ahmad, he stopped us with a single problem: the project needed a database component. A TTS model, no matter how sophisticated, had no tables to design, no relationships to model, and no SQL to write. He was right — we had forgotten the actual purpose of the course.
 

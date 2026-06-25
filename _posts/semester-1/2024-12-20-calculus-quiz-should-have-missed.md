@@ -36,7 +36,7 @@ This lesson connected directly to something **Dr. Bilal Ahmad** had been teachin
 
 Maybe mam applied the same logic to me that morning. I was late. I missed the quiz. But the work I had submitted earlier — the assignments, the consistent effort, the understanding I had demonstrated over time — was solid enough to carry the outcome. The core logic of my semester was right, even if I missed one function call.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in AI, ML, and Deep Learning — constantly emphasises that real learning is not about single-point assessments. He trains machine learning models on datasets where no single data point defines the outcome; it is the aggregate that matters. A model is not judged by one correct prediction but by its performance across hundreds of thousands of examples. The same principle, applied to a single calculus quiz. One missed quiz does not define a semester.
+**Dr. Bilal Ahmad** judges a student the same way he judges a model — not by one data point, but by the aggregate. One missed quiz, like one wrong prediction, does not define the outcome. What matters is the body of work built over time.
 
 I had assumed I would get a zero. I had assumed the rules would be applied without exception. I had assumed that being late meant being disqualified from the outcome. And every one of those assumptions was wrong. Not because the rules do not matter. They do. But because the people who enforce them are human, and humans make space for other humans in ways that policy documents never capture.
 

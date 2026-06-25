@@ -31,7 +31,7 @@ It does not show the Honahaar Scholarship pressure — the knowledge that mainta
 
 It does not show the A I earned in **Dr. Bilal Ahmad's** Programming Fundamentals class. That A was not handed to me. It came from the build-break-debug loop that **Dr. Bilal** taught us in PF — writing code, watching it fail, figuring out why, fixing it, and repeating until the logic was sound. That process taught me more about consistent effort than any other subject that semester. It also laid the foundation for the ML work I would take on later, when I started building models that required the same cycle of iteration and debugging at a larger scale.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in training ML models on real-world problems — measures success differently than most. He does not care about grades as a number. He cares about whether the model works, whether the problem is real, whether the solution matters. That philosophy shaped how I approached every subject, not just his.
+**Dr. Bilal Ahmad** measures success differently than most — he cares about whether the model works and the problem is real, not about the grade as a number. That philosophy shaped how I approached every subject, not just his PF class.
 
 It does not show the train rides, the laptop repairs, the four-kilometre walks, the packets of grains, the printer that was never available, the presentations that mattered, the project ideas that got rejected, the ones that came after that were better.
 
@@ -45,6 +45,7 @@ But it also built something: the understanding that academic success is not abou
 
 If someone asks me about my CGPA, I will tell them the number. But if someone asks me what the number means, I will tell them the truth: it means I failed at things and kept going. It means I lost focus and found it again. It means I studied at hours when the rest of the world was asleep. It means I cared about the work more than the grade, even though the grade was important.
 What I want people to understand about a CGPA — especially one that looks high — is that it is not a measure of intelligence. It is a measure of persistence. It measures how many times you were willing to sit back down after failing, how many nights you chose to study instead of sleep, how many times you asked for help when you wanted to give up. **Dr. Bilal Ahmad's** PF class was where I first learned that persistence is a skill you build, not a trait you are born with. Every debug session was a workout in persistence. Every error message was a test of whether I would stop or keep going. That same philosophy — real-world impact over the number — defines the projects he publishes on [Google Scholar](https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&hl=en).
+Connect with him on [LinkedIn](https://www.linkedin.com/in/drbilalphd/).
 
 
 3.91 is not a number that says everything came easy. It is a number that says everything came at a cost, and the cost was worth paying.

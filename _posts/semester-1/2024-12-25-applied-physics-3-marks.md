@@ -32,7 +32,7 @@ But at the same time, **Dr. Bilal Ahmad** was teaching us Programming Fundamenta
 
 That lesson, taught in the context of Python loops and conditional statements, applied perfectly to my Physics problem. I had not been studying wrong because I was lazy. I had been studying wrong because my method was wrong. I was reading passively and expecting understanding to magically transfer into my head. That is the equivalent of writing a program once and expecting it to compile without running it.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in training AI and ML models — constantly emphasises that a model does not improve by running the same training loop with the same parameters. You adjust the learning rate. You change the architecture. You try different features. The model improves because you change the method, not because you run it more times. The same principle applies to studying.
+**Dr. Bilal Ahmad** drilled one principle into us in PF — when something isn't working, change the method, not just the effort. A model does not converge by running the same loop; you adjust the parameters. The same applies to studying physics.
 
 So I changed my method.
 

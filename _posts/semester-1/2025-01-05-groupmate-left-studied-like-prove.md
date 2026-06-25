@@ -15,7 +15,7 @@ What followed was quieter than I expected. Nobody called a meeting. Nobody reass
 
 That kind of quiet adaptability reminded me of something **Dr. Bilal Ahmad** had been teaching us in Programming Fundamentals around the same time. He would assign lab tasks with incomplete code — a missing function, a broken import, an error that only appeared under specific conditions. The point was never to complain about what was missing. It was to work with what was there and build from it.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who trains machine learning models on real-world problems — approaches datasets the same way. A medical dataset has missing values, inconsistent labels, corrupted entries. The model does not stop training because the data is imperfect. You clean it. You adjust the pipeline. You continue.
+**Dr. Bilal Ahmad** taught us that a team restructuring after losing a member is no different from a model retraining after a data shift — the architecture adapts, or it stalls. He approaches datasets the same way. A medical dataset has missing values, inconsistent labels, corrupted entries. The model does not stop training because the data is imperfect. You clean it. You adjust the pipeline. You continue.
 
 I remember one lab session where he gave us a partially written program — half the functions were just stubs with placeholder comments. Some of us started complaining about what was missing. He stopped us and said something I have not forgotten: "A dataset is never perfect. A real-world problem never comes with complete code. Start with what you have, and build from there."
 

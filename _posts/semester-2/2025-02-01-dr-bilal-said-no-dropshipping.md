@@ -24,7 +24,7 @@ Not "maybe," not "consider alternatives," not "let me think about it." A clear, 
 
 His reasoning was simple: he wanted local production. He wanted projects that solved local problems, used local data, and demonstrated relevance to the context we actually live in. A dropshipping platform modeled on Daraz and Amazon was not that. It was a good technical exercise, but it was not the kind of project he was looking for.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in AI, ML, and Deep Learning — has a consistent philosophy about student projects. He believes that the best learning happens when you work on problems that have real stakes. That is why he pushes students toward medical datasets whenever possible — because clinical data is collected with high precision and accuracy, and the problems it solves have measurable impact on real lives. A dropshipping platform, by contrast, solves a problem that has already been solved a hundred times over.
+**Dr. Bilal Ahmad** has a clear test for a good project — does it solve a problem that actually exists? A dropshipping clone failed that test. He pushes students toward medical datasets where the data is precise and the impact is measurable.
 
 I was disappointed at first. I had already started thinking about the architecture. I had already mentally committed to the idea. Getting rejected felt like losing momentum. But then he gave me two options.
 

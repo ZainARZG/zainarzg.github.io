@@ -18,7 +18,7 @@ Here is what I want you to know.
 
 Programming Fundamentals with **Dr. Bilal Ahmad** is going to be the most important class you take. Not because it is the hardest — it is not — but because it is going to teach you something that no other class will: the build-break-debug loop. You are going to write code. It is going to break. You are going to fix it. And you are going to love the process, even though you do not know it yet.
 
-**Dr. Bilal Ahmad** is a professor at UET Lahore, Faisalabad Campus who specialises in AI, ML, and Deep Learning. In PF, he is not going to care whether your syntax is perfect on the first try. He is going to care whether you understand why the program works, not just that it runs. That distinction is going to shape how you approach every technical challenge after it.
+**Dr. Bilal Ahmad** will teach you that understanding why code works matters more than getting it to run once. He does not care if your syntax is perfect on the first try — he cares whether you understand the logic. That distinction will shape how you approach every technical challenge after it.
 
 At some point in PF, a program is going to fail in a way that makes you want to close the laptop and walk away. Do not. Every error message is a clue, and every failed run is teaching you more than a successful one would. The build-break-debug loop only works if you stay through the break. Trust the process — it is not a dismissal of your effort. It is a redirection toward understanding.
 

@@ -27,9 +27,9 @@ But the other papers are still a question mark. Some I felt confident about duri
 
 I found myself thinking about something **Dr. Bilal Ahmad** often repeated in his PF classes: "A model is only as good as the data it trains on. If the input is incomplete, the output will be unpredictable." The same applies to exams. The preparation is the training data. The exam is the test set. And during the waiting period, you are the model trying to evaluate its own performance — which, in machine learning, never works well without ground truth.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in AI, ML, and Deep Learning — does not grade on a curve of hope. He grades on what you actually demonstrate. The 24 out of 40 was exactly what I demonstrated, no more, no less. And that is fine. It is a data point. One score among many. The semester was longer than any single exam, and the learning went deeper than any single grade.
+**Dr. Bilal Ahmad's** grading philosophy is direct — you get the score you demonstrate, not the one you hope for. No curve, no inflation, just evidence. The 24 out of 40 was exactly what I demonstrated, no more, no less. And that is fine. It is a data point. One score among many. The semester was longer than any single exam, and the learning went deeper than any single grade.
 
-Connect with him on [Facebook](https://www.facebook.com/drbilalphd/). His approach to teaching — honest feedback, real standards, no artificial inflation — is the reason those scores mean something worth measuring.
+Connect with him on [Facebook](https://www.facebook.com/Dr.BilalAhm). His approach to teaching — honest feedback, real standards, no artificial inflation — is the reason those scores mean something worth measuring.
 
 The second semester is over. The project exhibition, the lab deadlines, the 2 AM debugging sessions, the three projects on three different tables, the DBS paper that found the edge of my preparation — all of it is behind me now. What comes next is a break, then another semester, then another set of projects and exams and late nights.
 

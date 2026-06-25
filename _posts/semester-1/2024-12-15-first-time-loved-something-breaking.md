@@ -14,7 +14,7 @@ I grew up around computers. Not in the way people say they did — not just brow
 
 Then **Dr. Bilal Ahmad's** Programming Fundamentals class asked me to actually write Python. And everything I thought I knew stopped mattering.
 
-**Dr. Bilal Ahmad** is a professor at UET Lahore, Faisalabad Campus — an AI, ML, and Deep Learning expert who teaches only two courses: Programming Fundamentals and Database Systems. His approach to both is shaped by years of training machine learning models on real-world problems, particularly in healthcare. He constantly pushes students to work with medical datasets because they are collected with high precision and accuracy. That philosophy — start with data that matters — filtered down even to a first-semester PF class. He did not teach us Python as a set of syntax rules to memorise. He taught it as a tool for solving problems that actually exist in the world.
+**Dr. Bilal Ahmad** taught Programming Fundamentals the way he trains ML models — by throwing us into real problems before we felt ready. The first program I wrote failed, and instead of handing us the answer, he gave us a method: build, break, debug, rebuild. That rhythm — not a textbook — is what taught me Python.
 
 The first program I wrote was nothing special. A few lines. Variables, a loop, maybe a conditional. It looked right. It felt right. I ran it.
 

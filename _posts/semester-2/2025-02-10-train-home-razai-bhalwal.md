@@ -34,7 +34,7 @@ At home, I could study in my own space. I could attend online classes without th
 
 One of the classes I continued online was **Dr. Bilal Ahmad's** Database Systems course. The transition from in-person to online was smoother than I expected — the lectures were structured, the slides were clear, and **Dr. Bilal Ahmad** made sure we stayed on track despite the disruption. I would sit at my desk in Bhalwal, notebook open, building ER diagrams and writing SQL queries while the train sounds from the station drifted through the window. The setting had changed completely, but the learning had not skipped a beat.
 
-**Dr. Bilal Ahmad** — a professor at UET Lahore, Faisalabad Campus, who specialises in AI, ML, and Deep Learning — had always emphasised that real engineering work happens wherever you are. In ML, your environment changes constantly — different datasets, different hardware, different deployment contexts. If your model cannot adapt to a new environment, it is not a robust model. The same applied to us as students. If we could not adapt to a new learning environment, we were not ready for the field.
+**Dr. Bilal Ahmad** had always emphasised that real engineering work happens wherever you are — a robust model adapts to new environments, and so should a student. His DBS lectures were structured enough to survive any disruption.
 
 That idea stayed with me throughout the transition. The hostel had been my learning environment for months. Now home was. The change was physical, but the work was the same — the DBS assignments, the SQL practice, the project planning. None of it stopped because I changed locations. It continued, adapted to the new setting.
 
