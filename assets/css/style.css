@@ -247,7 +247,23 @@ img{max-width:100%;height:auto;display:block}
 .semester-heading-line{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.25}
 .semester-label{font-size:.75rem;font-weight:800;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;white-space:nowrap;text-shadow:var(--glow-accent)}
 .semester-subtitle{font-size:.7rem;color:var(--text-muted);font-weight:400;letter-spacing:.05em;text-transform:none}
-@media(max-width:600px){.semester-heading{flex-wrap:wrap;gap:.5rem}.semester-heading-line{order:3;width:100%}.semester-subtitle{width:100%;font-size:.65rem}}
+/* ===== FOLDER CARDS ===== */
+.folder-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-bottom:3rem}
+.folder-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.2rem 1.5rem;display:flex;align-items:center;gap:1rem;text-decoration:none;color:inherit;transition:all .25s;position:relative;overflow:hidden}
+.folder-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--folder-accent,var(--accent));opacity:0;transition:opacity .3s}
+.folder-card:hover{border-color:var(--border-accent);box-shadow:var(--shadow-lg);transform:translateY(-2px);padding-left:1.8rem}
+.folder-card:hover::before{opacity:1}
+.folder-icon{width:48px;height:48px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:900;color:var(--folder-accent,var(--accent));border:1px solid var(--border);background:var(--bg2);flex-shrink:0;font-family:'Inter',sans-serif;letter-spacing:-.03em;text-shadow:var(--glow-accent)}
+.folder-card:hover .folder-icon{border-color:var(--folder-accent,var(--accent));box-shadow:0 0 8px var(--folder-accent,var(--accent))}
+.folder-body{flex:1;min-width:0}
+.folder-title{font-size:.95rem;font-weight:800;color:var(--text);margin-bottom:2px;letter-spacing:-.02em;line-height:1.3}
+.folder-subtitle{font-size:.75rem;color:var(--text-secondary);line-height:1.4;margin-bottom:4px}
+.folder-count{font-size:.65rem;font-weight:700;color:var(--text-muted);letter-spacing:.08em;text-transform:uppercase}
+.folder-arrow{font-size:1.1rem;color:var(--folder-accent,var(--accent));transition:transform .2s;flex-shrink:0;opacity:0}
+.folder-card:hover .folder-arrow{opacity:1;transform:translateX(4px)}
+.semester-back-link{display:inline-flex;align-items:center;gap:4px;font-size:.75rem;font-weight:700;color:var(--accent);text-decoration:none;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2rem;transition:all .2s;text-shadow:var(--glow-accent)}
+.semester-back-link:hover{gap:8px;color:var(--accent-light)}
+@media(max-width:600px){.folder-grid{grid-template-columns:1fr}.folder-icon{width:40px;height:40px;font-size:.8rem}}
 /* ===== RESPONSIVE ===== */
 @media(max-width:1024px){.blog-grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}}
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:6rem}.hero-right{display:none}.about-grid{grid-template-columns:1fr;gap:2.5rem}.skills-grid,.identity-grid{grid-template-columns:1fr 1fr}.project-meta{grid-template-columns:1fr 1fr}.project-meta-item:nth-child(2){border-right:none}.project-cover{height:220px}.article-cover{height:240px}}
