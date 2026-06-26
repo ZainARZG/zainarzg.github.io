@@ -1,5 +1,5 @@
 ---
 layout: hostel
-title: Hostel Life
+title: Beyond the Classroom
 permalink: /blog/hostel/
 ---
