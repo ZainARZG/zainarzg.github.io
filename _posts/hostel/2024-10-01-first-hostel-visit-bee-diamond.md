@@ -2,7 +2,7 @@
 layout: post
 title: "The Day We Arrived Before the Hostel Opened, a Bee Bit Me, and I Knew We Would Become Diamonds"
 date: 2025-10-01
-semester: 9
+semester:
 article_num: 1
 tags: [Hostel, Arrival, FirstDay, University, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1572551798500-53e7d9513aa8?w=800&q=80"

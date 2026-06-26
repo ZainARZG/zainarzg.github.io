@@ -32,16 +32,4 @@ permalink: /blog/
     </div>
     <span class="folder-arrow">→</span>
   </a>
-
-  {% assign sem9 = site.posts | where: "semester", 9 | sort: "article_num" %}
-  <a href="/blog/semester-9/" class="folder-card" style="--folder-accent: var(--accent3);">
-    <div class="folder-icon">09</div>
-    <div class="folder-body">
-      <h3 class="folder-title">Beyond the Classroom</h3>
-      <p class="folder-subtitle">Hostel life, sports, gym &amp; campus stories</p>
-      <span class="folder-count">{% if sem9.size > 0 %}{{ sem9.size }} essays{% else %}Coming soon{% endif %}</span>
-    </div>
-    <span class="folder-arrow">→</span>
-  </a>
-
 </div>

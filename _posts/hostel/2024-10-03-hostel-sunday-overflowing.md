@@ -2,7 +2,7 @@
 layout: post
 title: "We Came Back on Sunday and the Hostel Was Overflowing"
 date: 2025-10-03
-semester: 9
+semester:
 article_num: 2
 tags: [Hostel, Sunday, Crowded, University, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80"
