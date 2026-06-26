@@ -5,8 +5,8 @@ date: 2025-10-01
 semester: 9
 article_num: 1
 tags: [Hostel, Arrival, FirstDay, University, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
-cover_image: "https://images.unsplash.com/photo-1523050854058-8df90110c7f1?w=800&q=80"
-cover_alt: "A university campus pathway with buildings in the distance"
+cover_image: "https://images.unsplash.com/photo-1572551798500-53e7d9513aa8?w=800&q=80"
+cover_alt: "A bee on a white flower — the first of many unexpected encounters at the hostel"
 excerpt: "We arrived at the hostel before it was even open, thinking we could secure a room and get admission. We were wrong. But we explored the campus anyway, a bee bit me through my pants, and I told my friends: if we can live here, we can live anywhere."
 ---
 
