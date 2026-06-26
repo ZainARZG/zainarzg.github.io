@@ -3,7 +3,7 @@ layout: post
 title: "The Project Exhibition: Three Tables, and the One Question I Answered Alone"
 date: 2026-06-05
 semester: 2
-article_num: 15
+article_num: 16
 tags: [Exhibition, DLD, DBS, OOP, Unity, Project, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80"
 cover_alt: "A project exhibition with students presenting their work at separate tables"
