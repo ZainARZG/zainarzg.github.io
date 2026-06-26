@@ -32,4 +32,15 @@ permalink: /blog/
     </div>
     <span class="folder-arrow">→</span>
   </a>
+
+  {% assign hostel_posts = site.posts | where: "location", "hostel" | sort: "article_num" %}
+  <a href="/blog/hostel/" class="folder-card" style="--folder-accent: var(--accent3);">
+    <div class="folder-icon">HL</div>
+    <div class="folder-body">
+      <h3 class="folder-title">Hostel Life</h3>
+      <p class="folder-subtitle">Arrival, rooms, masjid, &amp; summer survival</p>
+      <span class="folder-count">{{ hostel_posts.size }} stories</span>
+    </div>
+    <span class="folder-arrow">→</span>
+  </a>
 </div>
