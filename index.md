@@ -23,7 +23,7 @@ title: Home
   </div>
   <div class="hero-right">
     <div class="stat-row">
-      <div class="stat-card"><div class="stat-label">CGPA</div><div class="stat-value big">{{ site.data.profile.education.cgpa }}</div><div class="stat-sub">{{ site.data.profile.education.rank }} · Semester 1 &amp; 2</div></div>
+      <div class="stat-card"><div class="stat-label">CGPA</div><div class="stat-value big">{{ site.data.profile.education.cgpa }}</div><div class="stat-sub">{{ site.data.profile.education.rank }} · Semester 1</div></div>
       <div class="stat-card"><div class="stat-label">Semester</div><div class="stat-value">{{ site.data.profile.education.semester }}</div><div class="stat-sub">{{ site.data.profile.education.degree }}</div></div>
     </div>
     <div class="stat-card"><div class="stat-label">GitHub</div><div class="stat-value">@{{ site.data.profile.github }}</div><div class="stat-sub">{{ site.data.profile.github_url }}</div></div>
