@@ -5,7 +5,7 @@ date: 2026-06-21
 semester: 2
 article_num: 18
 tags: [Finals, DBS, DLD, SATS, Exams, Semester, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
-cover_image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
+cover_image: "https://images.unsplash.com/photo-1503676382389-4809596d5290?w=800&q=80"
 cover_alt: "A desk with exam papers, a clock, and study materials"
 excerpt: "The final exams are done. DBS was brutal, DLD and SATS went well, and the rest are a waiting game. 24 out of 40 in DBS — the highest in class was 29."
 ---
