@@ -3,7 +3,7 @@ layout: post
 title: "What 3.91 Actually Looks Like From the Inside"
 date: 2026-01-25
 semester: 1
-article_num: 8
+article_num: 7
 tags: [CGPA, Honesty, Ambition, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80"
 cover_alt: "Focused workspace with laptop"

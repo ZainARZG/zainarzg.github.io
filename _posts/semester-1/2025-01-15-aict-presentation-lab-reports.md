@@ -3,7 +3,7 @@ layout: post
 title: "The AICT Presentation, the Lab Reports, and the Printer That Was Never Available"
 date: 2025-11-20
 semester: 1
-article_num: 7
+article_num: 6
 tags: [AICT, Presentation, Exhibition, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80"
 cover_alt: "Team meeting and presentation"
