@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Summer, Mosquito Nets, Umar Hall, and an Air Cooler — How We Survived the Heat and Finally Got a Better Room"
-date: 2025-10-07
+date: 2026-06-26
 semester: 9
 article_num: 4
 tags: [Hostel, Summer, MosquitoNet, UmarHall, AirCooler, RoomChange, ResidentTutor, University, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]

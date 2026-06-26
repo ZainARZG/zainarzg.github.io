@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We Slept in the Masjid That Night — One Fan, a Dirty Room, and How Our First Semester Ended"
-date: 2025-10-05
+date: 2026-02-15
 semester: 9
 article_num: 3
 tags: [Hostel, FirstSemester, Room, Masjid, Winter, Heater, Chulha, University, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
