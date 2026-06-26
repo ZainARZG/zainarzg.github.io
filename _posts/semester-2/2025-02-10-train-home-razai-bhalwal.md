@@ -3,7 +3,7 @@ layout: post
 title: "The Train Home, the Razai, and What Bhalwal Feels Like After Months Away"
 date: 2026-02-28
 semester: 2
-article_num: 10
+article_num: 11
 tags: [Bhalwal, Train, Home, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800&q=80"
 cover_alt: "Train tracks and travel"
