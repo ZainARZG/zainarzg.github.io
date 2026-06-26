@@ -3,7 +3,7 @@ layout: post
 title: "Dr. Bilal Said No to Dropshipping and Accidentally Pointed Me Somewhere Better"
 date: 2026-02-10
 semester: 2
-article_num: 10
+article_num: 11
 tags: [AI/ML, Database, Direction, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
 cover_alt: "AI neural network visualization"

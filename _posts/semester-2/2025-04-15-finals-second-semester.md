@@ -3,7 +3,7 @@ layout: post
 title: "The Finals Are Over, and I Do Not Know What Happens Next"
 date: 2026-06-21
 semester: 2
-article_num: 17
+article_num: 18
 tags: [Finals, DBS, DLD, SATS, Exams, Semester, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
 cover_alt: "A desk with exam papers, a clock, and study materials"

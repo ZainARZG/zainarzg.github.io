@@ -3,7 +3,7 @@ layout: post
 title: "Two Quizzes Nobody Expected, and Why I Finished Before the Clock"
 date: 2026-04-10
 semester: 2
-article_num: 14
+article_num: 15
 tags: [DBS, Quiz, SQL, RelationalAlgebra, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
 cover_alt: "A desk with exam papers and a clock"

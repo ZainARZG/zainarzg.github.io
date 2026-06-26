@@ -3,7 +3,7 @@ layout: post
 title: "Second Semester, First Day — and Dr. Bilal Already Had Us Building"
 date: 2026-02-01
 semester: 2
-article_num: 9
+article_num: 10
 tags: [DBS, OOP, ECommerce, WordPress, SQL, DrBilalAhmad, MLwithDrBilalAhmad, MLProject]
 cover_image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80"
 cover_alt: "Laptop with analytics dashboard and coffee on a wooden desk"

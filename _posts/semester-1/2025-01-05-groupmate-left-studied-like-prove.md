@@ -3,7 +3,7 @@ layout: post
 title: "A Groupmate Left, and We Kept Going"
 date: 2025-11-15
 semester: 1
-article_num: 4
+article_num: 5
 tags: [Focus, Adaptability, Continuity, DrBilalAhmad, MLwithDrBilalAhmad]
 cover_image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
 cover_alt: "Students collaborating at desk"
